@@ -1,0 +1,27 @@
+export_csv: True
+
+report_month: 202205
+
+scraped_txt_fp: C:\Users\jazz.ooi\Desktop\proj\Sharpinvest\raw_scraped_txts\
+report_pdf_fp: C:\Users\jazz.ooi\Desktop\proj\Sharpinvest\monthly_report_pdfs\
+output_csv_fp: C:\Users\jazz.ooi\Desktop\proj\Sharpinvest\csv_outputs\
+
+date_keywords: ['截至', '截止日期', '報告日期']
+date_keywords_1: ['資料日期']
+date_keywords_2: ['月', '年', '/', '報告']
+
+aum_keywords: ['最新帳戶規模', '帳戶規模', '月底規模', '帳戶資產規模', '帳戶月底規模', '最新規模', '帳戶型態/規模', '規模']
+aum_keywords_1: ["億", '美金', 'USD', '美元', '台幣', 'TWD', 'twd', 'NT$', 'NTD', '新臺幣', '臺幣', '新台幣', '澳幣', 'AUD', 'aud', '人民幣', 'CNY', 'cny', "百萬", "佰萬", "千萬", "仟萬", "萬", "十萬", "拾萬"]
+aum_avoid: ['費規模']
+
+usd_keywords: ['美金', 'USD', '美元', 'US$', 'usd']
+twd_keywords: ['台幣', 'TWD', 'twd', 'NT$', 'NTD', '新臺幣', '臺幣', '新台幣']
+aud_keywords: ['澳幣', 'AUD', 'aud']
+cny_keywords: ['人民幣', 'CNY', 'cny']
+eur_keywords: ['歐元', 'EUR', 'eur', "euro"]
+
+name_keywords: ['帳戶', '委託', '全委代操']
+name_avoid: ['客服專線', '經理人報告', '六個月', '(全權委託帳戶之資產撥回機制來源可能為本金)', "全權委託帳戶之資產撥回機制來源可能為本金", '投資帳戶於資產撥回前未先扣除行政管理相關費用']
+
+...
+
