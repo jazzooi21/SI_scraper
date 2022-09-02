@@ -1,10 +1,17 @@
 export_csv: True
 
-report_month: 202205
+
+
+report_month: 202204
+
+
+
 
 scraped_txt_fp: C:\Users\jazz.ooi\Desktop\proj\Sharpinvest\raw_scraped_txts\
 report_pdf_fp: C:\Users\jazz.ooi\Desktop\proj\Sharpinvest\monthly_report_pdfs\
 output_csv_fp: C:\Users\jazz.ooi\Desktop\proj\Sharpinvest\csv_outputs\
+
+
 
 date_keywords: ['截至', '截止日期', '報告日期']
 date_keywords_1: ['資料日期']
@@ -18,7 +25,7 @@ usd_keywords: ['美金', 'USD', '美元', 'US$', 'usd']
 twd_keywords: ['台幣', 'TWD', 'twd', 'NT$', 'NTD', '新臺幣', '臺幣', '新台幣']
 aud_keywords: ['澳幣', 'AUD', 'aud']
 cny_keywords: ['人民幣', 'CNY', 'cny']
-eur_keywords: ['歐元', 'EUR', 'eur', "euro"]
+eur_keywords: ['歐元', 'EUR', 'eur', 'euro']
 
 prodname_keywords: ['帳戶', '委託', '全委代操']
 prodname_avoid: ['客服專線', '經理人報告', '六個月', '(全權委託帳戶之資產撥回機制來源可能為本金)', "全權委託帳戶之資產撥回機制來源可能為本金", '投資帳戶於資產撥回前未先扣除行政管理相關費用']
@@ -27,6 +34,8 @@ manager_keywords: ['經理人', '姓名']
 manager_avoid: ['成立', '簡介月', '人壽', '全委', '經理', '管費', '管理', '全權', '投信', '全球', '單位', '位淨', '波動', '大學', '機構', '預期', '顧問', '不', '一個', '投顧', '製造', '勝率', '本月', '人', '金融', '與']
 
 bank_keywords: ['保管銀行', '保管機構']
-bank_keywords_2: ['銀行']
+
+shares_keywords: ['前五大', '前十大']
+
 ...
 

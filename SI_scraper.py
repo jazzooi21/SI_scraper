@@ -1,4 +1,5 @@
 from PyPDF2 import PdfReader
+import tabula
 
 from datetime import date, datetime, timedelta
 
@@ -13,16 +14,17 @@ import csv
 from string import punctuation
 
 import time
-start_time = time.time()
 
+start_time = time.time()
 
 with open("SI_scrape_config.yaml", 'r', encoding='utf-8') as conf_f:
     config = yaml.safe_load(conf_f)
     print(config)
-    #print(yaml.dump(config))
-
+    # print(yaml.dump(config))
 
 csv_gen = config['export_csv']
+
+
 # bool to indicate whether to export scraped data into a csv or not.
 
 
@@ -41,10 +43,10 @@ report_date = date(report_year, report_month, last_day_of_month(date(report_year
 # year, month and date of batch of reports. Also part of filepath (name of folder containing the pdfs)
 
 if csv_gen:
-    csv_out = [['filename', 'prod name', 'date', 'AUM', 'manager name', 'bank']]#, 'currency']]
+    csv_out = [['filename', 'prod name', 'date', 'AUM', 'manager name', 'bank']]
     # initialize csv file
 
-'''
+
 class Logger(object):
     def __init__(self):
         self.terminal = sys.stdout
@@ -63,10 +65,9 @@ class Logger(object):
 
 
 sys.stdout = Logger()
-'''
+
 
 # Logger class exported terminal output to a txt file. I used it for debugging
-
 
 
 def readpdf(filepath):
@@ -193,6 +194,37 @@ def find_word_all(content, strlist, badstrlist):
     return lines_raw
 
 
+def tabula_kw_find(data, keywords):
+    lines = []
+    for i, line in enumerate(data):
+        for kw in keywords:
+            for c, cell in enumerate(line):
+                if type(cell) == str:
+                    str_index = cell.find(kw)
+                    if str_index != -1:
+                        lines.append(line[c:])
+                        break
+    return lines
+
+
+def trim(lines):
+    lines_temp = [l for l in lines if len(l) > 1]
+
+    if len(lines_temp) == 1:
+        return lines_temp[0]
+    elif len(lines_temp) == 2 and lines[0] == lines[1]:
+        return lines_temp[0]
+    elif len(lines_temp) == 3 and lines[0] == lines[1] == lines[2]:
+        return lines_temp[0]
+
+    else:
+        lines_temp_comb = []
+        for l in lines_temp:
+            lines_temp_comb += l
+        lines_temp_comb_nodupe = list(dict.fromkeys(lines_temp_comb))
+        return lines_temp_comb_nodupe
+
+
 total_files = 0
 extracted_files_date = 0
 correct_files_date = 0
@@ -208,7 +240,7 @@ names_empty = 0
 # in that folder there are subfolders named "YYYYMM" (eg 202205, 201911) to indicate the year/month of reports being scraped
 
 
-dir_path = config['report_pdf_fp'] + str(raw_report_date) #a.encode('unicode_escape')
+dir_path = config['report_pdf_fp'] + str(raw_report_date)  # a.encode('unicode_escape')
 dir_path_txt = config['scraped_txt_fp'] + str(raw_report_date)
 ext = 'pdf'
 
@@ -229,10 +261,12 @@ for file in os.listdir(dir_path + '//unread//'):
     # if file in ['AVIVA_FZ90.pdf']:
     if True:
 
+        tabu = True
+
         # <editor-fold desc="Date">
         # DATE COLLECTION START
 
-        report_output_date = 'No full date found'
+        report_output_date = 'Date NF'
 
         date_status = ''
         # date_keywords = ['截至', '截止日期', '報告日期', '資料日期']
@@ -402,14 +436,14 @@ for file in os.listdir(dir_path + '//unread//'):
                 date_ym_dt.remove(dt)
 
             if date_ym_dt == []:
-                report_output_date = 'No full date found'
+                report_output_date = 'Date NF'
             else:
                 report_output_date = sorted(date_ym_dt, reverse=True)[0]
 
         if type(report_output_date) is not str:
             extracted_files_date += 1
 
-        elif report_output_date == 'No full date found':
+        elif report_output_date == 'Date NF':
             date_status += "[date not found] "
 
         # to test accuracy of program. To be #ed out
@@ -424,12 +458,6 @@ for file in os.listdir(dir_path + '//unread//'):
             if report_output_date in [date(2022, 7, 31), date(2022, 7, 30), date(2022, 7, 29)]:
                 correct_files_date += 1
 
-        '''
-        else:
-            #date_status += "[not 531] "
-            date_status += "[not 4 end] "
-            pass
-        '''
         # DATE COLLECTION END
         # </editor-fold>
 
@@ -647,14 +675,20 @@ for file in os.listdir(dir_path + '//unread//'):
         aum_val = '0'
 
         if ''.join(c for c in allnum_str if c.isdigit()) == '':
-            report_output_AUM = 'AUM not found'
+            report_output_AUM = 'AUM NF'
 
         else:
             aum_line_final_filt_split_temp = aum_line_final_filt_split
             for numstr in aum_line_final_filt_split:
                 if '%' in numstr:  # remove percentages (since AUM index cannot be a %)
                     aum_line_final_filt_split_temp.remove(numstr)
-                elif numstr not in ["百萬", "佰萬", "千萬", "仟萬", "億", "十萬", "拾萬", "千", "仟", "百", "佰"] and [c for c in numstr if c.isdigit()] == []:
+                elif numstr not in ["百萬", "佰萬", "千萬", "仟萬", "億", "十萬", "拾萬", "千", "仟", "百", "佰"] and [c
+                                                                                                                       for
+                                                                                                                       c
+                                                                                                                       in
+                                                                                                                       numstr
+                                                                                                                       if
+                                                                                                                       c.isdigit()] == []:
                     aum_line_final_filt_split_temp.remove(numstr)
             aum_line_final_filt_split = aum_line_final_filt_split_temp
 
@@ -663,8 +697,8 @@ for file in os.listdir(dir_path + '//unread//'):
                     pass
                 else:
                     if aum_line_final_filt_split[i - 1] in ["百萬", "佰萬", "千萬", "仟萬", "億", "十萬", "拾萬", "千",
-                                                            "仟", "百", "佰"] and len(
-                                                            aum_line_final_filt_split) >= 2:
+                                                            "仟", "百", "佰"] and 2 <= len(
+                        aum_line_final_filt_split):
                         aum_line_final_filt_split.append(
                             aum_line_final_filt_split[i] + aum_line_final_filt_split[i - 1])
 
@@ -688,23 +722,13 @@ for file in os.listdir(dir_path + '//unread//'):
                         multiplier = 10
                     elif "M" in n:
                         multiplier = 1000000
-                    elif "Mil" in n:
-                        multiplier = 1000000
-                    elif "mil" in n:
-                        multiplier = 1000000
-                    elif "MIL" in n:
+                    elif "Mil" in n or "mil" in n or "MIL" in n:
                         multiplier = 1000000
                     elif "B" in n:
                         multiplier = 1000000000
-                    elif "Bil" in n:
+                    elif "Bil" in n or "bil" in n or "BIL" in n:
                         multiplier = 1000000000
-                    elif "BIL" in n:
-                        multiplier = 1000000000
-                    elif "bil" in n:
-                        multiplier = 1000000000
-                    elif "k" in n:
-                        multiplier = 1000
-                    elif "K" in n:
+                    elif "k" in n or "K" in n:
                         multiplier = 1000
 
                     if len(''.join(char for char in n if char == '.')) > 1:  # filter out items such as 12.456.6 etc
@@ -727,7 +751,7 @@ for file in os.listdir(dir_path + '//unread//'):
                 report_output_AUM = aum_line_final_filt_nums[0]
             elif len(aum_line_final_filt_nums) > 1:
                 for n in aum_line_final_filt_nums:
-                    if 6 <= len(str(n)) <= 8:
+                    if 5 <= len(str(n)) <= 8:
                         if str(n)[:3] == "201" or str(n)[:3] == "202" or str(n)[:3] == "203":
                             pass
                         else:
@@ -742,15 +766,185 @@ for file in os.listdir(dir_path + '//unread//'):
                     report_output_AUM = report_output_AUM[0]
 
         if report_output_AUM == []:
-            report_output_AUM = "AUM not found"
+            report_output_AUM = "AUM NF"
         elif type(report_output_AUM) is list:
             report_output_AUM = report_output_AUM[0]
 
-        if report_output_AUM == "AUM not found":
+        if report_output_AUM == "AUM NF":
+            if tabu:
+                try:
+                    dfs = tabula.read_pdf(fp, pages='all')
+                    tabu = False
+                except:
+                    pass
+
+            for table in dfs:
+
+                data_arr = table.to_numpy().tolist()
+
+                for i, line in enumerate(data_arr):
+                    for kw in config['aum_keywords']:
+                        for c, cell in enumerate(line):
+                            if type(cell) == str:
+                                str_index_aum = cell.find(kw)
+                                if str_index_aum != -1:
+                                    aum_lines.append(line[c:])
+                                    break
+                if aum_lines == []:
+                    pass
+                    '''
+                    for i, line in enumerate(data_arr):
+                        for kw in config['aum_keywords_1']:
+                            for c, cell in enumerate(line):
+                                if type(cell) == str:
+                                    str_index_aum = cell.find(kw)
+                                    if str_index_aum != -1:
+                                        aum_lines.append(line[c:])
+                                        break'''
+
+            for i, l in enumerate(aum_lines):
+                aum_lines[i] = [x for x in l if type(x) == str]
+                temp_aum_line = []
+                for j, x in enumerate(aum_lines[i]):
+                    temp_aum_line += x.split(' ')
+                aum_lines[i] = temp_aum_line
+
+            aum_lines = trim(aum_lines)
+            aum_avoid = list('%')
+            # aum_lines = [s for s in mng_lines if not any([dig in s for dig in digits])]
+            aum_lines = [s for s in aum_lines if len(s) > 1]
+
+            words_to_keep_postcurr_list = list('0123456789%.百佰千仟萬億兆MBK') + ['mil', 'bil']
+            chars_to_keep_postcurr_list = list('0123456789%.百佰千仟萬億兆MBK') + list('mil' + 'bil')
+
+            chars_avoid = list('%年月日-')
+            for i in range(7):
+                chars_avoid += [str(int(str(raw_report_date)[:4]) - i) + '/']
+                chars_avoid += ['/' + str(int(str(raw_report_date)[:4]) - i)]
+
+            aum_lines_filt = []
+            for i, s in enumerate(aum_lines):
+                if any([char in s for char in words_to_keep_postcurr_list]):
+                    if not any([char in s for char in chars_avoid]):
+                        aum_lines_filt.append(s)
+
+            aum_lines_filt_char = []
+
+            for i, s in enumerate(aum_lines_filt):
+                aum_lines_filt[i] = s.replace('(', '').replace(')', '').replace('）', '').replace('（', '')
+
+            for i, s in enumerate(aum_lines_filt):
+                aum_lines_filt_char.append('')
+                for j, char in enumerate(s):
+                    if char in chars_to_keep_postcurr_list:
+                        aum_lines_filt_char[i] += char
+            for i, s in enumerate(aum_lines_filt_char):
+                if len(''.join(char for char in s if char == '.')) > 1:
+                    aum_lines_filt_char.remove(s)
+
+            if len(aum_lines_filt_char) == 1:
+                multiplier = 1
+                if len(aum_lines_filt_char[0]) > 2:
+                    if all([char in list('.0123456789') for char in aum_lines_filt_char[0]]) and Decimal(
+                            aum_lines_filt_char[0]) > 5000:
+                        report_output_AUM = Decimal(aum_lines_filt_char[0])
+
+            elif len(aum_lines_filt_char) == 2:
+                multiplier = 1
+                for i, s in enumerate(aum_lines_filt_char):
+                    if s == "億":
+                        multiplier = 100000000
+                    elif s == "千萬":
+                        multiplier = 10000000
+                    elif s == "百萬" or s == "佰萬":
+                        multiplier = 1000000
+                    elif s == "十萬" or s == "拾萬":
+                        multiplier = 100000
+                    elif s == "萬":
+                        multiplier = 10000
+                    elif s == "千" or s == "仟":
+                        multiplier = 1000
+                    elif s == "百" or s == "佰":
+                        multiplier = 100
+                    elif s == "十" or s == "拾":
+                        multiplier = 10
+                    elif s == "M":
+                        multiplier = 1000000
+                    elif s == "Mil" or s == 'mil' or s == 'MIL':
+                        multiplier = 1000000
+                    elif s == "B":
+                        multiplier = 1000000000
+                    elif s == "Bil" or s == 'bil' or s == 'BIL':
+                        multiplier = 1000000000
+                    elif s == "k" or s == "K":
+                        multiplier = 1000
+                    if len(''.join(char for char in aum_lines_filt_char[i - 1] if char == '.')) <= 1 and len(
+                            aum_lines_filt_char[i - 1]) > 0:
+                        if all([char in list('.0123456789') for char in aum_lines_filt_char[i - 1]]):
+                            if Decimal(aum_lines_filt_char[i - 1]) * multiplier > 5000:
+                                report_output_AUM = Decimal(aum_lines_filt_char[i - 1]) * multiplier
+                                break
+
+            if report_output_AUM == 'AUM NF':
+                report_output_aum_multi = []
+                for i, s in enumerate(aum_lines_filt_char):
+                    if len(s) > 3:
+                        if not aum_lines_filt_char[i][-1].isdigit() and not aum_lines_filt_char[i][-2].isdigit() and not \
+                                aum_lines_filt_char[i][-3].isdigit() and all(
+                            [char in list('.0123456789') for char in aum_lines_filt_char[i][:-3]]):
+                            if aum_lines_filt_char[i][-3:] == "Mil" or aum_lines_filt_char[i][-3:] == 'mil' or \
+                                    aum_lines_filt_char[i][
+                                    -3:] == 'MIL':
+                                multiplier = 1000000
+                            elif aum_lines_filt_char[i][-3:] == "Bil" or aum_lines_filt_char[i][-3:] == 'bil' or \
+                                    aum_lines_filt_char[i][
+                                    -3:] == 'BIL':
+                                multiplier = 1000000000
+                            if multiplier != 1:
+                                report_output_aum_multi.append(Decimal(aum_lines_filt_char[i][:-3]) * multiplier)
+
+                        elif not aum_lines_filt_char[i][-1].isdigit() and not aum_lines_filt_char[i][
+                            -2].isdigit() and all(
+                            [char in list('.0123456789') for char in aum_lines_filt_char[i][:-2]]):
+                            if aum_lines_filt_char[i][-2:] == "千萬":
+                                multiplier = 10000000
+                            elif aum_lines_filt_char[i][-2:] == "百萬" or aum_lines_filt_char[i][-2:] == "佰萬":
+                                multiplier = 1000000
+                            elif aum_lines_filt_char[i][-2:] == "十萬" or aum_lines_filt_char[i][-2:] == "拾萬":
+                                multiplier = 100000
+                            if multiplier != 1:
+                                report_output_aum_multi.append(Decimal(aum_lines_filt_char[i][:-2]) * multiplier)
+
+                        elif not aum_lines_filt_char[i][-1].isdigit() and all(
+                                [char in list('.0123456789') for char in aum_lines_filt_char[i][:-1]]):
+                            if aum_lines_filt_char[i][-1] == "億":
+                                multiplier = 100000000
+                            elif aum_lines_filt_char[i][-1] == "萬":
+                                multiplier = 10000
+                            elif aum_lines_filt_char[i][-1] == "千" or aum_lines_filt_char[i][-1] == "仟":
+                                multiplier = 1000
+                            elif aum_lines_filt_char[i][-1] == "百" or aum_lines_filt_char[i][-1] == "佰":
+                                multiplier = 100
+                            elif aum_lines_filt_char[i][-1] == "十" or aum_lines_filt_char[i][-1] == "拾":
+                                multiplier = 10
+                            elif aum_lines_filt_char[i][-1] == "M":
+                                multiplier = 1000000
+                            elif aum_lines_filt_char[i][-1] == "B":
+                                multiplier = 1000000000
+                            elif aum_lines_filt_char[i][-1] == "k" or aum_lines_filt_char[i][-1] == "K":
+                                multiplier = 1000
+                            if multiplier != 1:
+                                report_output_aum_multi.append(Decimal(aum_lines_filt_char[i][:-1]) * multiplier)
+
+                for aum in report_output_aum_multi:
+                    if aum > 5000:
+                        report_output_AUM = aum
+
+        if report_output_AUM == 'AUM NF':
             not_extracted_files_aum -= 1
             # os.rename(fp, dir_path + '//cannot_be_read//' + file)
         else:
-             #os.rename(fp, dir_path + '//read//' + file)
+            # os.rename(fp, dir_path + '//read//' + file)
             pass
 
         # AUM COLLECTION END
@@ -887,12 +1081,12 @@ for file in os.listdir(dir_path + '//unread//'):
                                 report_output_prodname[0] += char
 
         if report_output_prodname == []:
-            report_output_prodname = 'Name not found'
+            report_output_prodname = 'ProdName NF'
         elif len(report_output_prodname) == 1:
             report_output_prodname = report_output_prodname[0]
 
         if len(report_output_prodname) <= 4:
-            report_output_prodname = 'Name not found'
+            report_output_prodname = 'ProdName NF'
 
         # </editor-fold>
 
@@ -902,9 +1096,9 @@ for file in os.listdir(dir_path + '//unread//'):
         tw_lastnames_10 = list('陳林黃張李王吳劉蔡楊')
         tw_lastnames_50 = list('許鄭謝洪郭邱曾廖賴徐周葉蘇莊呂江何蕭羅高潘簡朱鍾游彭詹胡施沈余盧梁趙顏柯翁魏孫戴')
         tw_lastnames_200 = ['張簡', '歐陽'] + list('范方宋鄧杜傅侯曹薛丁卓阮馬tai董温唐藍石蔣古紀姚連馮歐程湯黄田康姜白汪鄒尤巫鐘'
-                                                           '黎涂龔嚴韓袁金童陸夏柳凃邵錢伍倪溫于譚駱熊任甘秦顧毛章史官萬俞雷粘饒闕'
-                                                           '凌崔尹孔辛武辜陶段龍韋葛池孟褚殷麥賀賈莫文管關向包丘梅')
-        #利裴樊房全佘左花魯安鮑郝穆塗邢蒲成谷常閻練盛鄔耿聶符申祝繆陽解曲岳齊籃應單舒畢喬龎翟牛鄞留季') + ['范姜']
+                                                   '黎涂龔嚴韓袁金童陸夏柳凃邵錢伍倪溫于譚駱熊任甘秦顧毛章史官萬俞雷粘饒闕'
+                                                   '凌崔尹孔辛武辜陶段龍韋葛池孟褚殷麥賀賈莫文管關向包丘梅')
+        # 利裴樊房全佘左花魯安鮑郝穆塗邢蒲成谷常閻練盛鄔耿聶符申祝繆陽解曲岳齊籃應單舒畢喬龎翟牛鄞留季') + ['范姜']
         tw_lastnames_all = tw_lastnames_10 + tw_lastnames_50 + tw_lastnames_200
 
         names_ban = set(punctuation + ' 012346789abcdewfghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYUZ'
@@ -923,30 +1117,30 @@ for file in os.listdir(dir_path + '//unread//'):
                     if kw in line:
                         mng_kw_index = line.find(kw)
                         if reloop:
-                            manager_lines.append(pdf_content_all[i+1][:15])
-                            #manager_lines.append(pdf_content_all[i-1][:15])
+                            manager_lines.append(pdf_content_all[i + 1][:15])
+                            # manager_lines.append(pdf_content_all[i-1][:15])
                             break
-                        manager_lines.append(line[mng_kw_index:mng_kw_index+15])
+                        manager_lines.append(line[mng_kw_index:mng_kw_index + 15])
                         break
             for line in manager_lines:
                 name_index = -1
                 for name in tw_lastnames_10:
                     if name in line:
                         name_index = line.find(name)
-                        manager_names.append(line[name_index:name_index+3])
-                        #print('top 10 name found in:', line)
-                if line[name_index:name_index+3] not in manager_names:
+                        manager_names.append(line[name_index:name_index + 3])
+                        # print('top 10 name found in:', line)
+                if line[name_index:name_index + 3] not in manager_names:
                     for name in tw_lastnames_50:
                         if name in line:
                             name_index = line.find(name)
                             manager_names.append(line[name_index:name_index + 3])
-                            #print('top 50 name found in:', line)
-                if line[name_index:name_index+3] not in manager_names:
+                            # print('top 50 name found in:', line)
+                if line[name_index:name_index + 3] not in manager_names:
                     for name in tw_lastnames_200:
                         if name in line:
                             name_index = line.find(name)
                             manager_names.append(line[name_index:name_index + 3])
-                            #print('top 200 name found in:', line)
+                            # print('top 200 name found in:', line)
 
             manager_names = [x for x in manager_names if (not set(x).intersection(names_ban) and len(x) > 2)]
 
@@ -954,7 +1148,7 @@ for file in os.listdir(dir_path + '//unread//'):
             manager_names = []
             for nm in manager_names_temp:
                 bool_list_mng = []
-                for wr_kw in names_incor+config['manager_avoid']:
+                for wr_kw in names_incor + config['manager_avoid']:
                     bool_list_mng.append(wr_kw in nm)
                 if not any(bool_list_mng):
                     manager_names.append(nm)
@@ -969,16 +1163,53 @@ for file in os.listdir(dir_path + '//unread//'):
         if len(set(manager_names)) == 1:
             manager_names = [manager_names[0]]
 
-        #print(manager_names,'\n', file, '\n')
+        # print(manager_names,'\n', file, '\n')
 
         if len(manager_names) == 1:
             manager_found_files += 1
             report_output_manager = manager_names[0]
-        elif len(manager_names) == 0:
-            report_output_manager = 'Manager name not found'
         elif len(manager_names) > 1:
             manager_found_files += 1
-            report_output_manager = manager_names[0] # filter NEEDED?
+            report_output_manager = manager_names[0]  # filter NEEDED?
+        elif len(manager_names) == 0:
+            if tabu:
+                try:
+                    dfs = tabula.read_pdf(fp, pages='all')
+                    tabu = False
+                except:
+                    pass
+            for table in dfs:
+                data_arr = table.to_numpy().tolist()
+                for i, line in enumerate(data_arr):
+                    for kw in config['manager_keywords']:
+                        for c, cell in enumerate(line):
+                            if type(cell) == str:
+                                str_index_mng = cell.find(kw)
+                                if str_index_mng != -1:
+                                    manager_lines.append(line[c:])
+                                    break
+
+            for i, l in enumerate(manager_lines):
+                manager_lines[i] = [x for x in l if type(x) == str]
+                temp_mng_line = []
+                for j, x in enumerate(manager_lines[i]):
+                    temp_mng_line += x.split(' ')
+                manager_lines[i] = temp_mng_line
+
+            manager_lines = trim(manager_lines)
+
+            digits = list('0123456789%')
+            manager_lines = [s for s in manager_lines if not any([dig in s for dig in digits])]
+            manager_lines = [s for s in manager_lines if len(s) > 1]
+
+            output_mng = ''
+            for name in manager_lines:
+                if len(name) == 3 and name[0] in tw_lastnames_all:
+                    report_output_manager = name
+                    manager_found_files += 1
+                    break
+            if output_mng == '':
+                report_output_manager = 'MngName NF'
 
         # </editor-fold>
 
@@ -990,13 +1221,6 @@ for file in os.listdir(dir_path + '//unread//'):
                 if kw in line:
                     bank_kw_index = line.find(kw)
                     bank_lines.append(line[bank_kw_index:])
-        if len(bank_lines) == 0 and False:
-            for line in pdf_content_all:
-                for kw in config['bank_keywords_2']:
-                    if kw in line:
-                        bank_kw_index = line.find(kw)
-                        bank_lines.append(line)
-
 
         for i, line in enumerate(bank_lines):
             bank_lines[i] = bank_lines[i].replace(' ', '')
@@ -1012,21 +1236,20 @@ for file in os.listdir(dir_path + '//unread//'):
 
             bank_lines[i] = bank_lines[i].replace('|', ';')
 
-
         bank_lines_split = []
         bank_suffixes = ['銀行', '商銀', '企銀', '機構', '有限公司', '部']
         for line in bank_lines:
             for spt_l in line.split(';'):
-                if spt_l != '' and any(x in spt_l for x in bank_suffixes) or 0<len(spt_l)<=4:
+                if spt_l != '' and any(x in spt_l for x in bank_suffixes) or 0 < len(spt_l) <= 4:
                     bank_lines_split.append(spt_l)
 
-
         if len(bank_lines_split) > 2:
-            if '有限公司' in bank_lines_split[2] or '部' in bank_lines_split[2] and len(bank_lines_split[2])<10:
-                bank_lines_split[1] = bank_lines_split[1]+bank_lines_split[2]
+            if '有限公司' in bank_lines_split[2] or '部' in bank_lines_split[2]:
+                if len(bank_lines_split[2]) < 10:
+                    bank_lines_split[1] = bank_lines_split[1] + bank_lines_split[2]
                 bank_lines_split.pop(2)
         if len(bank_lines_split) > 2:
-            if len(bank_lines_split[2])<=4:
+            if len(bank_lines_split[2]) <= 4:
                 bank_lines_split.pop(2)
 
         if len(bank_lines_split) == 2 and bank_lines_split[0] in ['保管銀行', '保管機構']:
@@ -1041,21 +1264,84 @@ for file in os.listdir(dir_path + '//unread//'):
                         break
                 report_output_bank = temp_bank_L
 
-
             bank_found_files += 1
+
         elif len(bank_lines_split) == 1 and bank_lines_split[0] in ['保管銀行', '保管機構']:
-            report_output_bank = 'Bank not found'
+            report_output_bank = 'Bank NF'
+        elif bank_lines_split == []:
+            report_output_bank = 'Bank NF'
         else:
             report_output_bank = bank_lines_split
 
+        if report_output_bank == 'Bank NF':
+            if tabu:
+                try:
+                    dfs = tabula.read_pdf(fp, pages='all')
+                    tabu = False
+                except:
+                    pass
 
-        print("\n bank", bank_lines)
-        print("bank splt", bank_lines_split)
+            for table in dfs:
+                data_arr = table.to_numpy().tolist()
+                for i, line in enumerate(data_arr):
+                    for kw in config['bank_keywords']:
+                        for c, cell in enumerate(line):
+                            if type(cell) == str:
+                                str_index_bank = cell.find(kw)
+                                if str_index_bank != -1:
+                                    bank_lines.append(line[c:])
+                                    break
+
+            for i, l in enumerate(bank_lines):
+                bank_lines[i] = [x for x in l if type(x) == str]
+                temp_bank_line = []
+                for j, x in enumerate(bank_lines[i]):
+                    temp_bank_line += x.split(' ')
+                bank_lines[i] = temp_bank_line
+
+            bank_lines = trim(bank_lines)
+            digits = list('0123456789%')
+            bank_lines = [s for s in bank_lines if not any([dig in s for dig in digits])]
+            bank_lines = [s for s in bank_lines if len(s) > 1]
+
+            output_bank = ''
+            for l in bank_lines:
+                if ('銀行' in l or '商銀' in l or '企銀' in l or '機構' in l) and (
+                        '保管銀行' not in l and '保管機構' not in l):
+                    report_output_bank = l
+                    bank_found_files += 1
+                    break
+
+        # print("\n", file, "\nbank", bank_lines)
+        # print("bank splt", bank_lines_split)
+        # print("bank output", report_output_bank)
         # </editor-fold>
 
+        # <editor-fold desc="Main Shares Held">
+        # 主要投資標的（主要持股）
+        shares_lines = []
 
+        for i, line in enumerate(pdf_content_all):
+            pdf_content_all[i] = pdf_content_all[i].replace(' ', '')
+            for kw in config['shares_keywords']:
+                if kw in pdf_content_all[i]:
+                    # shares_kw_index = pdf_content_all[i].find(kw)
+                    shares_lines.append([line])
+                    for j in range(1, len(pdf_content_all) - i):
+                        if len(pdf_content_all[i + j].replace(' ', '')) > 6:
+                            shares_lines[len(shares_lines) - 1].append(pdf_content_all[i + j])
+                        if '前五大' in pdf_content_all[i]:
+                            if len(shares_lines[len(shares_lines) - 1]) == 6:
+                                break
+                        elif '前十大' in pdf_content_all[i]:
+                            if len(shares_lines[len(shares_lines) - 1]) == 11:
+                                break
+        # print("\n", file, "\nsharetitle", shares_lines)
+
+        # </editor-fold>
 
         '''
+        
         # <editor-fold desc="RiskL">
         # 風險等級（很多沒有）
         # LATER (seldom have)
@@ -1065,23 +1351,15 @@ for file in os.listdir(dir_path + '//unread//'):
         # 資產配置 AstAl 
         # LATER (difficult to implement)
         # </editor-fold>
-
-        # <editor-fold desc="Main Shares Held">
-        # 主要投資標的（主要持股）
-        # </editor-fold>
+        
         '''
 
+        print('\n\n-------------------------------------', total_files, '------------------------------------')
+        print('File name: ', file)
 
-
-
-
-
-        ##print('\n\n-------------------------------------', total_files, '------------------------------------')
-        ##print('File name: ', file)
-
-        ##print('Date of data collection:', report_output_date)
+        print('Date of data collection:', report_output_date)
         # print('Date status:', date_status)
-        ##print("AUM output:", report_output_AUM)
+        print("AUM output:", report_output_AUM)
         # print("Currency:", report_output_currency)
 
         # print("aum_lines:", aum_lines)
@@ -1092,10 +1370,19 @@ for file in os.listdir(dir_path + '//unread//'):
 
         # print('name_lines unreplaced:', name_lines_prereplace)
         # print('name_lines:', name_lines)
-        ##print('Product name:', report_output_prodname)
+        print('Product name:', report_output_prodname)
+        print('Manager name:', report_output_manager)
+        print('Bank:', report_output_bank)
 
         if csv_gen:
-            csv_out.append([file, report_output_prodname, report_output_date, report_output_AUM, report_output_manager, report_output_bank])#, report_output_currency])
+            report_output = [file, report_output_prodname, report_output_date, report_output_AUM, report_output_manager,
+                             report_output_bank]
+            '''
+            for l in shares_lines:
+                for item in l:
+                    report_output.append(item)
+                    '''
+            csv_out.append(report_output)
 
 #  print @ end
 print('total files =', total_files)
@@ -1105,12 +1392,12 @@ if correct_files_date != 0:
     print('dates correct =', correct_files_date)
     print('dates incorrect =', extracted_files_date - correct_files_date)
     print('dates cannot be found =', total_files - extracted_files_date)
-print('\n', "DLLH: raw, removed duplicates, recency filter, month edge days")
+# print('\n', "DLLH: raw, removed duplicates, recency filter, month edge days")
 if total_files != 0:
     print("dates extracted % =", extracted_files_date / total_files)
 if correct_files_date != 0:
     print("dates correct % out of all =", correct_files_date / total_files)
-    print("dates correct % out of extracted =", correct_files_date / extracted_files_date)
+    # print("dates correct % out of extracted =", correct_files_date / extracted_files_date)
 print('\n AUM statistics:')
 print('AUMs extracted =', total_files + not_extracted_files_aum)
 if total_files != 0:
@@ -1120,12 +1407,10 @@ if total_files != 0:
 print('total empty:', names_empty)
 
 print('\n manager extracted:', manager_found_files)
-print('manager extracted %:', manager_found_files/total_files)
+print('manager extracted %:', manager_found_files / total_files)
 
 print('\n bank extracted:', bank_found_files)
-print('bank extracted %:', bank_found_files/total_files)
-
-
+print('bank extracted %:', bank_found_files / total_files)
 
 if total_files == 0:
     for file in os.listdir(dir_path + '//read//'):
@@ -1140,8 +1425,6 @@ if csv_gen:
         writer.writerows(csv_out)
         print("\n csv written! (" + str(raw_report_date) + ")")
 
-
 print("\n\n time elapsed: {:.2f}s".format(time.time() - start_time))
 
-# sys.stdout.close()
-
+sys.stdout.close()
