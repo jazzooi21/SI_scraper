@@ -1,4 +1,4 @@
-export_csv: True
+export_csv: False
 
 
 
@@ -35,7 +35,8 @@ manager_avoid: ['成立', '簡介月', '人壽', '全委', '經理', '管費', '
 
 bank_keywords: ['保管銀行', '保管機構']
 
-shares_keywords: ['前五大', '前十大']
+shares_keywords: ['前五大', '前十大', '基金名稱', '受益憑證名稱', '前 5大', '前5大', 'ETF名稱', '名稱']
+shares_filter_kw: ['iShares', 'ISHARES', 'IShares', 'Ishares', '基金', 'ETF', '債券', 'INVESCO', 'Invesco', '宏利', 'QQQ', 'TRUST SERIES', '百達', 'Shares', 'shares', 'SHARES', '1000', '500', '600', 'IS', 'SPDR', '%']
 
 ...
 
