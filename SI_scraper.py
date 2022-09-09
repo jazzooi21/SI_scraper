@@ -5,26 +5,40 @@ from datetime import date, datetime, timedelta
 
 import os
 import sys
+#import argparse
 
 from decimal import Decimal
 
-import yaml
+import yaml #PyYAML
 import csv
-
-from string import punctuation
 
 import time
 
 start_time = time.time()
 
+
+
+'''
+parser = argparse.ArgumentParser(description='Read data from monthly report .pdfs')
+parser.add_argument('--month', type=int, choices=range(200000, 209999),  help='<Month and year of the reports.>',
+                    required=True, metavar='YYYYMM')
+args = parser.parse_args('--month 202207'.split())
+
+if getattr(sys, 'frozen', False):
+    application_path = sys._MEIPASS
+else:
+
+application_path = sys.argv[0].replace('SI_scraper.exe', '').replace('SI_scraper.py', '')
+#print(application_path)
+'''
+
 with open("SI_scrape_config.yaml", 'r', encoding='utf-8') as conf_f:
     config = yaml.safe_load(conf_f)
-    print(config)
+    #print(config)
     # print(yaml.dump(config))
 
+
 csv_gen = config['export_csv']
-
-
 # bool to indicate whether to export scraped data into a csv or not.
 
 
@@ -36,6 +50,7 @@ def last_day_of_month(dt):
 
 
 # set raw_report_date int to choose input batch (month); 202205 for May 2022, 202211 for Nov 2022 etc.
+#raw_report_date = args.month
 raw_report_date = config['report_month']
 report_year = int(str(raw_report_date)[:4])
 report_month = int(str(raw_report_date)[4:])
@@ -43,7 +58,7 @@ report_date = date(report_year, report_month, last_day_of_month(date(report_year
 # year, month and date of batch of reports. Also part of filepath (name of folder containing the pdfs)
 
 if csv_gen:
-    csv_out = [['filename', 'prod name', 'date', 'AUM', 'manager name', 'bank']]
+    csv_out = []
     # initialize csv file
 
 
@@ -65,9 +80,7 @@ class Logger(object):
 
 
 sys.stdout = Logger()
-
-
-# Logger class exported terminal output to a txt file. I used it for debugging
+# Logger class exported terminal output to a txt file. used for debugging
 
 
 def readpdf(filepath):
@@ -101,8 +114,6 @@ def readpdf(filepath):
 
 
 twomonthsago = report_date - timedelta(days=63)
-
-
 # Jul and Aug both have 31 days and are consecutive. 31+31+1=63
 
 
@@ -132,8 +143,6 @@ def filterdates(date_list):
     # 28, 29, 30, 31? edit if necessary
 
     for dt in date_list:
-        # print(dt.month)
-        # print((dt + timedelta(days=1)).month)
         if dt.day > 5:
             # if dt.month != (dt + timedelta(days=2)).month:
             edge_days.append(dt)
@@ -232,7 +241,6 @@ not_extracted_files_aum = 0
 not_extracted_files_curr = 0
 manager_found_files = 0
 bank_found_files = 0
-names_empty = 0
 
 # directory structure note:
 # my main directory is the Desktop folder "Sharpinvest"
@@ -250,7 +258,7 @@ recent_years = [str(curr_year), str(curr_year - 1), str(curr_year - 1911), str(c
 recent_years_raw = [str(curr_year), str(curr_year - 1)]
 for year in recent_years_raw:
     recent_years.append(year[:2] + ' ' + year[2:])
-    # fix edge cases where 20 22, 20 19 is scraped instead of 2022, 2019
+    # fix cases where 20 22, 20 19 is scraped instead of 2022, 2019
 
 for file in os.listdir(dir_path + '//unread//'):
     total_files += 1
@@ -371,8 +379,7 @@ for file in os.listdir(dir_path + '//unread//'):
                         elif 0 < int(l[5:7]) <= 31:
                             digit_lines_conc_filt.append(l[:7])
 
-        # date_ym = '      '
-        # 民國years mingguo
+        # 民國years
         if digit_lines_conc_filt == []:
             for l in digit_lines_conc:
                 if len(l) >= 5:
@@ -404,7 +411,7 @@ for file in os.listdir(dir_path + '//unread//'):
         # print('digit lines conc filt:', digit_lines_conc_filt)
 
         if digit_lines_conc_filt == []:
-            report_output_date = "DATE NOT FOUND"
+            report_output_date = "Date NF"
         else:
             date_ym_dt = []
 
@@ -773,7 +780,7 @@ for file in os.listdir(dir_path + '//unread//'):
         if report_output_AUM == "AUM NF":
             if tabu:
                 try:
-                    dfs = tabula.read_pdf(fp, pages='all')
+                    dfs = tabula.read_pdf(fp, pages='all', guess=False, stream=True)
                     tabu = False
                 except:
                     pass
@@ -838,6 +845,7 @@ for file in os.listdir(dir_path + '//unread//'):
                 for j, char in enumerate(s):
                     if char in chars_to_keep_postcurr_list:
                         aum_lines_filt_char[i] += char
+
             for i, s in enumerate(aum_lines_filt_char):
                 if len(''.join(char for char in s if char == '.')) > 1:
                     aum_lines_filt_char.remove(s)
@@ -980,6 +988,7 @@ for file in os.listdir(dir_path + '//unread//'):
             name_lines[i] = name_lines[i].replace('） （', ');(')
             name_lines[i] = name_lines[i].replace('）（', ');(')
             name_lines[i] = name_lines[i].replace(')', ');')
+            name_lines[i] = name_lines[i].replace('  ', ' ;')
 
             name_lines_repl_el = []
             name_lines_repl_el += name_lines[i]
@@ -1023,7 +1032,6 @@ for file in os.listdir(dir_path + '//unread//'):
         report_output_prodname = []
 
         if name_lines_filt == []:
-            names_empty += 1
             name_lines_filt = []
         elif len(name_lines_filt) == 1:
             report_output_prodname = [name_lines_filt[0]]
@@ -1088,6 +1096,7 @@ for file in os.listdir(dir_path + '//unread//'):
         if len(report_output_prodname) <= 4:
             report_output_prodname = 'ProdName NF'
 
+
         # </editor-fold>
 
         # <editor-fold desc="Manager">
@@ -1101,14 +1110,14 @@ for file in os.listdir(dir_path + '//unread//'):
         # 利裴樊房全佘左花魯安鮑郝穆塗邢蒲成谷常閻練盛鄔耿聶符申祝繆陽解曲岳齊籃應單舒畢喬龎翟牛鄞留季') + ['范姜']
         tw_lastnames_all = tw_lastnames_10 + tw_lastnames_50 + tw_lastnames_200
 
-        names_ban = set(punctuation + ' 012346789abcdewfghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYUZ'
-                                      ',.;:()：；，。（）「」【】＋、')
+        names_ban = set('!\"#$%&\'()*+, 012346789abcdewfghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYUZ'
+                                      '-/<=>?@[]^_`{|}~,.;:()：；，。（）「」【】＋、')
         names_incor = ['成立', '簡介月', '人壽', '全委', '經理', '管費', '管理', '全權', '投信', '全球',
                        '單位', '位淨', '波動', '大學', '機構', '預期', '顧問', '不', '一個', '投顧', '製造',
                        '勝率', '本月', '人', '金融', '與']
         manager_lines = []
         manager_names = []
-
+        report_output_manager = ''
         empty = True
         reloop = False
         while empty:
@@ -1166,15 +1175,15 @@ for file in os.listdir(dir_path + '//unread//'):
         # print(manager_names,'\n', file, '\n')
 
         if len(manager_names) == 1:
-            manager_found_files += 1
             report_output_manager = manager_names[0]
-        elif len(manager_names) > 1:
             manager_found_files += 1
+        elif len(manager_names) > 1:
             report_output_manager = manager_names[0]  # filter NEEDED?
+            manager_found_files += 1
         elif len(manager_names) == 0:
             if tabu:
                 try:
-                    dfs = tabula.read_pdf(fp, pages='all')
+                    dfs = tabula.read_pdf(fp, pages='all', guess=False, stream=True)
                     tabu = False
                 except:
                     pass
@@ -1202,13 +1211,12 @@ for file in os.listdir(dir_path + '//unread//'):
             manager_lines = [s for s in manager_lines if not any([dig in s for dig in digits])]
             manager_lines = [s for s in manager_lines if len(s) > 1]
 
-            output_mng = ''
             for name in manager_lines:
                 if len(name) == 3 and name[0] in tw_lastnames_all:
                     report_output_manager = name
                     manager_found_files += 1
                     break
-            if output_mng == '':
+            if report_output_manager == '':
                 report_output_manager = 'MngName NF'
 
         # </editor-fold>
@@ -1276,7 +1284,7 @@ for file in os.listdir(dir_path + '//unread//'):
         if report_output_bank == 'Bank NF':
             if tabu:
                 try:
-                    dfs = tabula.read_pdf(fp, pages='all')
+                    dfs = tabula.read_pdf(fp, pages='all', guess=False, stream=True)
                     tabu = False
                 except:
                     pass
@@ -1318,26 +1326,7 @@ for file in os.listdir(dir_path + '//unread//'):
         # </editor-fold>
 
         # <editor-fold desc="Main Shares Held">
-        # 主要投資標的（主要持股）
-        shares_lines = []
-
-        for i, line in enumerate(pdf_content_all):
-            pdf_content_all[i] = pdf_content_all[i].replace(' ', '')
-            for kw in config['shares_keywords']:
-                if kw in pdf_content_all[i]:
-                    # shares_kw_index = pdf_content_all[i].find(kw)
-                    shares_lines.append([line])
-                    for j in range(1, len(pdf_content_all) - i):
-                        if len(pdf_content_all[i + j].replace(' ', '')) > 6:
-                            shares_lines[len(shares_lines) - 1].append(pdf_content_all[i + j])
-                        if '前五大' in pdf_content_all[i]:
-                            if len(shares_lines[len(shares_lines) - 1]) == 6:
-                                break
-                        elif '前十大' in pdf_content_all[i]:
-                            if len(shares_lines[len(shares_lines) - 1]) == 11:
-                                break
-        # print("\n", file, "\nsharetitle", shares_lines)
-
+        # 主要投
         # </editor-fold>
 
         '''
@@ -1354,12 +1343,13 @@ for file in os.listdir(dir_path + '//unread//'):
         
         '''
 
-        print('\n\n-------------------------------------', total_files, '------------------------------------')
-        print('File name: ', file)
+        ##print('\n\n-------------------------------------', total_files, '------------------------------------')
+        ##print('File name: ', file)
+        print(total_files, file)
 
-        print('Date of data collection:', report_output_date)
+        ##print('Date of data collection:', report_output_date)
         # print('Date status:', date_status)
-        print("AUM output:", report_output_AUM)
+        ##print("AUM output:", report_output_AUM)
         # print("Currency:", report_output_currency)
 
         # print("aum_lines:", aum_lines)
@@ -1370,12 +1360,16 @@ for file in os.listdir(dir_path + '//unread//'):
 
         # print('name_lines unreplaced:', name_lines_prereplace)
         # print('name_lines:', name_lines)
-        print('Product name:', report_output_prodname)
-        print('Manager name:', report_output_manager)
-        print('Bank:', report_output_bank)
+        ##print('Product name:', report_output_prodname)
+        ##print('Manager name:', report_output_manager)
+        ##print('Bank:', report_output_bank)
+
+        file_temp = file.replace('.pdf', '').split('_', 1)
+        company_code = file_temp[0]
+        prod_code = file_temp[1]
 
         if csv_gen:
-            report_output = [file, report_output_prodname, report_output_date, report_output_AUM, report_output_manager,
+            report_output = [file, company_code, prod_code, report_output_prodname, report_output_date, report_output_AUM, report_output_manager,
                              report_output_bank]
             '''
             for l in shares_lines:
@@ -1385,32 +1379,31 @@ for file in os.listdir(dir_path + '//unread//'):
             csv_out.append(report_output)
 
 #  print @ end
-print('total files =', total_files)
-print('\n Date statistics:')
-print('dates extracted =', extracted_files_date)
-if correct_files_date != 0:
-    print('dates correct =', correct_files_date)
-    print('dates incorrect =', extracted_files_date - correct_files_date)
-    print('dates cannot be found =', total_files - extracted_files_date)
+##print('total files =', total_files)
+##print('\n Date statistics:')
+##print('dates extracted =', extracted_files_date)
+##if correct_files_date != 0:
+    ##print('dates correct =', correct_files_date)
+    ##print('dates incorrect =', extracted_files_date - correct_files_date)
+    ##print('dates cannot be found =', total_files - extracted_files_date)
 # print('\n', "DLLH: raw, removed duplicates, recency filter, month edge days")
-if total_files != 0:
-    print("dates extracted % =", extracted_files_date / total_files)
-if correct_files_date != 0:
-    print("dates correct % out of all =", correct_files_date / total_files)
+##if total_files != 0:
+    ##print("dates extracted % =", extracted_files_date / total_files)
+##if correct_files_date != 0:
+    ##print("dates correct % out of all =", correct_files_date / total_files)
     # print("dates correct % out of extracted =", correct_files_date / extracted_files_date)
-print('\n AUM statistics:')
-print('AUMs extracted =', total_files + not_extracted_files_aum)
-if total_files != 0:
-    print('AUMs extracted % =', (total_files + not_extracted_files_aum) / total_files)
+##print('\n AUM statistics:')
+##print('AUMs extracted =', total_files + not_extracted_files_aum)
+##if total_files != 0:
+    ##print('AUMs extracted % =', (total_files + not_extracted_files_aum) / total_files)
 # print('currency extracted =', total_files + not_extracted_files_curr)
 # print('currency extracted % =', (total_files + not_extracted_files_curr) / total_files)
-print('total empty:', names_empty)
 
-print('\n manager extracted:', manager_found_files)
-print('manager extracted %:', manager_found_files / total_files)
+##print('\n manager extracted:', manager_found_files)
+##print('manager extracted %:', manager_found_files / total_files)
 
-print('\n bank extracted:', bank_found_files)
-print('bank extracted %:', bank_found_files / total_files)
+##print('\n bank extracted:', bank_found_files)
+##print('bank extracted %:', bank_found_files / total_files)
 
 if total_files == 0:
     for file in os.listdir(dir_path + '//read//'):
@@ -1419,8 +1412,21 @@ if total_files == 0:
         os.rename(dir_path + '//cannot_be_read//' + file, dir_path + '//unread//' + file)
 
 if csv_gen:
-    csv_name = config['output_csv_fp'] + "output_" + str(raw_report_date) + ".csv"
-    with open(csv_name, 'w', encoding='utf_16', newline='') as csv_f:
+    tdy = date.today()
+    tdystr = tdy.strftime('%Y%m%d')
+
+    csv_name = config['output_csv_fp'] + "output_" + str(raw_report_date) + '_' + tdystr + ".csv"
+
+    with open(csv_name, 'a+', encoding='utf_16', newline='') as csv_f:
+        reader = csv.reader(csv_f, delimiter=',')
+
+        try:
+            first_row = next(reader)
+        except StopIteration:
+            #csv is empty!
+            #intialise title row
+            csv_out.insert(0, ['filename', 'company code', 'prod code', 'prod name', 'date', 'AUM', 'manager name', 'bank'])
+
         writer = csv.writer(csv_f, dialect='excel')
         writer.writerows(csv_out)
         print("\n csv written! (" + str(raw_report_date) + ")")

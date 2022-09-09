@@ -3,6 +3,8 @@ import time
 start_time = time.time()
 
 import tabula
+from PyPDF2 import PdfReader
+
 import yaml
 import os
 
@@ -28,6 +30,9 @@ def tabula_kw_find(data, keywords):
     return lines
 
 
+shares_found = 0
+
+
 def trim(lines):
     lines_temp = [l for l in lines if len(l) > 1]
 
@@ -45,17 +50,50 @@ def trim(lines):
         lines_temp_comb_nodupe = list(dict.fromkeys(lines_temp_comb))
         return lines_temp_comb_nodupe
 
+def readpdf(filepath):
+    filename = os.path.basename(filepath)
+
+    parsed = PdfReader(filepath)
+
+    # pdf_metadata = parsed.metadata
+
+    first_page_text = parsed.pages[0].extract_text()
+
+    all_pages_text = first_page_text
+
+    number_of_pages = parsed.getNumPages()
+    if number_of_pages > 1:
+        for page_no in range(1, number_of_pages):
+            page = parsed.getPage(page_no)
+            page_content = page.extractText()
+            all_pages_text += '\n' + page_content
+
+    txt_name = config['scraped_txt_fp'] + str(
+        raw_report_date) + '//' + filename + '_raw.txt'
+
+    '''
+    with open(txt_name, 'w', encoding='utf_16') as f:
+       f.write(all_pages_text)
+    '''
+    # ^ created txt file of pdf content if needed, so that i can view the raw scraped text for debugging
+
+    return all_pages_text
+
+
+total = 0
 
 for file in os.listdir(dir_path + '//unread//'):
-    if file == 'SKL_Q005.pdf' or True:
+    if True:
         tab_list = []
-
+        total += 1
         fp = dir_path + '//unread//' + file
         try:
-            dfs = tabula.read_pdf(fp, pages='all')
+            dfs = tabula.read_pdf(fp, pages='all', guess=False, stream=True)#, multiple_tables=True, lattice = True)
         except:
             pass
         print('------------------------------------------', file, '------------------------------------------')
+        #print(dfs)
+
 
         mng_lines = []
         aum_lines = []
@@ -65,6 +103,8 @@ for file in os.listdir(dir_path + '//unread//'):
         report_output_aum_multi = []
         # share_lines = []
 
+        '''
+        # <editor-fold desc="AUM">
         for table in dfs:
 
             data_arr = table.to_numpy().tolist()
@@ -79,15 +119,6 @@ for file in os.listdir(dir_path + '//unread//'):
                                 break
             if aum_lines == []:
                 pass
-                '''
-                for i, line in enumerate(data_arr):
-                    for kw in config['aum_keywords_1']:
-                        for c, cell in enumerate(line):
-                            if type(cell) == str:
-                                str_index_aum = cell.find(kw)
-                                if str_index_aum != -1:
-                                    aum_lines.append(line[c:])
-                                    break'''
 
         for i, l in enumerate(aum_lines):
             aum_lines[i] = [x for x in l if type(x) == str]
@@ -225,8 +256,9 @@ for file in os.listdir(dir_path + '//unread//'):
             for aum in report_output_aum_multi:
                 if aum > 5000:
                     report_output_aum = aum
+        # </editor-fold>
 
-        '''
+        # <editor-fold desc="manager">
         for table in dfs:
             data_arr = table.to_numpy().tolist()
             for i, line in enumerate(data_arr):
@@ -263,12 +295,9 @@ for file in os.listdir(dir_path + '//unread//'):
             if len(name) == 3 and name[0] in tw_lastnames_all:
                 output_mng = name
                 break
-    
-    
-    
-    
-    
-    
+        # </editor-fold>
+
+        # <editor-fold desc="bank">
         for table in dfs:
             data_arr = table.to_numpy().tolist()
             for i, line in enumerate(data_arr):
@@ -296,20 +325,121 @@ for file in os.listdir(dir_path + '//unread//'):
             if ('銀行' in l or '商銀' in l or '企銀' in l or '機構' in l) and ('保管銀行' not in l and '保管機構' not in l):
                 output_bank = l
                 break
+        # </editor-fold>
         '''
 
+
+
+        subsqt_cells = []
+
+        for table in dfs:
+            data_arr = table.to_numpy().tolist()
+            #print(table)
+            kw_coords = [-1, -1]
+            for i, line in enumerate(data_arr):
+                for j, cell in enumerate(line):
+                    if type(cell) == str:
+                        for kw in config['shares_keywords']:
+                            if kw in cell:
+                                if '前五大' in cell:
+                                    share_num = 5
+                                elif '前十大' in cell:
+                                    share_num = 10
+                                else:
+                                    share_num = 5
+                                kw_coords = [j, i]
+                                break
+            if kw_coords[1] == 0:
+                kw_coords[1] = 1
+            if -1 not in [kw_coords[0], kw_coords[1]]:
+                for i in range(kw_coords[1], len(data_arr)):
+                    try:
+                        subsqt_cells.append(data_arr[i][kw_coords[0]])
+                    except IndexError:
+                        pass
+
+        subsqt_cells = [s for s in subsqt_cells if type(s)==str]
+
+        for i,s in enumerate(subsqt_cells):
+            subsqt_cells[i] = s.replace('\r', ' ')
+
+
+
+        print(subsqt_cells)
+
+        shares_kw = config['shares_filter_kw']
+        
+        subsqt_filtd = []
+
+        for s in subsqt_cells:
+            for kw in shares_kw:
+                if kw in s:
+                    subsqt_filtd.append(s)
+                    break
+
+        subsqt_filtd = [s for s in subsqt_filtd if 50 > len(s) > 7]
+
+
+        share_perc = []
+        for i,s in enumerate(subsqt_filtd):
+            s_digits = ''.join(c for c in subsqt_filtd[i] if c in list('0123456789.'))
+            s_dig_dec = Decimal(0)
+            try:
+                s_dig_dec = Decimal(s_digits)
+            except:
+                pass
+
+            if 0<s_dig_dec<100:
+                share_perc.append([i, s_dig_dec])
+
+
+
+
+
+        print(subsqt_filtd)
+
+        print(share_perc)
+
+
+
+
+
         '''
-        for kw in config['shares_keywords']:
-            if kw in str(line):
-                print(line)
+        shares_lines = []
+        # PYPDF2 READ
+        pdf_content_all = []
+        pdf_content_all = readpdf(fp)
+        # pdf_content_all is str
+        pdf_content_all = pdf_content_all.split('\n')
+
+
+
+        for i, line in enumerate(pdf_content_all):
+            pdf_content_all[i] = pdf_content_all[i].replace(' ', '')
+            for kw in config['shares_keywords']:
+                if kw in pdf_content_all[i]:
+                    # shares_kw_index = pdf_content_all[i].find(kw)
+                    shares_lines.append([line])
+                    for j in range(1, len(pdf_content_all) - i):
+                        if len(pdf_content_all[i + j].replace(' ', '')) > 6:
+                            shares_lines[len(shares_lines) - 1].append(pdf_content_all[i + j])
+                        if len(shares_lines[len(shares_lines) - 1]) == 25:
+                            break
+
+        print(shares_lines)
         '''
 
-        print(aum_lines)
+        if subsqt_filtd != []:
+            shares_found += 1
+
+        # print(aum_lines)
         # print(aum_lines_filt)
-        print(aum_lines_filt_char)
-        print(report_output_aum)
+        # print(aum_lines_filt_char)
+        # print(report_output_aum)
 
         # print(output_mng)
         # print(output_bank)
 
+print(shares_found)
+print(shares_found/total)
 print("\n\n time elapsed: {:.2f}s".format(time.time() - start_time))
