@@ -1,14 +1,14 @@
-export_csv: True
+﻿export_csv: True
 move_pdfs: False
 
 
-report_month: 202207
+report_month: 202208
 
 
 
 scraped_txt_fp: C:\Users\jazz.ooi\Desktop\proj\Sharpinvest\raw_scraped_txts\
-report_pdf_fp: C:\Users\jazz.ooi\Desktop\proj\Sharpinvest\monthly_report_pdfs\
-output_csv_fp: C:\Users\jazz.ooi\Desktop\proj\Sharpinvest\csv_outputs\
+report_pdf_fp: C:\DailyService\pyDataCapture\
+output_csv_fp: C:\DailyService\pyDataCapture\output_csv\
 
 
 

@@ -63,7 +63,7 @@ csv_out = []
 tdy = date.today()
 tdystr = tdy.strftime('%Y%m%d')
 csv_name = config['output_csv_fp'] + 'output_' + str(raw_report_date) + '_' + tdystr + '.csv'
-
+#print(csv_name)
 filenames = []
 try:
     with open(csv_name, "r", encoding='utf_16', newline='') as csv_read:
@@ -93,14 +93,16 @@ class Logger(object):
         self.log.close()
 
 
-sys.stdout = Logger()
+#sys.stdout = Logger()
 # Logger class exported terminal output to a txt file. used for debugging
 
 
 def readpdf(filepath):
     filename = os.path.basename(filepath)
-
-    parsed = PdfReader(filepath)
+    try:
+    	parsed = PdfReader(filepath)
+    except:
+    	return ''
 
     # pdf_metadata = parsed.metadata
 
@@ -123,7 +125,6 @@ def readpdf(filepath):
        f.write(all_pages_text)
     '''
     # ^ created txt file of pdf content if needed, so that i can view the raw scraped text for debugging
-
     return all_pages_text
 
 
@@ -258,7 +259,10 @@ bank_found_files = 0
 
 
 
-dir_path = config['report_pdf_fp'] + str(raw_report_date)  # a.encode('unicode_escape')
+dir_path = config['report_pdf_fp']   # a.encode('unicode_escape')
+dir_path_unread = dir_path + 'MonthlyRpt_unread//' + str(raw_report_date)
+
+
 dir_path_txt = config['scraped_txt_fp'] + str(raw_report_date)
 ext = 'pdf'
 
@@ -270,9 +274,10 @@ for year in recent_years_raw:
     recent_years.append(year[:2] + ' ' + year[2:])
     # fix cases where 20 22, 20 19 is scraped instead of 2022, 2019
 
-for file in os.listdir(dir_path + '//unread//'):
+for file in os.listdir(dir_path_unread): # + '//unread//'
     total_files += 1
-    fp = dir_path + '//unread//' + file  # filepath
+    fp = dir_path_unread + '//' + file  # filepath
+    #print(fp)  
 
     if file not in filenames:
         tabu = True
@@ -289,6 +294,7 @@ for file in os.listdir(dir_path + '//unread//'):
         date_keywords_avoid = []
 
         pdf_content = []
+        
         pdf_content = readpdf(fp)
         # pdf_content is str
         pdf_content = pdf_content.replace('20 ', '20')
@@ -431,7 +437,7 @@ for file in os.listdir(dir_path + '//unread//'):
                             date_ym_dt.append(date(int(date_split[0]), int(date_split[1]),
                                                    last_day_of_month(
                                                        date(int(date_split[0]), int(date_split[1]), 1))))
-                elif len(date_split) == 2:
+                elif len(date_split) == 2 and date_split[1] != '':
                     if 1 <= int(date_split[1]) <= 12:
                         date_ym_dt.append(date(int(date_split[0]), int(date_split[1]),
                                                last_day_of_month(date(int(date_split[0]), int(date_split[1]), 1))))
@@ -955,10 +961,11 @@ for file in os.listdir(dir_path + '//unread//'):
         if report_output_AUM == 'AUM NF':
             not_extracted_files_aum -= 1
             if config['move_pdfs']:
-                os.rename(fp, dir_path + '//cannot_be_read//' + file)
+                os.renames(fp, dir_path + 'MonthlyRpt_cannotread//' + str(raw_report_date) + '//' + file)
+                
         else:
             if config['move_pdfs']:
-                os.rename(fp, dir_path + '//read//' + file)
+                os.renames(fp, dir_path + 'MonthlyRpt_read//' + str(raw_report_date) + '//' + file)
             pass
 
         # AUM COLLECTION END
@@ -1110,7 +1117,7 @@ for file in os.listdir(dir_path + '//unread//'):
 
         tw_lastnames_10 = list('陳林黃張李王吳劉蔡楊')
         tw_lastnames_50 = list('許鄭謝洪郭邱曾廖賴徐周葉蘇莊呂江何蕭羅高潘簡朱鍾游彭詹胡施沈余盧梁趙顏柯翁魏孫戴')
-        tw_lastnames_200 = ['張簡', '歐陽'] + list('范方宋鄧杜傅侯曹薛丁卓阮馬tai董温唐藍石蔣古紀姚連馮歐程湯黄田康姜白汪鄒尤巫鐘'
+        tw_lastnames_200 = ['張簡', '歐陽'] + list('范方宋鄧杜傅侯曹薛丁卓阮馬董温唐藍石蔣古紀姚連馮歐程湯黄田康姜白汪鄒尤巫鐘'
                                                    '黎涂龔嚴韓袁金童陸夏柳凃邵錢伍倪溫于譚駱熊任甘秦顧毛章史官萬俞雷粘饒闕'
                                                    '凌崔尹孔辛武辜陶段龍韋葛池孟褚殷麥賀賈莫文管關向包丘梅')
         # 利裴樊房全佘左花魯安鮑郝穆塗邢蒲成谷常閻練盛鄔耿聶符申祝繆陽解曲岳齊籃應單舒畢喬龎翟牛鄞留季') + ['范姜']
@@ -1435,4 +1442,5 @@ if csv_gen and csv_out != []:
 
 print('\n\n time elapsed: {:.2f}s'.format(time.time() - start_time))
 
-sys.stdout.close()
+
+#sys.stdout.close()
