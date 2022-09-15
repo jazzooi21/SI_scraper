@@ -1,0 +1,3232 @@
+
+
+------------------------------------- 1 ---------------------------------------------
+File name:  ACE_FFTFH003.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+['帳', '戶', '資', '產', '月', '底', '規', '模', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'u', 's', 'd', 'U', 'S', 'D', '$', 'N', 'T', '$', 'T', 'W', 'D', 't', 'w', 'd', 'K', 'M', 'm', 'i', 'l', 'B', 'b', 'i', 'l', 'A', 'U', 'D', 'a', 'u', 'd', 'C', 'N', 'Y', '澳', '幣', '新', '臺', '幣', '美', '元', '台', '金', '百', '千', '萬', '億', '兆', '.', ',', '(', '/', ')']
+AUM lines after filter: []
+
+
+------------------------------------- 2 ---------------------------------------------
+File name:  ACE_FFTFH004.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 3 ---------------------------------------------
+File name:  ACE_FFTKG001.pdf
+Date of data collection: 2022-06-08 [find func called] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 4 ---------------------------------------------
+File name:  ACE_FFUBR007.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模0.93百萬美元最新淨值10.2224發行淨值10.0000經理費(每年)1.36%保管銀行臺灣中小企業銀行股份有限公司截至2022年5月31日\n']
+AUM lines after filter: ['帳戶規模0.93百萬美元新10.222410.0000()1.36臺20225月31']
+
+
+------------------------------------- 5 ---------------------------------------------
+File name:  ACE_FFUBR008.pdf
+Date of data collection: 2021-12-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模2.44百萬美元最新淨值8.2429發行淨值10.0000經理費(每年)1.36%保管銀行臺灣中小企業銀行股份有限公司月撥回基準日\n']
+AUM lines after filter: ['帳戶規模2.44百萬美元新8.242910.0000()1.36臺月']
+
+
+------------------------------------- 6 ---------------------------------------------
+File name:  ACE_FFUBR011.pdf
+Date of data collection: 2021-12-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模53.71百萬美元最新淨值8.7834發行淨值10.0000經理費(每年)淨值>9：1.15%淨值≤9：1.10%保管銀行台新國際商業銀行月撥回基準日\n']
+AUM lines after filter: ['帳戶規模53.71百萬美元新8.783410.0000()91.1591.10台新月']
+
+
+------------------------------------- 7 ---------------------------------------------
+File name:  ACE_FFUBR012.pdf
+Date of data collection: 2021-12-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模53.71百萬美元最新淨值8.7834發行淨值10.0000經理費(每年)淨值>9：1.15%淨值≤9：1.10%保管銀行台新國際商業銀行月撥回基準日\n']
+AUM lines after filter: ['帳戶規模53.71百萬美元新8.783410.0000()91.1591.10台新月']
+
+
+------------------------------------- 8 ---------------------------------------------
+File name:  ACE_FFUCB005.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 USD 131.47百萬元\n']
+AUM lines after filter: ['帳戶規模USD131.47百萬元']
+
+
+------------------------------------- 9 ---------------------------------------------
+File name:  ACE_FFUCB006.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 USD 835.45百萬元\n']
+AUM lines after filter: ['帳戶規模USD835.45百萬元']
+
+
+------------------------------------- 10 ---------------------------------------------
+File name:  ACE_FFUCB015.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 USD 46.49百萬元\n']
+AUM lines after filter: ['帳戶規模USD46.49百萬元']
+
+
+------------------------------------- 11 ---------------------------------------------
+File name:  ACE_FFUCB016.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 USD103.82 百萬元\n']
+AUM lines after filter: ['帳戶規模USD103.82百萬元']
+
+
+------------------------------------- 12 ---------------------------------------------
+File name:  ACE_FFUFH001.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 13 ---------------------------------------------
+File name:  ACE_FFUFH002.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 14 ---------------------------------------------
+File name:  ACE_FFUFT001.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD9,321,919\n']
+AUM lines after filter: ['月底規模USD9,321,919']
+
+
+------------------------------------- 15 ---------------------------------------------
+File name:  ACE_FFUFT002.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD1,447,587\n']
+AUM lines after filter: ['月底規模USD1,447,587']
+
+
+------------------------------------- 16 ---------------------------------------------
+File name:  ACE_FFUFT003.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD1,447,587\n']
+AUM lines after filter: ['月底規模USD1,447,587']
+
+
+------------------------------------- 17 ---------------------------------------------
+File name:  ACE_FFUFT004.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['帳戶規模 USD 177,709\n']
+AUM lines after filter: ['帳戶規模USD177,709']
+
+
+------------------------------------- 18 ---------------------------------------------
+File name:  ACE_FFUFT005.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['帳戶規模 USD 85,796\n']
+AUM lines after filter: ['帳戶規模USD85,796']
+
+
+------------------------------------- 19 ---------------------------------------------
+File name:  ACE_FFUFT006.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['帳戶規模 USD 246,779\n']
+AUM lines after filter: ['帳戶規模USD246,779']
+
+
+------------------------------------- 20 ---------------------------------------------
+File name:  ACE_FFUFT007.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['帳戶規模 USD 421,104\n']
+AUM lines after filter: ['帳戶規模USD421,104']
+
+
+------------------------------------- 21 ---------------------------------------------
+File name:  ACE_FFUFT008.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['帳戶規模 USD 454,862\n']
+AUM lines after filter: ['帳戶規模USD454,862']
+
+
+------------------------------------- 22 ---------------------------------------------
+File name:  ACE_FFUFT009.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['帳戶規模 USD 346,203\n']
+AUM lines after filter: ['帳戶規模USD346,203']
+
+
+------------------------------------- 23 ---------------------------------------------
+File name:  ACE_FFUFT010.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['帳戶規模 USD 445,007\n']
+AUM lines after filter: ['帳戶規模USD445,007']
+
+
+------------------------------------- 24 ---------------------------------------------
+File name:  ACE_FFUFT011.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['帳戶規模 USD 775,624\n']
+AUM lines after filter: ['帳戶規模USD775,624']
+
+
+------------------------------------- 25 ---------------------------------------------
+File name:  ACE_FFUFT012.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['帳戶規模 USD 49,080\n']
+AUM lines after filter: ['帳戶規模USD49,080']
+
+
+------------------------------------- 26 ---------------------------------------------
+File name:  ACE_FFUFT013.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD264,105\n']
+AUM lines after filter: ['月底規模USD264,105']
+
+
+------------------------------------- 27 ---------------------------------------------
+File name:  ACE_FFUMG001.pdf
+Date of data collection: 2021-06-11 [find func called] 
+AUM lines before filter: ['規模(美元,萬) 1517.6    \n']
+AUM lines after filter: ['規模(美元,萬)1517.6']
+
+
+------------------------------------- 28 ---------------------------------------------
+File name:  ACE_FFUMG002.pdf
+Date of data collection: 2021-06-11 [find func called] 
+AUM lines before filter: ['規模(美元,萬) 1517.6    \n']
+AUM lines after filter: ['規模(美元,萬)1517.6']
+
+
+------------------------------------- 29 ---------------------------------------------
+File name:  ACE_FFUPC018.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 : 39.41 百萬美元\n']
+AUM lines after filter: ['帳戶規模39.41百萬美元']
+
+
+------------------------------------- 30 ---------------------------------------------
+File name:  ACE_FFUPM013.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['帳戶規模 30,245 ,753 .40\n']
+AUM lines after filter: ['帳戶規模30,245,753.40']
+
+
+------------------------------------- 31 ---------------------------------------------
+File name:  ACE_FFUPM014.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['帳戶規模 13,220 ,772 .05\n']
+AUM lines after filter: ['帳戶規模13,220,772.05']
+
+
+------------------------------------- 32 ---------------------------------------------
+File name:  ACE_FFUPM017.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['帳戶規模 3,583 ,810 .66\n']
+AUM lines after filter: ['帳戶規模3,583,810.66']
+
+
+------------------------------------- 33 ---------------------------------------------
+File name:  ACE_FFUTC001.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 3.55百萬美元  \n']
+AUM lines after filter: ['帳戶規模3.55百萬美元']
+
+
+------------------------------------- 34 ---------------------------------------------
+File name:  ACE_FFUTC002.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 3.55百萬美元  \n']
+AUM lines after filter: ['帳戶規模3.55百萬美元']
+
+
+------------------------------------- 35 ---------------------------------------------
+File name:  ACE_FFUTN003.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 5,064,845.41美元 \n']
+AUM lines after filter: ['規模5,064,845.41美元']
+
+
+------------------------------------- 36 ---------------------------------------------
+File name:  ACE_FFUTN004.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 5,064,845.41美元 \n']
+AUM lines after filter: ['規模5,064,845.41美元']
+
+
+------------------------------------- 37 ---------------------------------------------
+File name:  ACE_FFUTS001.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 38 ---------------------------------------------
+File name:  ACE_FFUTS002.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 39 ---------------------------------------------
+File name:  ACE_FFUTS003.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 40 ---------------------------------------------
+File name:  ACE_FFUTS004.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 41 ---------------------------------------------
+File name:  ACE_FFUTS009.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 42 ---------------------------------------------
+File name:  ACE_FFUTS010.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 43 ---------------------------------------------
+File name:  ACE_FFUYT001.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 13,375,450.02美元 \n']
+AUM lines after filter: ['規模13,375,450.02美元']
+
+
+------------------------------------- 44 ---------------------------------------------
+File name:  ACE_FFUYT002.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 13,375,450.02美元 \n']
+AUM lines after filter: ['規模13,375,450.02美元']
+
+
+------------------------------------- 45 ---------------------------------------------
+File name:  AIA_FD01_1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD921,312\n']
+AUM lines after filter: ['月底規模USD921,312']
+
+
+------------------------------------- 46 ---------------------------------------------
+File name:  Allianz_AUDMD0010.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: AUD21,419,140\n']
+AUM lines after filter: ['月底規模AUD21,419,140']
+
+
+------------------------------------- 47 ---------------------------------------------
+File name:  Allianz_AUDMD0020.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 86.00 百萬澳幣\n']
+AUM lines after filter: ['帳戶規模86.00百萬澳幣']
+
+
+------------------------------------- 48 ---------------------------------------------
+File name:  Allianz_NTDMD0010.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 6.02 億台幣\n']
+AUM lines after filter: ['帳戶規模6.02億台幣']
+
+
+------------------------------------- 49 ---------------------------------------------
+File name:  Allianz_NTDMD0020.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 8,983 百萬台幣  \n']
+AUM lines after filter: ['月底規模8,983百萬台幣']
+
+
+------------------------------------- 50 ---------------------------------------------
+File name:  Allianz_NTDMD0030.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: TWD1,374,311,917\n']
+AUM lines after filter: ['月底規模TWD1,374,311,917']
+
+
+------------------------------------- 51 ---------------------------------------------
+File name:  Allianz_NTDMD0040.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['月底規模 7.04億台幣 7.54\n']
+AUM lines after filter: ['月底規模7.04億台幣7.54']
+
+
+------------------------------------- 52 ---------------------------------------------
+File name:  Allianz_NTDMD0060.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 332 百萬台幣\n']
+AUM lines after filter: ['月底規模332百萬台幣']
+
+
+------------------------------------- 53 ---------------------------------------------
+File name:  Allianz_NTDMD0070.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 54 ---------------------------------------------
+File name:  Allianz_NTDMD0090.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  9.20億元  \n', '規模為 6兆一致，使得市場對於聯準會鷹派政策路徑預期轉\n']
+AUM lines after filter: ['帳戶規模9.20億元', '規模6兆']
+
+
+------------------------------------- 55 ---------------------------------------------
+File name:  Allianz_NTDMD0100.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['月底規模 2.28 億新台幣 7.47\n']
+AUM lines after filter: ['月底規模2.28億新台幣7.47']
+
+
+------------------------------------- 56 ---------------------------------------------
+File name:  Allianz_NTDMD0110.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 ：10.03億元台幣\n']
+AUM lines after filter: ['帳戶規模10.03億元台幣']
+
+
+------------------------------------- 57 ---------------------------------------------
+File name:  Allianz_NTDMD0120.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 58 ---------------------------------------------
+File name:  Allianz_NTDMD0130.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 59 ---------------------------------------------
+File name:  Allianz_USDMD0010.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD1,112,999\n']
+AUM lines after filter: ['月底規模USD1,112,999']
+
+
+------------------------------------- 60 ---------------------------------------------
+File name:  Allianz_USDMD0030.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶管理費保管銀行上次撥回及基準日8.85美元88.58百萬美元1.20%(以資產淨值計)玉山商業銀行0.04168美元(2022.05.03)\n']
+AUM lines after filter: ['帳戶規模帳戶8.85美元88.58百萬美元1.20(資產)0.04168美元(2022.05.03)']
+
+
+------------------------------------- 61 ---------------------------------------------
+File name:  Allianz_USDMD0040.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD100,070,218\n']
+AUM lines after filter: ['月底規模USD100,070,218']
+
+
+------------------------------------- 62 ---------------------------------------------
+File name:  Allianz_USDMD0050.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 8 百萬美元   \n']
+AUM lines after filter: ['月底規模8百萬美元']
+
+
+------------------------------------- 63 ---------------------------------------------
+File name:  Allianz_USDMD0060.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD27,211,294\n']
+AUM lines after filter: ['月底規模USD27,211,294']
+
+
+------------------------------------- 64 ---------------------------------------------
+File name:  Allianz_USDMD0070.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 0.59 億美元\n']
+AUM lines after filter: ['帳戶規模0.59億美元']
+
+
+------------------------------------- 65 ---------------------------------------------
+File name:  Allianz_USDMD0080.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 (20 22/5/31 ) 美元 2.30佰萬元 \n']
+AUM lines after filter: ['規模(2022/5/31)美元2.30萬元']
+
+
+------------------------------------- 66 ---------------------------------------------
+File name:  Allianz_USDMD0090.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD35,702,820\n']
+AUM lines after filter: ['月底規模USD35,702,820']
+
+
+------------------------------------- 67 ---------------------------------------------
+File name:  Allianz_USDMD0100.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 1.68億美元\n']
+AUM lines after filter: ['帳戶規模1.68億美元']
+
+
+------------------------------------- 68 ---------------------------------------------
+File name:  Allianz_USDMD0110.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD25,120,779\n']
+AUM lines after filter: ['月底規模USD25,120,779']
+
+
+------------------------------------- 69 ---------------------------------------------
+File name:  Allianz_USDMD0120.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 11 百萬美元 \n']
+AUM lines after filter: ['月底規模11百萬美元']
+
+
+------------------------------------- 70 ---------------------------------------------
+File name:  Allianz_USDMD0130.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 6 百萬美元 \n']
+AUM lines after filter: ['月底規模6百萬美元']
+
+
+------------------------------------- 71 ---------------------------------------------
+File name:  Allianz_USDMD0140.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 72 ---------------------------------------------
+File name:  Allianz_USDMD0150.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 : 20.49百萬美元\n']
+AUM lines after filter: ['帳戶規模20.49百萬美元']
+
+
+------------------------------------- 73 ---------------------------------------------
+File name:  Allianz_USDMD0160.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 0.68 億美元\n']
+AUM lines after filter: ['帳戶規模0.68億美元']
+
+
+------------------------------------- 74 ---------------------------------------------
+File name:  Allianz_USDMD0170.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['月底規模 19.87 百萬美元 8.20\n']
+AUM lines after filter: ['月底規模19.87百萬美元8.20']
+
+
+------------------------------------- 75 ---------------------------------------------
+File name:  Allianz_USDMD0180.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 76 ---------------------------------------------
+File name:  Allianz_USDMD0190.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 0.42億美元\n']
+AUM lines after filter: ['帳戶規模0.42億美元']
+
+
+------------------------------------- 77 ---------------------------------------------
+File name:  Allianz_USDMD0200.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 78 ---------------------------------------------
+File name:  Allianz_USDMD0210.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  25.57  (百萬美元 ) \n', '規模為 6兆一致，使得市場對於聯準會鷹派政策路徑預期轉趨明朗。美\n']
+AUM lines after filter: ['帳戶規模25.57(百萬美元)', '規模6兆美']
+
+
+------------------------------------- 79 ---------------------------------------------
+File name:  Allianz_USDMD0220.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  21.5百萬美元   \n']
+AUM lines after filter: ['帳戶規模21.5百萬美元']
+
+
+------------------------------------- 80 ---------------------------------------------
+File name:  Allianz_USDMD0230.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 : 35.13 百萬美元\n']
+AUM lines after filter: ['帳戶規模35.13百萬美元']
+
+
+------------------------------------- 81 ---------------------------------------------
+File name:  Allianz_USDMD0240.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 2.20 億美元\n']
+AUM lines after filter: ['帳戶規模2.20億美元']
+
+
+------------------------------------- 82 ---------------------------------------------
+File name:  Allianz_USDMD0250.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 116 百萬美元 \n']
+AUM lines after filter: ['月底規模116百萬美元']
+
+
+------------------------------------- 83 ---------------------------------------------
+File name:  Allianz_USDMD0250P.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 3.7336 百萬美元 \n']
+AUM lines after filter: ['月底規模3.7336百萬美元']
+
+
+------------------------------------- 84 ---------------------------------------------
+File name:  Allianz_USDMD0250X.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 116 百萬美元 \n']
+AUM lines after filter: ['月底規模116百萬美元']
+
+
+------------------------------------- 85 ---------------------------------------------
+File name:  Allianz_USDMD0260.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['帳戶規模 0.28億美元\n']
+AUM lines after filter: ['帳戶規模0.28億美元']
+
+
+------------------------------------- 86 ---------------------------------------------
+File name:  Allianz_USDMD0270.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 87 ---------------------------------------------
+File name:  Allianz_USDMD0280.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 : 47.27百萬美元\n']
+AUM lines after filter: ['帳戶規模47.27百萬美元']
+
+
+------------------------------------- 88 ---------------------------------------------
+File name:  Allianz_USDMD0290.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶管理費及其他費用保管銀行上次撥回及基準日9.1美元298.47百萬美元1.85%(以資產淨值計)永豐銀行0.03206美元(2022.05.30)\n']
+AUM lines after filter: ['帳戶規模帳戶9.1美元298.47百萬美元1.85(資產)0.03206美元(2022.05.30)']
+
+
+------------------------------------- 89 ---------------------------------------------
+File name:  Allianz_USDMD0290P_1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶管理費及其他費用保管銀行上次撥回及基準日8.64美元94.77百萬美元1.35%(以資產淨值計)永豐銀行0.03045美元(2022.05.30)\n']
+AUM lines after filter: ['帳戶規模帳戶8.64美元94.77百萬美元1.35(資產)0.03045美元(2022.05.30)']
+
+
+------------------------------------- 90 ---------------------------------------------
+File name:  Allianz_USDMD0290X.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶管理費及其他費用保管銀行上次撥回及基準日9.1美元298.47百萬美元1.85%(以資產淨值計)永豐銀行0.03206美元(2022.05.30)\n']
+AUM lines after filter: ['帳戶規模帳戶9.1美元298.47百萬美元1.85(資產)0.03206美元(2022.05.30)']
+
+
+------------------------------------- 91 ---------------------------------------------
+File name:  Allianz_USDMD0300.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['帳戶規模 1.15億美元\n']
+AUM lines after filter: ['帳戶規模1.15億美元']
+
+
+------------------------------------- 92 ---------------------------------------------
+File name:  Allianz_USDMD0300X.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['帳戶規模 1.15億美元\n']
+AUM lines after filter: ['帳戶規模1.15億美元']
+
+
+------------------------------------- 93 ---------------------------------------------
+File name:  Allianz_USDMD0320.pdf
+Date of data collection: No full date found [find func called] [date not found] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 94 ---------------------------------------------
+File name:  AVIVA_FF90.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  52.09 百萬美元  \n']
+AUM lines after filter: ['帳戶規模52.09百萬美元']
+
+
+------------------------------------- 95 ---------------------------------------------
+File name:  AVIVA_FJ90.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶管理費保管銀行上次撥回及資產評價日\n']
+AUM lines after filter: ['帳戶規模帳戶資產']
+
+
+------------------------------------- 96 ---------------------------------------------
+File name:  AVIVA_FK90.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  26.78百萬美元  \n', '規模為 6兆一致，使得市場對於聯準會\n']
+AUM lines after filter: ['帳戶規模26.78百萬美元', '規模6兆']
+
+
+------------------------------------- 97 ---------------------------------------------
+File name:  AVIVA_FN90.pdf
+Date of data collection: 2022-06-07 [find func called] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 98 ---------------------------------------------
+File name:  AVIVA_FR90.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD48,168,489\n']
+AUM lines after filter: ['月底規模USD48,168,489']
+
+
+------------------------------------- 99 ---------------------------------------------
+File name:  AVIVA_FR91.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD1,083,495\n']
+AUM lines after filter: ['月底規模USD1,083,495']
+
+
+------------------------------------- 100 ---------------------------------------------
+File name:  AVIVA_FR92.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD12,013,536\n']
+AUM lines after filter: ['月底規模USD12,013,536']
+
+
+------------------------------------- 101 ---------------------------------------------
+File name:  AVIVA_FW90.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 102 ---------------------------------------------
+File name:  AVIVA_FZ90.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶資產規模：227.36百萬人民幣宏利投資管理之投資組合管理事業群(PSG)團隊運用多重基金經理人遴選平台，執行廣泛的可運用投資標的遴選，輔以團隊自行建構的計量模組，同時預測各類型資產的未來報酬率、波動率、和相關性等，並透過對下檔風險的控制，以期提供較低波動度的經風險調整後報酬，提昇對於全權委託管理之信心。第一金人壽全權委託宏利投信投資帳戶-中國人民幣效率帳戶 (全權委託帳戶之資產撥回機制來源可能為本金)\n']
+AUM lines after filter: ['帳戶資產規模227.36百萬幣資資(S)金台資模資產金資帳戶幣帳戶(帳戶資產金)']
+
+
+------------------------------------- 103 ---------------------------------------------
+File name:  AVIVA_FZ91.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶資產規模：1.123百萬美元宏利投資管理之投資組合管理事業群(PSG)團隊運用多重基金經理人遴選平台，執行廣泛的可運用投資標的遴選，輔以團隊自行建構的計量模組，同時預測各類型資產的未來報酬率、波動率、和相關性等，並透過對下檔風險的控制，以期提供較低波動度的經風險調整後報酬，提昇對於全權委託管理之信心。第一金人壽全權委託宏利投信投資帳戶-全球多重資產投資帳戶 (全權委託帳戶之資產撥回機制來源可能為本金)\n']
+AUM lines after filter: ['帳戶資產規模1.123百萬美元資資(S)金台資模資產金資帳戶資產資帳戶(帳戶資產金)']
+
+
+------------------------------------- 104 ---------------------------------------------
+File name:  BNPLife_DMA001.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 18.42 百萬美元\n']
+AUM lines after filter: ['帳戶規模18.42百萬美元']
+
+
+------------------------------------- 105 ---------------------------------------------
+File name:  BNPLife_DMA002.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 18.42 百萬美元\n']
+AUM lines after filter: ['帳戶規模18.42百萬美元']
+
+
+------------------------------------- 106 ---------------------------------------------
+File name:  BNPLife_DMA003.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['最新規模 174,102,017 美元 帳戶經理費/管理費 1.15% (年)保管機構 彰化銀行主要經理人 陳怡君\n']
+AUM lines after filter: ['新規模174,102,017美元帳戶/1.15()']
+
+
+------------------------------------- 107 ---------------------------------------------
+File name:  BNPLife_DMA004.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['最新規模 174,102,017 美元 帳戶經理費/管理費 1.15% (年)保管機構 彰化銀行主要經理人 陳怡君\n']
+AUM lines after filter: ['新規模174,102,017美元帳戶/1.15()']
+
+
+------------------------------------- 108 ---------------------------------------------
+File name:  BNPLife_DMA005.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD2,126,668\n', '規模 (5/31) 帳戶淨值 (5/31) 淨值 +累積撥回 (5/31)\n']
+AUM lines after filter: ['月底規模USD2,126,668', '規模(5/31)帳戶(5/31)(5/31)']
+
+
+------------------------------------- 109 ---------------------------------------------
+File name:  BNPLife_DMA006.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD2,126,668\n', '規模 (5/31) 帳戶淨值 (5/31) 淨值 +累積撥回 (5/31)\n']
+AUM lines after filter: ['月底規模USD2,126,668', '規模(5/31)帳戶(5/31)(5/31)']
+
+
+------------------------------------- 110 ---------------------------------------------
+File name:  BNPLife_DMA007.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: AUD8,075,910\n', '規模 (5/31) 帳戶淨值 (5/31) 淨值 +累積撥回 (5/31)\n']
+AUM lines after filter: ['月底規模AUD8,075,910', '規模(5/31)帳戶(5/31)(5/31)']
+
+
+------------------------------------- 111 ---------------------------------------------
+File name:  BNPLife_DMA008.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: AUD8,075,910\n', '規模 (5/31) 帳戶淨值 (5/31) 淨值 +累積撥回 (5/31)\n']
+AUM lines after filter: ['月底規模AUD8,075,910', '規模(5/31)帳戶(5/31)(5/31)']
+
+
+------------------------------------- 112 ---------------------------------------------
+File name:  BNPLife_DMA009.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD30,761,564\n', '規模 (5/31) 帳戶淨值 (5/31) 淨值 +累積撥回 (5/31)\n']
+AUM lines after filter: ['月底規模USD30,761,564', '規模(5/31)帳戶(5/31)(5/31)']
+
+
+------------------------------------- 113 ---------------------------------------------
+File name:  BNPLife_DMA010.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD30,761,564\n', '規模 (5/31) 帳戶淨值 (5/31) 淨值 +累積撥回 (5/31)\n']
+AUM lines after filter: ['月底規模USD30,761,564', '規模(5/31)帳戶(5/31)(5/31)']
+
+
+------------------------------------- 114 ---------------------------------------------
+File name:  BNPLife_DMA011.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD36,384,096\n', '規模 (5/31) 帳戶淨值 (5/31) 淨值 +累積撥回 (5/31)\n']
+AUM lines after filter: ['月底規模USD36,384,096', '規模(5/31)帳戶(5/31)(5/31)']
+
+
+------------------------------------- 115 ---------------------------------------------
+File name:  BNPLife_DMA012.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD36,384,096\n', '規模 (5/31) 帳戶淨值 (5/31) 淨值 +累積撥回 (5/31)\n']
+AUM lines after filter: ['月底規模USD36,384,096', '規模(5/31)帳戶(5/31)(5/31)']
+
+
+------------------------------------- 116 ---------------------------------------------
+File name:  BNPLife_DMA015.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  4.98百萬美元  \n']
+AUM lines after filter: ['帳戶規模4.98百萬美元']
+
+
+------------------------------------- 117 ---------------------------------------------
+File name:  BNPLife_DMA016.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  4.98百萬美元  \n']
+AUM lines after filter: ['帳戶規模4.98百萬美元']
+
+
+------------------------------------- 118 ---------------------------------------------
+File name:  BNPLife_DMA017.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  17.32 百萬美元  \n']
+AUM lines after filter: ['帳戶規模17.32百萬美元']
+
+
+------------------------------------- 119 ---------------------------------------------
+File name:  BNPLife_DMA018.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  17.32 百萬美元  \n']
+AUM lines after filter: ['帳戶規模17.32百萬美元']
+
+
+------------------------------------- 120 ---------------------------------------------
+File name:  BNPLife_DMA019.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 1.07百萬美金\n', '帳戶規模 1.07百萬美金\n']
+AUM lines after filter: ['帳戶規模1.07百萬美金', '帳戶規模1.07百萬美金']
+
+
+------------------------------------- 121 ---------------------------------------------
+File name:  BNPLife_DMA020.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 1.07百萬美金\n', '帳戶規模 1.07百萬美金\n']
+AUM lines after filter: ['帳戶規模1.07百萬美金', '帳戶規模1.07百萬美金']
+
+
+------------------------------------- 122 ---------------------------------------------
+File name:  BNPLife_DMA023.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  15.45 百萬美元  \n']
+AUM lines after filter: ['帳戶規模15.45百萬美元']
+
+
+------------------------------------- 123 ---------------------------------------------
+File name:  BNPLife_DMA024.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  15.45 百萬美元  \n']
+AUM lines after filter: ['帳戶規模15.45百萬美元']
+
+
+------------------------------------- 124 ---------------------------------------------
+File name:  BNPLife_DMA027.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  13.57 百萬美元  \n']
+AUM lines after filter: ['帳戶規模13.57百萬美元']
+
+
+------------------------------------- 125 ---------------------------------------------
+File name:  BNPLife_DMA028.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  13.57 百萬美元  \n']
+AUM lines after filter: ['帳戶規模13.57百萬美元']
+
+
+------------------------------------- 126 ---------------------------------------------
+File name:  BNPLife_DMA029.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: TWD1,501,034,509\n', '規模 (5/31) 帳戶淨值 (5/31) 淨值 +累積撥回 (5/31)\n']
+AUM lines after filter: ['月底規模TWD1,501,034,509', '規模(5/31)帳戶(5/31)(5/31)']
+
+
+------------------------------------- 127 ---------------------------------------------
+File name:  BNPLife_DMA030.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: TWD1,501,034,509\n', '規模 (5/31) 帳戶淨值 (5/31) 淨值 +累積撥回 (5/31)\n']
+AUM lines after filter: ['月底規模TWD1,501,034,509', '規模(5/31)帳戶(5/31)(5/31)']
+
+
+------------------------------------- 128 ---------------------------------------------
+File name:  BNPLife_DMA039.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  ：US$ 2.8 6M \n']
+AUM lines after filter: ['帳戶規模US$2.86M']
+
+
+------------------------------------- 129 ---------------------------------------------
+File name:  BNPLife_DMA040.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  ：US$ 2.8 6M \n']
+AUM lines after filter: ['帳戶規模US$2.86M']
+
+
+------------------------------------- 130 ---------------------------------------------
+File name:  BNPLife_DMA041.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 (20 22/5/31 ) 新臺幣 2.44億元  \n']
+AUM lines after filter: ['規模(2022/5/31)新臺幣2.44億元']
+
+
+------------------------------------- 131 ---------------------------------------------
+File name:  BNPLife_DMA042.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 (20 22/5/31 ) 新臺幣 2.44億元  \n']
+AUM lines after filter: ['規模(2022/5/31)新臺幣2.44億元']
+
+
+------------------------------------- 132 ---------------------------------------------
+File name:  BNPLife_DMA045.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 466,599.48美元 \n']
+AUM lines after filter: ['規模466,599.48美元']
+
+
+------------------------------------- 133 ---------------------------------------------
+File name:  BNPLife_DMA046.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 466,599.48美元 \n']
+AUM lines after filter: ['規模466,599.48美元']
+
+
+------------------------------------- 134 ---------------------------------------------
+File name:  BNPLife_DMA047.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  9.16百萬美元  \n']
+AUM lines after filter: ['帳戶規模9.16百萬美元']
+
+
+------------------------------------- 135 ---------------------------------------------
+File name:  BNPLife_DMA048.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  2.44百萬美元  \n']
+AUM lines after filter: ['帳戶規模2.44百萬美元']
+
+
+------------------------------------- 136 ---------------------------------------------
+File name:  BNPLife_DMA049.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 (20 22/5/31 ) 美元 1,141.45萬元 \n']
+AUM lines after filter: ['規模(2022/5/31)美元1,141.45萬元']
+
+
+------------------------------------- 137 ---------------------------------------------
+File name:  BNPLife_DMA050.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 (20 22/5/31 ) 美元 1,141.45萬元 \n']
+AUM lines after filter: ['規模(2022/5/31)美元1,141.45萬元']
+
+
+------------------------------------- 138 ---------------------------------------------
+File name:  BNPLife_DMA051.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 136 百萬台幣  \n']
+AUM lines after filter: ['月底規模136百萬台幣']
+
+
+------------------------------------- 139 ---------------------------------------------
+File name:  BNPLife_DMA052.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 140 ---------------------------------------------
+File name:  BNPLife_DMA053.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 141 ---------------------------------------------
+File name:  BNPLife_DMA054.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 12.75\xa0百萬美金美元\n', '帳戶規模 12.75\xa0百萬美金美元\n']
+AUM lines after filter: ['帳戶規模12.75百萬美金美元', '帳戶規模12.75百萬美金美元']
+
+
+------------------------------------- 142 ---------------------------------------------
+File name:  BNPLife_DMA055.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 12.75\xa0百萬美金美元\n', '帳戶規模 12.75\xa0百萬美金美元\n']
+AUM lines after filter: ['帳戶規模12.75百萬美金美元', '帳戶規模12.75百萬美金美元']
+
+
+------------------------------------- 143 ---------------------------------------------
+File name:  BNPLife_DMA056.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['最新規模 786,614,283 新臺幣 帳戶經理費/管理費 1.15% (年)保管機構 臺灣中小企業銀行主要經理人 陳怡君\n']
+AUM lines after filter: ['新規模786,614,283新臺幣帳戶/1.15()臺']
+
+
+------------------------------------- 144 ---------------------------------------------
+File name:  BNPLife_DMA057.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['最新規模 786,614,283 新臺幣 帳戶經理費/管理費 1.15% (年)保管機構 臺灣中小企業銀行主要經理人 陳怡君\n']
+AUM lines after filter: ['新規模786,614,283新臺幣帳戶/1.15()臺']
+
+
+------------------------------------- 145 ---------------------------------------------
+File name:  BNPLife_DMA058.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 29 百萬美元  \n']
+AUM lines after filter: ['月底規模29百萬美元']
+
+
+------------------------------------- 146 ---------------------------------------------
+File name:  BNPLife_DMA059.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 29 百萬美元  \n']
+AUM lines after filter: ['月底規模29百萬美元']
+
+
+------------------------------------- 147 ---------------------------------------------
+File name:  BNPLife_DMA060.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 USD 18.69百萬元\n']
+AUM lines after filter: ['帳戶規模USD18.69百萬元']
+
+
+------------------------------------- 148 ---------------------------------------------
+File name:  BNPLife_DMA061.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 USD 2.79百萬元\n']
+AUM lines after filter: ['帳戶規模USD2.79百萬元']
+
+
+------------------------------------- 149 ---------------------------------------------
+File name:  BNPLife_DMA064.pdf
+Date of data collection: 2022-06-07 [find func called] 
+AUM lines before filter: ['帳戶規模99.20百萬美元最新淨值8.82發行淨值10.00經理費(每年)第一年：不分級距1.15%第二年之後：淨值大於等於10.5，1.20%；淨值小於10.5、大於等於9， 1.15%；淨值小於9，1.10%。保管銀行彰化商業銀行月撥回基準日每月第1個營業日月撥回除息日月撥回基準日之次一營業日截至2022年5月31日\n']
+AUM lines after filter: ['帳戶規模99.20百萬美元新8.8210.00()1.1510.51.2010.591.1591.10月月1月月20225月31']
+
+
+------------------------------------- 150 ---------------------------------------------
+File name:  BNPLife_DMA065.pdf
+Date of data collection: 2022-06-07 [find func called] 
+AUM lines before filter: ['帳戶規模99.20百萬美元最新淨值8.82發行淨值10.00經理費(每年)第一年：不分級距1.15%第二年之後：淨值大於等於10.5，1.20%；淨值小於10.5、大於等於9， 1.15%；淨值小於9，1.10%。保管銀行彰化商業銀行月撥回基準日每月第1個營業日月撥回除息日月撥回基準日之次一營業日截至2022年5月31日\n']
+AUM lines after filter: ['帳戶規模99.20百萬美元新8.8210.00()1.1510.51.2010.591.1591.10月月1月月20225月31']
+
+
+------------------------------------- 151 ---------------------------------------------
+File name:  BNPLife_DMA066.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 152 ---------------------------------------------
+File name:  BNPLife_DMA067.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 153 ---------------------------------------------
+File name:  BNPLife_DMA068.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶管理費保管銀行上次撥回及基準日8.90美元367.97百萬美元1.35%(以資產淨值計)永豐銀行0.03779美元(2022.05.31)\n']
+AUM lines after filter: ['帳戶規模帳戶8.90美元367.97百萬美元1.35(資產)0.03779美元(2022.05.31)']
+
+
+------------------------------------- 154 ---------------------------------------------
+File name:  BNPLife_DMA069.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶管理費保管銀行上次撥回及基準日8.90美元367.97百萬美元1.35%(以資產淨值計)永豐銀行0.03779美元(2022.05.31)\n']
+AUM lines after filter: ['帳戶規模帳戶8.90美元367.97百萬美元1.35(資產)0.03779美元(2022.05.31)']
+
+
+------------------------------------- 155 ---------------------------------------------
+File name:  BNPLife_DMA070.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 USD 252.76百萬元*淨值報酬率 =(期末單位淨值 -期初單位淨值 )/期初單位淨值 x 100%\n']
+AUM lines after filter: ['帳戶規模USD252.76百萬元()/100']
+
+
+------------------------------------- 156 ---------------------------------------------
+File name:  BNPLife_DMA071.pdf
+Date of data collection: No full date found [find func called] [date not found] 
+AUM lines before filter: ['帳戶規模 :  814,983,302.74  美元\n']
+AUM lines after filter: ['帳戶規模814,983,302.74美元']
+
+
+------------------------------------- 157 ---------------------------------------------
+File name:  BNPLife_DMA072.pdf
+Date of data collection: No full date found [find func called] [date not found] 
+AUM lines before filter: ['帳戶規模 :  814,983,302.74  美元\n']
+AUM lines after filter: ['帳戶規模814,983,302.74美元']
+
+
+------------------------------------- 158 ---------------------------------------------
+File name:  BNPLife_DMA073.pdf
+Date of data collection: 2022-06-13 [find func called] 
+AUM lines before filter: ['帳戶規模  23.11百萬美元  \n']
+AUM lines after filter: ['帳戶規模23.11百萬美元']
+
+
+------------------------------------- 159 ---------------------------------------------
+File name:  BNPLife_DMA074.pdf
+Date of data collection: 2022-06-13 [find func called] 
+AUM lines before filter: ['帳戶規模  23.11百萬美元  \n']
+AUM lines after filter: ['帳戶規模23.11百萬美元']
+
+
+------------------------------------- 160 ---------------------------------------------
+File name:  BNPLife_DMA075.pdf
+Date of data collection: 2022-05-31 [find func called] 
+AUM lines before filter: ['帳戶規模86.83百萬美元最新淨值8.93發行淨值10.00經理費(每年)1.70%保管銀行元大商業銀行月撥回基準日\n']
+AUM lines after filter: ['帳戶規模86.83百萬美元新8.9310.00()1.70元月']
+
+
+------------------------------------- 161 ---------------------------------------------
+File name:  BNPLife_DMA076.pdf
+Date of data collection: 2022-05-31 [find func called] 
+AUM lines before filter: ['帳戶規模86.83百萬美元最新淨值8.93發行淨值10.00經理費(每年)1.70%保管銀行元大商業銀行月撥回基準日\n']
+AUM lines after filter: ['帳戶規模86.83百萬美元新8.9310.00()1.70元月']
+
+
+------------------------------------- 162 ---------------------------------------------
+File name:  BNPLife_DMA077.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 163 ---------------------------------------------
+File name:  BNPLife_DMA078.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 164 ---------------------------------------------
+File name:  BNPLife_DMA079.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 165 ---------------------------------------------
+File name:  BNPLife_DMA080.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 (20 22/5/31) 新臺幣 10. 21億元 \n']
+AUM lines after filter: ['規模(2022/5/31)新臺幣10.21億元']
+
+
+------------------------------------- 166 ---------------------------------------------
+File name:  BNPLife_DMA081.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 (20 22/5/31) 新臺幣 10. 21億元 \n']
+AUM lines after filter: ['規模(2022/5/31)新臺幣10.21億元']
+
+
+------------------------------------- 167 ---------------------------------------------
+File name:  BNPLife_DMA082.pdf
+Date of data collection: No full date found [find func called] [date not found] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 168 ---------------------------------------------
+File name:  BNPLife_DMA083.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 169 ---------------------------------------------
+File name:  BNPLife_DMA084.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 170 ---------------------------------------------
+File name:  BNPLife_DMA085.pdf
+Date of data collection: 2022-05-31 [find func called] 
+AUM lines before filter: ['帳戶規模105.92百萬美元最新淨值8.40發行淨值10.00經理費(每年)淨值>9=>1.70%淨值≤9=>1.65%保管銀行台新國際商業銀行月撥回基準日\n']
+AUM lines after filter: ['帳戶規模105.92百萬美元新8.4010.00()91.7091.65台新月']
+
+
+------------------------------------- 171 ---------------------------------------------
+File name:  BNPLife_DMA086.pdf
+Date of data collection: 2022-05-31 [find func called] 
+AUM lines before filter: ['帳戶規模105.92百萬美元最新淨值8.40發行淨值10.00經理費(每年)淨值>9=>1.70%淨值≤9=>1.65%保管銀行台新國際商業銀行月撥回基準日\n']
+AUM lines after filter: ['帳戶規模105.92百萬美元新8.4010.00()91.7091.65台新月']
+
+
+------------------------------------- 172 ---------------------------------------------
+File name:  BNPLife_DMA087.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 151 百萬美元\n']
+AUM lines after filter: ['月底規模151百萬美元']
+
+
+------------------------------------- 173 ---------------------------------------------
+File name:  BNPLife_DMA088.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 151 百萬美元\n']
+AUM lines after filter: ['月底規模151百萬美元']
+
+
+------------------------------------- 174 ---------------------------------------------
+File name:  BNPLife_DMA091.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 USD 264 .29萬\n']
+AUM lines after filter: ['帳戶規模USD264.29萬']
+
+
+------------------------------------- 175 ---------------------------------------------
+File name:  BNPLife_DMA092.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 58.81百萬美金\n']
+AUM lines after filter: ['規模58.81百萬美金']
+
+
+------------------------------------- 176 ---------------------------------------------
+File name:  BNPLife_DMA093.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 58.81百萬美金\n']
+AUM lines after filter: ['規模58.81百萬美金']
+
+
+------------------------------------- 177 ---------------------------------------------
+File name:  BNPLife_DMA094.pdf
+Date of data collection: No full date found [find func called] [date not found] 
+AUM lines before filter: ['帳戶規模 : 85,106,726.94 美元\n']
+AUM lines after filter: ['帳戶規模85,106,726.94美元']
+
+
+------------------------------------- 178 ---------------------------------------------
+File name:  BNPLife_DMA095.pdf
+Date of data collection: No full date found [find func called] [date not found] 
+AUM lines before filter: ['帳戶規模 : 85,106,726.94 美元\n']
+AUM lines after filter: ['帳戶規模85,106,726.94美元']
+
+
+------------------------------------- 179 ---------------------------------------------
+File name:  BNPLife_DMA096.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 180 ---------------------------------------------
+File name:  BNPLife_DMA097.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 181 ---------------------------------------------
+File name:  BNPLife_DMA098.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模128.70百萬美元投資帳戶經理人學經歷 陳雅真經理(管理)費 每年0.10% 每年1.70%保管費保管銀行華南銀行風險等級RR3經歷：施羅德投信專戶管理部投資經理人(2015.12.21~迄今)           合庫投信基金及全委經理人(2013.5~2015.12)           復華投信協理/基金經理人(2006.03~2013.04) 學歷：英國伯明罕大學國際經濟管理碩士最近兩年受證券投資信託及顧問法、期貨交易法或證券交易法規定之處分情形: 無 經理公司最近一年因業務發生訴訟或非訴訟事件之說明 ： 無\n']
+AUM lines after filter: ['帳戶規模128.70百萬美元資帳戶()0.101.703戶資(2015.12.21)金(2013.52015.12)/金(2006.032013.04)資規']
+
+
+------------------------------------- 182 ---------------------------------------------
+File name:  BNPLife_DMA099.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模128.70百萬美元投資帳戶經理人學經歷 陳雅真經理(管理)費 每年0.10% 每年1.70%保管費保管銀行華南銀行風險等級RR3經歷：施羅德投信專戶管理部投資經理人(2015.12.21~迄今)           合庫投信基金及全委經理人(2013.5~2015.12)           復華投信協理/基金經理人(2006.03~2013.04) 學歷：英國伯明罕大學國際經濟管理碩士最近兩年受證券投資信託及顧問法、期貨交易法或證券交易法規定之處分情形: 無 經理公司最近一年因業務發生訴訟或非訴訟事件之說明 ： 無\n']
+AUM lines after filter: ['帳戶規模128.70百萬美元資帳戶()0.101.703戶資(2015.12.21)金(2013.52015.12)/金(2006.032013.04)資規']
+
+
+------------------------------------- 183 ---------------------------------------------
+File name:  CathayLife_ABA011.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 153 百萬澳幣 帳戶經理費/管理費 1.20% (年)保管機構 國泰世華銀行主要經理人 陳煒勲\n']
+AUM lines after filter: ['帳戶規模153百萬澳幣帳戶/1.20()']
+
+
+------------------------------------- 184 ---------------------------------------------
+File name:  CathayLife_ABA015.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 153 百萬澳幣 帳戶經理費/管理費 1.20% (年)保管機構 國泰世華銀行主要經理人 陳煒勲\n']
+AUM lines after filter: ['帳戶規模153百萬澳幣帳戶/1.20()']
+
+
+------------------------------------- 185 ---------------------------------------------
+File name:  CathayLife_ABU028.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 188 百萬美元 帳戶經理費/管理費 1.2% (年)保管機構 國泰世華銀行主要經理人 陳煒勲\n']
+AUM lines after filter: ['帳戶規模188百萬美元帳戶/1.2()']
+
+
+------------------------------------- 186 ---------------------------------------------
+File name:  CathayLife_ABU036.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 448 百萬美元 帳戶經理費/管理費 1.2% (年)保管機構 國泰世華銀行主要經理人 陳煒勲\n']
+AUM lines after filter: ['帳戶規模448百萬美元帳戶/1.2()']
+
+
+------------------------------------- 187 ---------------------------------------------
+File name:  CathayLife_ABU037.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 448 百萬美元 帳戶經理費/管理費 1.2% (年)保管機構 國泰世華銀行主要經理人 陳煒勲\n']
+AUM lines after filter: ['帳戶規模448百萬美元帳戶/1.2()']
+
+
+------------------------------------- 188 ---------------------------------------------
+File name:  CathayLife_ABU038.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 38.54 億美元 帳戶經理費/管理費 1.70% (年)保管機構 國泰世華銀行主要經理人 陳煒勲\n']
+AUM lines after filter: ['帳戶規模38.54億美元帳戶/1.70()']
+
+
+------------------------------------- 189 ---------------------------------------------
+File name:  CathayLife_ABU041.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 38.54 億美元 帳戶經理費/管理費 1.70% (年)保管機構 國泰世華銀行主要經理人 陳煒勲\n']
+AUM lines after filter: ['帳戶規模38.54億美元帳戶/1.70()']
+
+
+------------------------------------- 190 ---------------------------------------------
+File name:  CathayLife_ABU046.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模\n', '帳戶規模為樂活聯年平衡型 (現金撥回)、 樂活聯年平衡型(現金撥回POWER)與樂活聯年平衡型(現金及單位撥回POWER)加總計算 。*流動性資產係指依合約規定之非風險性資產 ， 如現金 、 貨幣型ETFs及流動型基金/ETFs(即以三年及以下短天期債券為主要投資標的之基金/ETFs)。比重將隨時間變動 。 因小數點進位 ， 故加總後可能非100% 。投 資 組合及投資地區分類依據 ： Lipper環球與聯博 。\n']
+AUM lines after filter: ['帳戶規模', '帳戶規模(金)(金W)(金W)資產規資產金幣Ts金/Ts(資金/Ts)100資資i']
+
+
+------------------------------------- 191 ---------------------------------------------
+File name:  CathayLife_ABU051.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 110 百萬美元帳戶經理費/管理費 1.70% (年)保管機構 國泰世華銀行主要經理人 陳煒勲\n']
+AUM lines after filter: ['帳戶規模110百萬美元帳戶/1.70()']
+
+
+------------------------------------- 192 ---------------------------------------------
+File name:  CathayLife_ABU052.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 110 百萬美元帳戶經理費/管理費 1.70% (年)保管機構 國泰世華銀行主要經理人 陳煒勲\n']
+AUM lines after filter: ['帳戶規模110百萬美元帳戶/1.70()']
+
+
+------------------------------------- 193 ---------------------------------------------
+File name:  CathayLife_ABU055.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模\n', '帳戶規模為樂活聯年平衡型 (現金撥回)、 樂活聯年平衡型(現金撥回POWER)與樂活聯年平衡型(現金及單位撥回POWER)加總計算 。*流動性資產係指依合約規定之非風險性資產 ， 如現金 、 貨幣型ETFs及流動型基金/ETFs(即以三年及以下短天期債券為主要投資標的之基金/ETFs)。比重將隨時間變動 。 因小數點進位 ， 故加總後可能非100% 。投 資 組合及投資地區分類依據 ： Lipper環球與聯博 。環球股票型ETF美元債券型美國股票型歐洲/歐元區股票型環球美元對沖債券型環球非投資等級債券型環球債券型日本股票型流動性資產*投資組合分佈投資地區分佈\n']
+AUM lines after filter: ['帳戶規模', '帳戶規模(金)(金W)(金W)資產規資產金幣Ts金/Ts(資金/Ts)100資資iT美元美/元美元資資產資資']
+
+
+------------------------------------- 194 ---------------------------------------------
+File name:  CathayLife_ABU057.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模\n', '帳戶規模為樂活聯年平衡型 (現金撥回)、 樂活聯年平衡型(現金撥回POWER)與樂活聯年平衡型(現金及單位撥回POWER)加總計算 。*流動性資產係指依合約規定之非風險性資產 ， 如現金 、 貨幣型ETFs及流動型基金/ETFs(即以三年及以下短天期債券為主要投資標的之基金/ETFs)。比重將隨時間變動 。 因小數點進位 ， 故加總後可能非100% 。投 資 組合及投資地區分類依據 ： Lipper環球與聯博 。環球股票型ETF美元債券型美國股票型歐洲/歐元區股票型環球美元對沖債券型環球非投資等級債券型環球債券型日本股票型流動性資產*投資組合分佈投資地區分佈\n']
+AUM lines after filter: ['帳戶規模', '帳戶規模(金)(金W)(金W)資產規資產金幣Ts金/Ts(資金/Ts)100資資iT美元美/元美元資資產資資']
+
+
+------------------------------------- 195 ---------------------------------------------
+File name:  CathayLife_ABU058.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模^ 110 百萬美元帳戶經理費/管理費 1.70% (年)保管機構 國泰世華銀行主要經理人 陳煒勲1. 雙重防護策略：投組與市場波動雙重偵測，掌機會、添防備。2. 股債靈活配置：依據多元信號決定最適股票比重，股債配置彈性大。3. 資金靈活運用：每月除階梯撥回機制外，還有機會參與額外撥回。\n']
+AUM lines after filter: ['帳戶規模110百萬美元帳戶/1.70()1.2.元3.資金月']
+
+
+------------------------------------- 196 ---------------------------------------------
+File name:  CathayLife_ACA001.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 51.70 百萬澳幣\n']
+AUM lines after filter: ['規模51.70百萬澳幣']
+
+
+------------------------------------- 197 ---------------------------------------------
+File name:  CathayLife_ACA002.pdf
+Date of data collection: No full date found [find func called] [date not found] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 198 ---------------------------------------------
+File name:  CathayLife_ACA002_1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 51.70 百萬澳幣\n']
+AUM lines after filter: ['規模51.70百萬澳幣']
+
+
+------------------------------------- 199 ---------------------------------------------
+File name:  CathayLife_ACT041.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 8,639.42百萬台幣\n']
+AUM lines after filter: ['規模8,639.42百萬台幣']
+
+
+------------------------------------- 200 ---------------------------------------------
+File name:  CathayLife_ACT042.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 8,639.42百萬台幣\n']
+AUM lines after filter: ['規模8,639.42百萬台幣']
+
+
+------------------------------------- 201 ---------------------------------------------
+File name:  CathayLife_ACU001.pdf
+Date of data collection: No full date found [find func called] [date not found] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 202 ---------------------------------------------
+File name:  CathayLife_ACU002.pdf
+Date of data collection: No full date found [find func called] [date not found] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 203 ---------------------------------------------
+File name:  CathayLife_ACU003.pdf
+Date of data collection: No full date found [find func called] [date not found] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 204 ---------------------------------------------
+File name:  CathayLife_ACU004.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 304.41 百萬美元\n']
+AUM lines after filter: ['規模304.41百萬美元']
+
+
+------------------------------------- 205 ---------------------------------------------
+File name:  CathayLife_ACU005.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 304.41 百萬美元\n']
+AUM lines after filter: ['規模304.41百萬美元']
+
+
+------------------------------------- 206 ---------------------------------------------
+File name:  CathayLife_ACU006.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 207 ---------------------------------------------
+File name:  CathayLife_ACU007.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 208 ---------------------------------------------
+File name:  CathayLife_ACU008.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模為智能靈活(現金撥回)、智能靈活(現金撥回POWER)與智能\n', '規模 818.30百萬美元\n']
+AUM lines after filter: ['帳戶規模(金)(金W)', '規模818.30百萬美元']
+
+
+------------------------------------- 209 ---------------------------------------------
+File name:  CathayLife_ACU009.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 210 ---------------------------------------------
+File name:  CathayLife_ACU010.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 123.38 百萬美元\n']
+AUM lines after filter: ['規模123.38百萬美元']
+
+
+------------------------------------- 211 ---------------------------------------------
+File name:  CathayLife_ACU011.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 123.38 百萬美元\n']
+AUM lines after filter: ['規模123.38百萬美元']
+
+
+------------------------------------- 212 ---------------------------------------------
+File name:  CathayLife_ACU012.pdf
+Date of data collection: 2022-04-29 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 213 ---------------------------------------------
+File name:  CathayLife_ACU012_1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 214 ---------------------------------------------
+File name:  CathayLife_ACU013.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 2.38佰萬美元\n']
+AUM lines after filter: ['規模2.38萬美元']
+
+
+------------------------------------- 215 ---------------------------------------------
+File name:  CathayLife_ACU014.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 4.33百萬美元\n']
+AUM lines after filter: ['規模4.33百萬美元']
+
+
+------------------------------------- 216 ---------------------------------------------
+File name:  CathayLife_ACU015.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 818.30百萬美元\n', '帳戶規模為智能靈活(現金撥回)、智能靈活(現金撥回POWER)與智能\n']
+AUM lines after filter: ['規模818.30百萬美元', '帳戶規模(金)(金W)']
+
+
+------------------------------------- 217 ---------------------------------------------
+File name:  CathayLife_ACU016.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 231.87百萬美元經理人 顏鴻倫\n']
+AUM lines after filter: ['規模231.87百萬美元']
+
+
+------------------------------------- 218 ---------------------------------------------
+File name:  CathayLife_ACU017.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模為智能靈活(現金撥回)、智能靈活(現金撥回POWER)與智能\n', '規模 818.30百萬美元\n']
+AUM lines after filter: ['帳戶規模(金)(金W)', '規模818.30百萬美元']
+
+
+------------------------------------- 219 ---------------------------------------------
+File name:  CathayLife_ACU018.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 123.38 百萬美元\n']
+AUM lines after filter: ['規模123.38百萬美元']
+
+
+------------------------------------- 220 ---------------------------------------------
+File name:  CathayLife_AFU042.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  47.79 百萬美元  \n']
+AUM lines after filter: ['帳戶規模47.79百萬美元']
+
+
+------------------------------------- 221 ---------------------------------------------
+File name:  CathayLife_AFU043.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  47.79 百萬美元  \n']
+AUM lines after filter: ['帳戶規模47.79百萬美元']
+
+
+------------------------------------- 222 ---------------------------------------------
+File name:  CathayLife_AIU001.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 222.97 百萬美元\n']
+AUM lines after filter: ['規模222.97百萬美元']
+
+
+------------------------------------- 223 ---------------------------------------------
+File name:  CathayLife_AIU002.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 222.97 百萬美元\n']
+AUM lines after filter: ['規模222.97百萬美元']
+
+
+------------------------------------- 224 ---------------------------------------------
+File name:  CathayLife_AMA006.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶經理費保管銀行上次撥回及基準日\n']
+AUM lines after filter: ['帳戶規模帳戶']
+
+
+------------------------------------- 225 ---------------------------------------------
+File name:  CathayLife_AMA007.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶經理費保管銀行上次撥回及基準日\n']
+AUM lines after filter: ['帳戶規模帳戶']
+
+
+------------------------------------- 226 ---------------------------------------------
+File name:  CathayLife_AMU047.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶經理費保管銀行上次撥回及基準日\n']
+AUM lines after filter: ['帳戶規模帳戶']
+
+
+------------------------------------- 227 ---------------------------------------------
+File name:  CathayLife_AMU048.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶經理費保管銀行上次撥回及基準日\n']
+AUM lines after filter: ['帳戶規模帳戶']
+
+
+------------------------------------- 228 ---------------------------------------------
+File name:  CathayLife_AMU051.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶經理費保管銀行上次撥回及基準日\n']
+AUM lines after filter: ['帳戶規模帳戶']
+
+
+------------------------------------- 229 ---------------------------------------------
+File name:  CathayLife_AMU054.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶經理費保管銀行上次撥回及基準日\n']
+AUM lines after filter: ['帳戶規模帳戶']
+
+
+------------------------------------- 230 ---------------------------------------------
+File name:  CathayLife_AMU057.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶經理費保管銀行上次撥回及基準日\n']
+AUM lines after filter: ['帳戶規模帳戶']
+
+
+------------------------------------- 231 ---------------------------------------------
+File name:  CathayLife_AMU059.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶經理費保管銀行上次撥回及基準日\n']
+AUM lines after filter: ['帳戶規模帳戶']
+
+
+------------------------------------- 232 ---------------------------------------------
+File name:  CathayLife_AMU060.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶經理費保管銀行上次撥回及基準日\n']
+AUM lines after filter: ['帳戶規模帳戶']
+
+
+------------------------------------- 233 ---------------------------------------------
+File name:  CathayLife_AMU061.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶經理費保管銀行上次撥回及基準日อጳ̹ఙවՎ̋ࣅɽٰୃ˚ٰ͉ୃอጳ̹ఙٰୃԭ˄ٰୃڢҳ༟ഃॴවՎᆄݲٰୃִ݁වՎ0.501.502.813.274.926.588.6610.99ݴਗ\u05cc༟ପ8.72\n']
+AUM lines after filter: ['帳戶規模帳戶0.501.502.813.274.926.588.6610.998.72']
+
+
+------------------------------------- 234 ---------------------------------------------
+File name:  CathayLife_AMU062.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶經理費保管銀行上次撥回及基準日อጳ̹ఙවՎ̋ࣅɽٰୃ˚ٰ͉ୃอጳ̹ఙٰୃԭ˄ٰୃڢҳ༟ഃॴවՎᆄݲٰୃִ݁වՎ0.501.502.813.274.926.588.6610.99ݴਗ\u05cc༟ପ8.72\n']
+AUM lines after filter: ['帳戶規模帳戶0.501.502.813.274.926.588.6610.998.72']
+
+
+------------------------------------- 235 ---------------------------------------------
+File name:  CathayLife_AMU068.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶經理費保管銀行上次撥回及基準日\n']
+AUM lines after filter: ['帳戶規模帳戶']
+
+
+------------------------------------- 236 ---------------------------------------------
+File name:  CathayLife_AWU017.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 18.92百萬美元  \n']
+AUM lines after filter: ['月底規模18.92百萬美元']
+
+
+------------------------------------- 237 ---------------------------------------------
+File name:  CathayLife_AWU018.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 18.92百萬美元  \n']
+AUM lines after filter: ['月底規模18.92百萬美元']
+
+
+------------------------------------- 238 ---------------------------------------------
+File name:  CathayLife_AWU021.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 1,279 百萬美元\n']
+AUM lines after filter: ['月底規模1,279百萬美元']
+
+
+------------------------------------- 239 ---------------------------------------------
+File name:  CathayLife_AWU022.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 1,279 百萬美元\n']
+AUM lines after filter: ['月底規模1,279百萬美元']
+
+
+------------------------------------- 240 ---------------------------------------------
+File name:  CathayLife_BRU034.pdf
+Date of data collection: 2021-11-30 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['帳戶規模 : 16,949,176.62 美元\n']
+AUM lines after filter: ['帳戶規模16,949,176.62美元']
+
+
+------------------------------------- 241 ---------------------------------------------
+File name:  CathayLife_BRU061.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 : 5,257,520.19 美元\n']
+AUM lines after filter: ['帳戶規模5,257,520.19美元']
+
+
+------------------------------------- 242 ---------------------------------------------
+File name:  CathayLife_BRU066.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 : 3,782,894.91 美元\n']
+AUM lines after filter: ['帳戶規模3,782,894.91美元']
+
+
+------------------------------------- 243 ---------------------------------------------
+File name:  CathayLife_BRU067.pdf
+Date of data collection: 2021-02-01 [find func called] 
+AUM lines before filter: ['帳戶規模 :  2,686,551.85 美元\n']
+AUM lines after filter: ['帳戶規模2,686,551.85美元']
+
+
+------------------------------------- 244 ---------------------------------------------
+File name:  CathayLife_BSA007.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模20.67百萬澳幣投資經理人莊志祥經理(管理)費每年1.20% 保管銀行國泰世華商業銀行\n']
+AUM lines after filter: ['帳戶規模20.67百萬澳幣資()1.20']
+
+
+------------------------------------- 245 ---------------------------------------------
+File name:  CathayLife_BSA008.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模20.67百萬澳幣投資經理人莊志祥經理(管理)費每年1.20% 保管銀行國泰世華商業銀行\n']
+AUM lines after filter: ['帳戶規模20.67百萬澳幣資()1.20']
+
+
+------------------------------------- 246 ---------------------------------------------
+File name:  CathayLife_BSU029.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模716.19百萬美元投資經理人莊志祥經理(管理)費每年1.20%保管銀行國泰世華商業銀行\n']
+AUM lines after filter: ['帳戶規模716.19百萬美元資()1.20']
+
+
+------------------------------------- 247 ---------------------------------------------
+File name:  CathayLife_BSU035.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模*10.69百萬美元投資經理人莊志祥經理(管理)費每年1.20%保管銀行國泰世華商業銀行\n', '帳戶規模為強積金成長累積型與強積金成 長型(現金撥回)加總2022/05/31\n']
+AUM lines after filter: ['帳戶規模10.69百萬美元資()1.20', '帳戶規模金金(金)2022/05/31']
+
+
+------------------------------------- 248 ---------------------------------------------
+File name:  CathayLife_BSU036.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模716.19百萬美元投資經理人莊志祥經理(管理)費每年1.20%保管銀行國泰世華商業銀行\n']
+AUM lines after filter: ['帳戶規模716.19百萬美元資()1.20']
+
+
+------------------------------------- 249 ---------------------------------------------
+File name:  CathayLife_BSU039.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模733.39百萬美元投資經理人莊志祥經理(管理)費每年1.70%保管銀行國泰世華商業銀行\n']
+AUM lines after filter: ['帳戶規模733.39百萬美元資()1.70']
+
+
+------------------------------------- 250 ---------------------------------------------
+File name:  CathayLife_BSU040.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模733.39百萬美元投資經理人莊志祥經理(管理)費每年1.70%保管銀行國泰世華商業銀行\n']
+AUM lines after filter: ['帳戶規模733.39百萬美元資()1.70']
+
+
+------------------------------------- 251 ---------------------------------------------
+File name:  CathayLife_BSU045.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模*315.10百萬美元投資經理人莊志祥經理(管理)費每年1.70%保管銀行國泰世華商業銀行\n', '帳戶規模為進階智慧平衡(現金撥回) 、 進階 智慧平衡(現金撥回\n']
+AUM lines after filter: ['帳戶規模315.10百萬美元資()1.70', '帳戶規模(金)(金']
+
+
+------------------------------------- 252 ---------------------------------------------
+File name:  CathayLife_BSU047_1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模16.79百萬美元投資經理人莊志祥經理(管理)費每年1.70% 保管銀行國泰世華商業銀行\n']
+AUM lines after filter: ['帳戶規模16.79百萬美元資()1.70']
+
+
+------------------------------------- 253 ---------------------------------------------
+File name:  CathayLife_BSU048.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模16.79百萬美元投資經理人莊志祥經理(管理)費每年1.70% 保管銀行國泰世華商業銀行\n']
+AUM lines after filter: ['帳戶規模16.79百萬美元資()1.70']
+
+
+------------------------------------- 254 ---------------------------------------------
+File name:  CathayLife_BSU055.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模**315.10百萬美元投資經理人莊志祥經理(管理)費每年1.20%保管銀行國泰世華商業銀行\n', '帳戶規模為進階智慧平衡(現金撥回) 、 進階智慧平衡(現金撥 回\n']
+AUM lines after filter: ['帳戶規模315.10百萬美元資()1.20', '帳戶規模(金)(金']
+
+
+------------------------------------- 255 ---------------------------------------------
+File name:  CathayLife_BSU057.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模為進階智慧平衡(現金撥回) 、 進階智慧平衡(現金撥 回\n', '帳戶規模**315.10百萬美元投資經理人莊志祥經理(管理)費每年1.20%保管銀行國泰世華商業銀行\n']
+AUM lines after filter: ['帳戶規模(金)(金', '帳戶規模315.10百萬美元資()1.20']
+
+
+------------------------------------- 256 ---------------------------------------------
+File name:  CathayLife_BSU058.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模*10.69百萬美元投資經理人莊志祥經理(管理)費每年1.20%保管銀行國泰世華商業銀行\n', '帳戶規模為強積金成長累積型與強積金成長型(現金撥回)加總2022/05/31\n']
+AUM lines after filter: ['帳戶規模10.69百萬美元資()1.20', '帳戶規模金金(金)2022/05/31']
+
+
+------------------------------------- 257 ---------------------------------------------
+File name:  Chinalife_TF2C.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 85.91百萬美元\n']
+AUM lines after filter: ['規模85.91百萬美元']
+
+
+------------------------------------- 258 ---------------------------------------------
+File name:  Chinalife_TF2W.pdf
+Date of data collection: 2021-02-01 [find func called] 
+AUM lines before filter: ['帳戶規模57.68百萬美元最新淨值10.03發行淨值10.00經理費(每年)1.70%(淨值≥9)1.65%(淨值<9)保管銀行彰化商業銀行月撥回基準日每月第9日(營業日)截至2022年5月31日\n']
+AUM lines after filter: ['帳戶規模57.68百萬美元新10.0310.00()1.70(9)1.65(9)月月9()20225月31']
+
+
+------------------------------------- 259 ---------------------------------------------
+File name:  Chinalife_TFFB.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD7,411,027\n']
+AUM lines after filter: ['月底規模USD7,411,027']
+
+
+------------------------------------- 260 ---------------------------------------------
+File name:  Chinalife_TFFD.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 : 37.96 百萬美元\n']
+AUM lines after filter: ['帳戶規模37.96百萬美元']
+
+
+------------------------------------- 261 ---------------------------------------------
+File name:  Chinalife_TFPI.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD989,564\n']
+AUM lines after filter: ['月底規模USD989,564']
+
+
+------------------------------------- 262 ---------------------------------------------
+File name:  Chinalife_TFPK.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模(2022/5/31) 人民幣 0.91百萬元 \n']
+AUM lines after filter: ['帳戶規模(2022/5/31)幣0.91百萬元']
+
+
+------------------------------------- 263 ---------------------------------------------
+File name:  Chinalife_TFSJ.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 : 300.48百萬美元\n']
+AUM lines after filter: ['帳戶規模300.48百萬美元']
+
+
+------------------------------------- 264 ---------------------------------------------
+File name:  Chinalife_TFSO.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 : 591.25百萬美元\n']
+AUM lines after filter: ['帳戶規模591.25百萬美元']
+
+
+------------------------------------- 265 ---------------------------------------------
+File name:  Chinalife_TFSP.pdf
+Date of data collection: 2022-05-31 [find func called] 
+AUM lines before filter: ['帳戶規模78.94百萬美元最新淨值8.17發行淨值10.00經理費(每年)1.70%保管銀行花旗(台灣)銀行月撥回基準日每月第9日(營業日)季撥回基準日\n']
+AUM lines after filter: ['帳戶規模78.94百萬美元新8.1710.00()1.70(台)月月9()']
+
+
+------------------------------------- 266 ---------------------------------------------
+File name:  Chinalife_TFVS.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  33.39百萬美元  \n']
+AUM lines after filter: ['帳戶規模33.39百萬美元']
+
+
+------------------------------------- 267 ---------------------------------------------
+File name:  Chinalife_TFWB.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 268 ---------------------------------------------
+File name:  Chinalife_TFWC.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 85.91百萬美元\n']
+AUM lines after filter: ['規模85.91百萬美元']
+
+
+------------------------------------- 269 ---------------------------------------------
+File name:  Chinalife_TFWI.pdf
+Date of data collection: 2022-05-31 [find func called] 
+AUM lines before filter: ['帳戶規模57.68百萬美元最新淨值10.03發行淨值10.00經理費(每年)1.70%(淨值≥9)1.65%(淨值<9)保管銀行彰化商業銀行月撥回基準日每月第9日(營業日)截至2022年5月31日\n']
+AUM lines after filter: ['帳戶規模57.68百萬美元新10.0310.00()1.70(9)1.65(9)月月9()20225月31']
+
+
+------------------------------------- 270 ---------------------------------------------
+File name:  Chinalife_TFWP.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 USD 112.44百萬元\n']
+AUM lines after filter: ['帳戶規模USD112.44百萬元']
+
+
+------------------------------------- 271 ---------------------------------------------
+File name:  Chinalife_TFWQ.pdf
+Date of data collection: No full date found [find func called] [date not found] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 272 ---------------------------------------------
+File name:  CNTrustLife_A001.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 14.12百萬美元投資經理人 陳雅真經理(管理)費/保管費每年1.17% / 每年0.03%保管銀行 中國信託商業銀行\n']
+AUM lines after filter: ['帳戶規模14.12百萬美元資()/1.17/0.03']
+
+
+------------------------------------- 273 ---------------------------------------------
+File name:  CNTrustLife_A003.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['最新帳戶規模 0.23億元\n']
+AUM lines after filter: ['新帳戶規模0.23億元']
+
+
+------------------------------------- 274 ---------------------------------------------
+File name:  CNTrustLife_A004.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶資產規模：新台幣 18.19 億元\n']
+AUM lines after filter: ['帳戶資產規模新台幣18.19億元']
+
+
+------------------------------------- 275 ---------------------------------------------
+File name:  CNTrustLife_A005.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶資產規模：新台幣 1.75億元\n']
+AUM lines after filter: ['帳戶資產規模新台幣1.75億元']
+
+
+------------------------------------- 276 ---------------------------------------------
+File name:  CNTrustLife_A006.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶資產規模：9.16百萬美元保管銀行：中國信託商業銀行本帳戶為資產配置型投資組合，積極型投資組合投資於一籃子基金中，並依據經濟景氣變化動態調整投資組合當中風險性資產與非風險性資產的比重。 本帳戶 操作特色為兼顧風險控管與追求資本成長性， 依據此 一前提，穩健提昇客戶對於全權委託管理資產投資型保險商品之信心。台灣人壽委託宏利投信-精選積極型投資組合帳戶(一) (全權委託帳戶之資產撥回機制來源可能為本金)\n']
+AUM lines after filter: ['帳戶資產規模9.16百萬美元帳戶資產資資資金資資產資產帳戶資戶資產資台資帳戶()(帳戶資產金)']
+
+
+------------------------------------- 277 ---------------------------------------------
+File name:  CNTrustLife_A007.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶資產規模：4.72百萬美元保管銀行：中國信託商業銀行本帳戶為資產配置型投資組合，成長型投資組合投資於一籃子基金中，並依據經濟景氣變化動態調整投資組合當中風險性資產與非風險性資產的比重 。 本帳戶操作特色為兼顧風險控管與追求資本成長性，依據此一前提，穩健提昇客戶對於全權委託管理資產投資型保險商品之信心。台灣人壽委託宏利投信-精選成長型投資組合帳戶(一) (全權委託帳戶之資產撥回機制來源可能為本金)\n']
+AUM lines after filter: ['帳戶資產規模4.72百萬美元帳戶資產資資資金資資產資產帳戶資戶資產資台資帳戶()(帳戶資產金)']
+
+
+------------------------------------- 278 ---------------------------------------------
+File name:  CNTrustLife_A008.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶資產規模：2.53百萬美元\n']
+AUM lines after filter: ['帳戶資產規模2.53百萬美元']
+
+
+------------------------------------- 279 ---------------------------------------------
+File name:  CNTrustLife_A009.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD11,030,583\n']
+AUM lines after filter: ['月底規模USD11,030,583']
+
+
+------------------------------------- 280 ---------------------------------------------
+File name:  CNTrustLife_A010.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['最新帳戶規模 3,067,025 美元\n']
+AUM lines after filter: ['新帳戶規模3,067,025美元']
+
+
+------------------------------------- 281 ---------------------------------------------
+File name:  CNTrustLife_B001.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 (2022/5/31)  0.99億元 \n']
+AUM lines after filter: ['帳戶規模(2022/5/31)0.99億元']
+
+
+------------------------------------- 282 ---------------------------------------------
+File name:  CNTrustLife_CDIA01.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶資產規模：18.91百萬美元保管銀行：中國信託商業銀行本帳戶為資產配置型投資組合，積極型投資組合投資於一籃子基金中，並依據經濟景氣變化動態調整投資組合當中風險性資產與非風險性資產的比重 。 本帳戶操作特色為兼顧風險控管與追求資本成長性，依據此一前提，穩健提昇客戶對於全權委託管理資產投資型保險商品之信心。台灣人壽委託宏利投信-積極型投資組合帳戶(一) (全權委託帳戶之資產撥回機制來源可能為本金)\n']
+AUM lines after filter: ['帳戶資產規模18.91百萬美元帳戶資產資資資金資資產資產帳戶資戶資產資台資帳戶()(帳戶資產金)']
+
+
+------------------------------------- 283 ---------------------------------------------
+File name:  CNTrustLife_CDIA02.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶資產規模：8.79百萬美元保管銀行：中國信託商業銀行本帳戶為資產配置型投資組合，客戶可依據其風險承擔能力選擇投資於積極型投資組合，成長型投資組合或是平衡型投資組合。平衡型基金操作特色為在嚴謹的風險控管下追求基金長期穩健報酬， 依據 此一前提，穩健提昇客戶對於資產管理型保險商品之信心，並期達到客戶追求之報酬標準。台灣人壽委託宏利投信-平衡型投資組合帳戶(一) (全權委託帳戶之資產撥回機制來源可能為本金)\n']
+AUM lines after filter: ['帳戶資產規模8.79百萬美元帳戶資產資戶資資資資金金戶資產戶台資帳戶()(帳戶資產金)']
+
+
+------------------------------------- 284 ---------------------------------------------
+File name:  CNTrustLife_CDIA03.pdf
+Date of data collection: 2022-06-16 [find func called] 
+AUM lines before filter: ['帳戶資產規模：11.76百萬美元保管銀行：中國信託商業銀行本帳戶為資產配置型投資組合，客戶可依據其風險承擔能力選擇投資於積極型投資組合、成長型投資組合或是平衡型投資組合。成長型基金操作特色為兼顧風險控管與追求資本成長性，依據此一前提，穩健提昇客戶對於資產管理型保險商品之信心，並期達到客戶追求之報酬標準。台灣人壽委託宏利投信-成長型投資組合帳戶(一) (全權委託帳戶之資產撥回機制來源可能為本金)\n']
+AUM lines after filter: ['帳戶資產規模11.76百萬美元帳戶資產資戶資資資資金資戶資產戶台資帳戶()(帳戶資產金)']
+
+
+------------------------------------- 285 ---------------------------------------------
+File name:  CNTrustLife_M001.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['最新規模  8.30 百萬美元經理費/保管費(% /年) 1.17/0.03保管機構 中國信託商業銀行主要經理人 陳怡君\n']
+AUM lines after filter: ['新規模8.30百萬美元/(/)1.17/0.03']
+
+
+------------------------------------- 286 ---------------------------------------------
+File name:  CNTrustLife_M002.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD8,267,284\n']
+AUM lines after filter: ['月底規模USD8,267,284']
+
+
+------------------------------------- 287 ---------------------------------------------
+File name:  CNTrustLife_M004.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 : 2,539,178.22\n']
+AUM lines after filter: ['規模2,539,178.22']
+
+
+------------------------------------- 288 ---------------------------------------------
+File name:  CNTrustLife_M005.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶資產規模：新台幣 13.64 億元\n']
+AUM lines after filter: ['帳戶資產規模新台幣13.64億元']
+
+
+------------------------------------- 289 ---------------------------------------------
+File name:  CNTrustLife_M006.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶資產規模：新台幣 0.88億元\n']
+AUM lines after filter: ['帳戶資產規模新台幣0.88億元']
+
+
+------------------------------------- 290 ---------------------------------------------
+File name:  CNTrustLife_M007.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  3.78百萬美元  \n']
+AUM lines after filter: ['帳戶規模3.78百萬美元']
+
+
+------------------------------------- 291 ---------------------------------------------
+File name:  CNTrustLife_M008.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['最新帳戶規模 220 .27百萬新台幣\n']
+AUM lines after filter: ['新帳戶規模220.27百萬新台幣']
+
+
+------------------------------------- 292 ---------------------------------------------
+File name:  CNTrustLife_M009.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['最新帳戶規模 1.84百萬美元\n']
+AUM lines after filter: ['新帳戶規模1.84百萬美元']
+
+
+------------------------------------- 293 ---------------------------------------------
+File name:  CNTrustLife_M010.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 5.39百萬美元\n']
+AUM lines after filter: ['帳戶規模5.39百萬美元']
+
+
+------------------------------------- 294 ---------------------------------------------
+File name:  CNTrustLife_M011.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模為風險管理型(美元)現金撥回型\n', '帳戶規模* 109.26百萬美元\n']
+AUM lines after filter: ['帳戶規模(美元)金', '帳戶規模109.26百萬美元']
+
+
+------------------------------------- 295 ---------------------------------------------
+File name:  CNTrustLife_M012.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['最新帳戶規模 5,760,939 美元\n']
+AUM lines after filter: ['新帳戶規模5,760,939美元']
+
+
+------------------------------------- 296 ---------------------------------------------
+File name:  CNTrustLife_M013.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['最新帳戶規模 14.54億元\n']
+AUM lines after filter: ['新帳戶規模14.54億元']
+
+
+------------------------------------- 297 ---------------------------------------------
+File name:  CNTrustLife_M014.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 2,190.11百萬美元\n']
+AUM lines after filter: ['規模2,190.11百萬美元']
+
+
+------------------------------------- 298 ---------------------------------------------
+File name:  CNTrustLife_M015.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 2,738,641,470元 2022.5.31淨值 9.04\n', '規模為475億美\n']
+AUM lines after filter: ['規模2,738,641,470元2022.5.319.04', '規模475億美']
+
+
+------------------------------------- 299 ---------------------------------------------
+File name:  CNTrustLife_M016.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 91.70百萬美元\n']
+AUM lines after filter: ['規模91.70百萬美元']
+
+
+------------------------------------- 300 ---------------------------------------------
+File name:  CNTrustLife_M017.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['最新帳戶規模 97.74百萬美元\n']
+AUM lines after filter: ['新帳戶規模97.74百萬美元']
+
+
+------------------------------------- 301 ---------------------------------------------
+File name:  CNTrustLife_M018.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模** 109.26百萬美元\n', '帳戶規模為風險管理型(美元)現金撥回型\n']
+AUM lines after filter: ['帳戶規模109.26百萬美元', '帳戶規模(美元)金']
+
+
+------------------------------------- 302 ---------------------------------------------
+File name:  CNTrustLife_M019.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['最新帳戶規模 800,361 美元\n']
+AUM lines after filter: ['新帳戶規模800,361美元']
+
+
+------------------------------------- 303 ---------------------------------------------
+File name:  CNTrustLife_M020.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  207.91 百萬美元  \n']
+AUM lines after filter: ['帳戶規模207.91百萬美元']
+
+
+------------------------------------- 304 ---------------------------------------------
+File name:  CNTrustLife_M021_1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模： 148,244,492.25 美元\n']
+AUM lines after filter: ['規模148,244,492.25美元']
+
+
+------------------------------------- 305 ---------------------------------------------
+File name:  CNTrustLife_M022.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 4.69百萬美元\n']
+AUM lines after filter: ['規模4.69百萬美元']
+
+
+------------------------------------- 306 ---------------------------------------------
+File name:  CNTrustLife_XFL01.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD4,367,862\n']
+AUM lines after filter: ['月底規模USD4,367,862']
+
+
+------------------------------------- 307 ---------------------------------------------
+File name:  CNTrustLife_XMI01.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['最新帳戶規模： 12.4百萬美元\n']
+AUM lines after filter: ['新帳戶規模12.4百萬美元']
+
+
+------------------------------------- 308 ---------------------------------------------
+File name:  CNTrustLife_XMI02.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['最新帳戶規模： 5.2百萬美元\n']
+AUM lines after filter: ['新帳戶規模5.2百萬美元']
+
+
+------------------------------------- 309 ---------------------------------------------
+File name:  CNTrustLife_XMI03.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['最新帳戶規模： 12.7百萬澳幣\n']
+AUM lines after filter: ['新帳戶規模12.7百萬澳幣']
+
+
+------------------------------------- 310 ---------------------------------------------
+File name:  Farglory_USDDA0001.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD1,974,277\n']
+AUM lines after filter: ['月底規模USD1,974,277']
+
+
+------------------------------------- 311 ---------------------------------------------
+File name:  Farglory_USDDA0002.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD2,200,312\n']
+AUM lines after filter: ['月底規模USD2,200,312']
+
+
+------------------------------------- 312 ---------------------------------------------
+File name:  Farglory_USDDA0003.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 21.056百萬美元\n']
+AUM lines after filter: ['帳戶規模21.056百萬美元']
+
+
+------------------------------------- 313 ---------------------------------------------
+File name:  Fubon_ACD1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 62.37 百萬美元帳戶經理費 1.20% (年)保管機構 台北富邦商業銀行經理人 陳怡君1. 多元佈局 ， 放眼全球 ： 子標的囊括股債 、 成熟與新興市場等 ， 掌握各類資產與區域投資契機 。2. 專業管理 ， 靈活配置 ： 聯博獨家DAA動態資產配置策略 ， 及時動態調整掌控投資組合 。3. 資產提解 ， 收益升級 ： 除每月定額資產提解外 ， 另有參與季度資產提解機會 。\n']
+AUM lines after filter: ['規模62.37百萬美元帳戶1.20()台1.元新資產資2.DAA資產資3.資產月資產資產']
+
+
+------------------------------------- 314 ---------------------------------------------
+File name:  Fubon_ACD2.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 339.41 百萬美元帳戶經理費 1.20% (年)保管機構 台北富邦商業銀行經理人 陳怡君\n']
+AUM lines after filter: ['規模339.41百萬美元帳戶1.20()台']
+
+
+------------------------------------- 315 ---------------------------------------------
+File name:  Fubon_ACD3.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 339.41 百萬美元帳戶經理費 1.20% (年)保管機構 台北富邦商業銀行經理人 陳怡君\n']
+AUM lines after filter: ['規模339.41百萬美元帳戶1.20()台']
+
+
+------------------------------------- 316 ---------------------------------------------
+File name:  Fubon_ACD5.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 新台幣8,714.69 百萬元帳戶經理費 1.50% (年)保管機構 台北富邦商業銀行經理人 陳怡君\n']
+AUM lines after filter: ['規模新台幣8,714.69百萬元帳戶1.50()台']
+
+
+------------------------------------- 317 ---------------------------------------------
+File name:  Fubon_ACD6.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 新台幣8,714.69 百萬元帳戶經理費 1.50% (年)保管機構 台北富邦商業銀行經理人 陳怡君\n']
+AUM lines after filter: ['規模新台幣8,714.69百萬元帳戶1.50()台']
+
+
+------------------------------------- 318 ---------------------------------------------
+File name:  Fubon_DSD1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 451 百萬美元 \n']
+AUM lines after filter: ['月底規模451百萬美元']
+
+
+------------------------------------- 319 ---------------------------------------------
+File name:  Fubon_DSD3.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 4,530 百萬台幣現金撥回DSD3單位數撥回DSD5下單代碼\n']
+AUM lines after filter: ['月底規模4,530百萬台幣金DSD3DSD5']
+
+
+------------------------------------- 320 ---------------------------------------------
+File name:  Fubon_DSD5.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 4,530 百萬台幣現金撥回DSD3單位數撥回DSD5下單代碼\n']
+AUM lines after filter: ['月底規模4,530百萬台幣金DSD3DSD5']
+
+
+------------------------------------- 321 ---------------------------------------------
+File name:  Fubon_DSD6.pdf
+Date of data collection: 2022-06-10 [find func called] 
+AUM lines before filter: ['月底規模 1,365 百萬台幣 \n']
+AUM lines after filter: ['月底規模1,365百萬台幣']
+
+
+------------------------------------- 322 ---------------------------------------------
+File name:  Fubon_DSD7.pdf
+Date of data collection: 2022-06-10 [find func called] 
+AUM lines before filter: ['月底規模 1,365 百萬台幣 \n']
+AUM lines after filter: ['月底規模1,365百萬台幣']
+
+
+------------------------------------- 323 ---------------------------------------------
+File name:  Fubon_FBD1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模(百萬) US$71.87\n']
+AUM lines after filter: ['規模(百萬)US$71.87']
+
+
+------------------------------------- 324 ---------------------------------------------
+File name:  Fubon_FBD12.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 (百萬 ) NT$3,481.00 NAV<8.5 8.5≤NAV<10.5 10.5≤NAV\n']
+AUM lines after filter: ['規模(百萬)NT$3,481.00NA8.58.5NA10.510.5NA']
+
+
+------------------------------------- 325 ---------------------------------------------
+File name:  Fubon_FBD13.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 (百萬 ) NT$3,481.00 NAV<8.5 8.5≤NAV<10.5 10.5≤NAV\n']
+AUM lines after filter: ['規模(百萬)NT$3,481.00NA8.58.5NA10.510.5NA']
+
+
+------------------------------------- 326 ---------------------------------------------
+File name:  Fubon_FBD15.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 (百萬 ) US$84.84 不提解 每單位提解0.0338美元 每單位提解0.0433美元\n']
+AUM lines after filter: ['規模(百萬)US$84.840.0338美元0.0433美元']
+
+
+------------------------------------- 327 ---------------------------------------------
+File name:  Fubon_FBD2.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 (百萬 ) US$33.69 每單位提解0.03美元 每單位提解0.0417美元 每單位提解0.05美元\n']
+AUM lines after filter: ['規模(百萬)US$33.690.03美元0.0417美元0.05美元']
+
+
+------------------------------------- 328 ---------------------------------------------
+File name:  Fubon_FBD3.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 (百萬 ) US$33.69 每單位提解0.03美元 每單位提解0.0417美元 每單位提解0.05美元\n']
+AUM lines after filter: ['規模(百萬)US$33.690.03美元0.0417美元0.05美元']
+
+
+------------------------------------- 329 ---------------------------------------------
+File name:  Fubon_FBD6.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 (百萬 ) NT$557.56\n']
+AUM lines after filter: ['規模(百萬)NT$557.56']
+
+
+------------------------------------- 330 ---------------------------------------------
+File name:  Fubon_FBD7.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 (百萬 ) NT$557.56\n']
+AUM lines after filter: ['規模(百萬)NT$557.56']
+
+
+------------------------------------- 331 ---------------------------------------------
+File name:  Fubon_FBD8.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 (百萬 ) NT$6.06\n']
+AUM lines after filter: ['規模(百萬)NT$6.06']
+
+
+------------------------------------- 332 ---------------------------------------------
+File name:  Fubon_FDD1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  56.45 百萬美元  \n']
+AUM lines after filter: ['帳戶規模56.45百萬美元']
+
+
+------------------------------------- 333 ---------------------------------------------
+File name:  Fubon_FRD1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD56,142,668\n']
+AUM lines after filter: ['月底規模USD56,142,668']
+
+
+------------------------------------- 334 ---------------------------------------------
+File name:  Fubon_FRD2.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD309,986,119\n']
+AUM lines after filter: ['月底規模USD309,986,119']
+
+
+------------------------------------- 335 ---------------------------------------------
+File name:  Fubon_FRD3.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD309,986,119\n']
+AUM lines after filter: ['月底規模USD309,986,119']
+
+
+------------------------------------- 336 ---------------------------------------------
+File name:  Fubon_FRD5.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD66,410,011\n']
+AUM lines after filter: ['月底規模USD66,410,011']
+
+
+------------------------------------- 337 ---------------------------------------------
+File name:  Fubon_JFD1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶經理費保管銀行上次提解及基準日\n']
+AUM lines after filter: ['帳戶規模帳戶']
+
+
+------------------------------------- 338 ---------------------------------------------
+File name:  Fubon_JFD2.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模帳戶經理費保管銀行上次提解及基準日\n']
+AUM lines after filter: ['帳戶規模帳戶']
+
+
+------------------------------------- 339 ---------------------------------------------
+File name:  Fubon_MLD1.pdf
+Date of data collection: 2022-05-31 [find func called] 
+AUM lines before filter: ['帳戶規模 4.55億美元\n']
+AUM lines after filter: ['帳戶規模4.55億美元']
+
+
+------------------------------------- 340 ---------------------------------------------
+File name:  Fubon_MLD2.pdf
+Date of data collection: 2022-05-31 [find func called] 
+AUM lines before filter: ['帳戶規模 5.44億美元\n']
+AUM lines after filter: ['帳戶規模5.44億美元']
+
+
+------------------------------------- 341 ---------------------------------------------
+File name:  Fubon_MLD3.pdf
+Date of data collection: 2022-05-31 [find func called] 
+AUM lines before filter: ['帳戶規模 5.44億美元\n']
+AUM lines after filter: ['帳戶規模5.44億美元']
+
+
+------------------------------------- 342 ---------------------------------------------
+File name:  Fubon_PBD2.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  52.13百萬美元  \n', '規模為 6兆一致，使得市場對於聯準會鷹派政策路\n']
+AUM lines after filter: ['帳戶規模52.13百萬美元', '規模6兆']
+
+
+------------------------------------- 343 ---------------------------------------------
+File name:  Fubon_SCD1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模27.09百萬美元投資經理人陳雅真經理(管理)費每年0.25% ~ 0.50%保管銀行台北富邦商業銀行\n']
+AUM lines after filter: ['帳戶規模27.09百萬美元資()0.250.50台']
+
+
+------------------------------------- 344 ---------------------------------------------
+File name:  Fubon_SCD2.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模40.54百萬美元投資經理人陳雅真經理(管理)費每年1.20%保管銀行台北富邦商業銀行\n']
+AUM lines after filter: ['帳戶規模40.54百萬美元資()1.20台']
+
+
+------------------------------------- 345 ---------------------------------------------
+File name:  Fubon_SCD3.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模284.38百萬美元投資經理人陳雅真經理(管理)費每年1.70%保管銀行台北富邦商業銀行\n']
+AUM lines after filter: ['帳戶規模284.38百萬美元資()1.70台']
+
+
+------------------------------------- 346 ---------------------------------------------
+File name:  Fubon_SCD5.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模157.84百萬美元投資經理人陳雅真經理(管理)費每年1.70%保管銀行台北富邦商業銀行\n']
+AUM lines after filter: ['帳戶規模157.84百萬美元資()1.70台']
+
+
+------------------------------------- 347 ---------------------------------------------
+File name:  Fubon_SCD6.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模157.84百萬美元投資經理人陳雅真經理(管理)費每年1.70%保管銀行台北富邦商業銀行\n']
+AUM lines after filter: ['帳戶規模157.84百萬美元資()1.70台']
+
+
+------------------------------------- 348 ---------------------------------------------
+File name:  Fubon_SCD7.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模212.08百萬美元投資經理人陳雅真經理(管理)費每年1.20%保管銀行台北富邦商業銀行\n']
+AUM lines after filter: ['帳戶規模212.08百萬美元資()1.20台']
+
+
+------------------------------------- 349 ---------------------------------------------
+File name:  MLI_MBR00010.pdf
+Date of data collection: 2022-05-31 [find func called] 
+AUM lines before filter: ['帳戶規模156.94百萬美元最新淨值7.61發行淨值10.00經理費(每年)1.50%保管銀行兆豐國際商業銀行月撥回基準日\n']
+AUM lines after filter: ['帳戶規模156.94百萬美元新7.6110.00()1.50兆月']
+
+
+------------------------------------- 350 ---------------------------------------------
+File name:  MLI_MBR00011.pdf
+Date of data collection: 2022-05-31 [find func called] 
+AUM lines before filter: ['帳戶規模156.94百萬美元最新淨值7.61發行淨值10.00經理費(每年)1.50%保管銀行兆豐國際商業銀行月撥回基準日\n']
+AUM lines after filter: ['帳戶規模156.94百萬美元新7.6110.00()1.50兆月']
+
+
+------------------------------------- 351 ---------------------------------------------
+File name:  MLI_MBR00020.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模64.95百萬美元最新淨值8.67發行淨值10.00經理費(每年)淨值≥8：1.70%淨值<8：1.65%保管銀行兆豐國際商業銀行月撥回基準日\n']
+AUM lines after filter: ['帳戶規模64.95百萬美元新8.6710.00()81.7081.65兆月']
+
+
+------------------------------------- 352 ---------------------------------------------
+File name:  MLI_MBR00021.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模64.95百萬美元最新淨值8.67發行淨值10.00經理費(每年)淨值≥8：1.70%淨值<8：1.65%保管銀行兆豐國際商業銀行月撥回基準日\n']
+AUM lines after filter: ['帳戶規模64.95百萬美元新8.6710.00()81.7081.65兆月']
+
+
+------------------------------------- 353 ---------------------------------------------
+File name:  MLI_MDI00010.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 7,919 百萬台幣 \n']
+AUM lines after filter: ['月底規模7,919百萬台幣']
+
+
+------------------------------------- 354 ---------------------------------------------
+File name:  MLI_MDI00010_1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 7,919 百萬台幣 \n']
+AUM lines after filter: ['月底規模7,919百萬台幣']
+
+
+------------------------------------- 355 ---------------------------------------------
+File name:  MLI_MDI00011.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 7,919 百萬台幣 \n']
+AUM lines after filter: ['月底規模7,919百萬台幣']
+
+
+------------------------------------- 356 ---------------------------------------------
+File name:  MLI_MDI00011_1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 7,919 百萬台幣 \n']
+AUM lines after filter: ['月底規模7,919百萬台幣']
+
+
+------------------------------------- 357 ---------------------------------------------
+File name:  MLI_MFD00010.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  1,582.46 百萬美元  \n']
+AUM lines after filter: ['帳戶規模1,582.46百萬美元']
+
+
+------------------------------------- 358 ---------------------------------------------
+File name:  MLI_MFD00011.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  1,582.46 百萬美元  \n']
+AUM lines after filter: ['帳戶規模1,582.46百萬美元']
+
+
+------------------------------------- 359 ---------------------------------------------
+File name:  MLI_MFD00020.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  343.37 百萬美元  \n']
+AUM lines after filter: ['帳戶規模343.37百萬美元']
+
+
+------------------------------------- 360 ---------------------------------------------
+File name:  MLI_MFD00021.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  343.37 百萬美元  \n']
+AUM lines after filter: ['帳戶規模343.37百萬美元']
+
+
+------------------------------------- 361 ---------------------------------------------
+File name:  MLI_MFK00010.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 78.743百萬美元\n']
+AUM lines after filter: ['帳戶規模78.743百萬美元']
+
+
+------------------------------------- 362 ---------------------------------------------
+File name:  MLI_MFK00011.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 78.743百萬美元\n']
+AUM lines after filter: ['帳戶規模78.743百萬美元']
+
+
+------------------------------------- 363 ---------------------------------------------
+File name:  MLI_MFN00010.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD13,324,106\n']
+AUM lines after filter: ['月底規模USD13,324,106']
+
+
+------------------------------------- 364 ---------------------------------------------
+File name:  MLI_MFN00020.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD6,671,043\n']
+AUM lines after filter: ['月底規模USD6,671,043']
+
+
+------------------------------------- 365 ---------------------------------------------
+File name:  MLI_MFN00030.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD7,476,349\n']
+AUM lines after filter: ['月底規模USD7,476,349']
+
+
+------------------------------------- 366 ---------------------------------------------
+File name:  MLI_MFN00031.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD7,476,349\n']
+AUM lines after filter: ['月底規模USD7,476,349']
+
+
+------------------------------------- 367 ---------------------------------------------
+File name:  MLI_MHY00010.pdf
+Date of data collection: 2022-01-20 [find func called] 
+AUM lines before filter: ['規模： 18,209,144.06 美元  \n']
+AUM lines after filter: ['規模18,209,144.06美元']
+
+
+------------------------------------- 368 ---------------------------------------------
+File name:  MLI_MHY00011.pdf
+Date of data collection: 2022-01-20 [find func called] 
+AUM lines before filter: ['規模： 18,209,144.06 美元  \n']
+AUM lines after filter: ['規模18,209,144.06美元']
+
+
+------------------------------------- 369 ---------------------------------------------
+File name:  MLI_MHY00020.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模： 2,765,923.90 美元  \n']
+AUM lines after filter: ['規模2,765,923.90美元']
+
+
+------------------------------------- 370 ---------------------------------------------
+File name:  MLI_MHY00021.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模： 2,765,923.90 美元  \n']
+AUM lines after filter: ['規模2,765,923.90美元']
+
+
+------------------------------------- 371 ---------------------------------------------
+File name:  MLI_MNN00010.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模貨幣刺激；新興股市方面，中國五月製造業PMI回升至49.6、非製造業指數攀升至\n', '帳戶規模 59,210,403.03 美元\n']
+AUM lines after filter: ['規模幣新月M49.6', '帳戶規模59,210,403.03美元']
+
+
+------------------------------------- 372 ---------------------------------------------
+File name:  MLI_MNN00011.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模貨幣刺激；新興股市方面，中國五月製造業PMI回升至49.6、非製造業指數攀升至\n', '帳戶規模 59,210,403.03 美元\n']
+AUM lines after filter: ['規模幣新月M49.6', '帳戶規模59,210,403.03美元']
+
+
+------------------------------------- 373 ---------------------------------------------
+File name:  MLI_MSC00010.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 4.05百萬美元 投資經理人 莊志祥 經理(管理)費 / 保管費 每年1.70% / 每年0.08% 保管銀行 兆豐國際商業銀行3好優勢\n']
+AUM lines after filter: ['帳戶規模4.05百萬美元資()/1.70/0.08兆3']
+
+
+------------------------------------- 374 ---------------------------------------------
+File name:  MLI_MSC00011.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 4.05百萬美元 投資經理人 莊志祥 經理(管理)費 / 保管費 每年1.70% / 每年0.08% 保管銀行 兆豐國際商業銀行3好優勢\n']
+AUM lines after filter: ['帳戶規模4.05百萬美元資()/1.70/0.08兆3']
+
+
+------------------------------------- 375 ---------------------------------------------
+File name:  MLI_MSN00010.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  6.54%  6.45%  7.19%   \n']
+AUM lines after filter: ['帳戶規模6.546.457.19']
+
+
+------------------------------------- 376 ---------------------------------------------
+File name:  MLI_MSN00020.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  8.74%  8.79%  9.39%   \n']
+AUM lines after filter: ['帳戶規模8.748.799.39']
+
+
+------------------------------------- 377 ---------------------------------------------
+File name:  MLI_MSN00030.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  12.99%  13.42%  12.92%  Benchmark  -7.12%  -11.13%  -18.82%  -12.32%  18. 79% 18. 79% 20. 69% 68.79 %  \n']
+AUM lines after filter: ['帳戶規模12.9913.4212.92Bma7.1211.1318.8212.3218.7918.7920.6968.79']
+
+
+------------------------------------- 378 ---------------------------------------------
+File name:  MLI_MSN00050.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  12.73%  12.59%  14.15%  Benchmark  -6.26%  -7.56%  -13.44%  -9.67%  25.12%  25.35%  31.97%  36.24%   \n']
+AUM lines after filter: ['帳戶規模12.7312.5914.15Bma6.267.5613.449.6725.1225.3531.9736.24']
+
+
+------------------------------------- 379 ---------------------------------------------
+File name:  MLI_MSN00060.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  11.27%  11.26%  12.81%  Benchmark  -6.33%  -8.83%  -9.50%  -11.88%  31.14%  33.91%  40.30%  59.32%   \n']
+AUM lines after filter: ['帳戶規模11.2711.2612.81Bma6.338.839.5011.8831.1433.9140.3059.32']
+
+
+------------------------------------- 380 ---------------------------------------------
+File name:  MLI_MSN00070.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  8.30%  8.75%  8.92%   \n']
+AUM lines after filter: ['帳戶規模8.308.758.92']
+
+
+------------------------------------- 381 ---------------------------------------------
+File name:  MLI_MSN00080.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  8.05%  8.05%  8.58%  \n']
+AUM lines after filter: ['帳戶規模8.058.058.58']
+
+
+------------------------------------- 382 ---------------------------------------------
+File name:  MLI_MSN00081.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  8.05%  8.05%  8.58%  \n']
+AUM lines after filter: ['帳戶規模8.058.058.58']
+
+
+------------------------------------- 383 ---------------------------------------------
+File name:  MLI_MSN00090.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  10.73%  10.35%  11.29%  \n']
+AUM lines after filter: ['帳戶規模10.7310.3511.29']
+
+
+------------------------------------- 384 ---------------------------------------------
+File name:  MLI_MSN00091.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  10.73%  10.35%  11.29%  \n']
+AUM lines after filter: ['帳戶規模10.7310.3511.29']
+
+
+------------------------------------- 385 ---------------------------------------------
+File name:  MLI_MSN00100.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  10.34%  10.01%  10.87%  Benchmark  -5.57%  -8.16%  -8.74%  -10.27%  14.33%  14.31%  - 19.26%   \n']
+AUM lines after filter: ['帳戶規模10.3410.0110.87Bma5.578.168.7410.2714.3314.3119.26']
+
+
+------------------------------------- 386 ---------------------------------------------
+File name:  MLI_MSY00010.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  8.42%  8.11%  9.09%   \n']
+AUM lines after filter: ['帳戶規模8.428.119.09']
+
+
+------------------------------------- 387 ---------------------------------------------
+File name:  MLI_MSY00020.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  13.18%  12.76%  14.15%   \n']
+AUM lines after filter: ['帳戶規模13.1812.7614.15']
+
+
+------------------------------------- 388 ---------------------------------------------
+File name:  MLI_MSY00030.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  17.71%  17.06%  18.80%  Benchmark  -7.0 0% -10.3 1% -13.95%  -12.59%  23.5 1% 22.7 6% 26.9 1% 68.68 %  \n']
+AUM lines after filter: ['帳戶規模17.7117.0618.80Bma7.0010.3113.9512.5923.5122.7626.9168.68']
+
+
+------------------------------------- 389 ---------------------------------------------
+File name:  MLI_MSY00040.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  11.95%  11.52%  12.67%  \n']
+AUM lines after filter: ['帳戶規模11.9511.5212.67']
+
+
+------------------------------------- 390 ---------------------------------------------
+File name:  MLI_MSY00080.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  14.13%  13.53%  15.28%  Benchmark  -6.59%  -10.14%  -9.64%  -12.36%  14.34%  18.74%  - 19.89%  \n']
+AUM lines after filter: ['帳戶規模14.1313.5315.28Bma6.5910.149.6412.3614.3418.7419.89']
+
+
+------------------------------------- 391 ---------------------------------------------
+File name:  MLI_MSY00082.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 392 ---------------------------------------------
+File name:  NanShanLife_MBD.pdf
+Date of data collection: 2022-01-20 [find func called] 
+AUM lines before filter: ['規模： 18.698 百萬美元\n']
+AUM lines after filter: ['規模18.698百萬美元']
+
+
+------------------------------------- 393 ---------------------------------------------
+File name:  NanShanLife_WAX.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 394 ---------------------------------------------
+File name:  NanShanLife_WAY.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 395 ---------------------------------------------
+File name:  pcalife_TFIL.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模30.76百萬美元 投資經理人莊志祥經理(管理)費每年1.50%保管銀行渣打銀行\n']
+AUM lines after filter: ['帳戶規模30.76百萬美元資()1.50']
+
+
+------------------------------------- 396 ---------------------------------------------
+File name:  pcalife_TFKE.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶資產規模：月撥回型： 1683.04 百萬元\n']
+AUM lines after filter: ['帳戶資產規模月1683.04百萬元']
+
+
+------------------------------------- 397 ---------------------------------------------
+File name:  pcalife_TFKF.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶資產規模：月撥回型： 1683.04 百萬元\n']
+AUM lines after filter: ['帳戶資產規模月1683.04百萬元']
+
+
+------------------------------------- 398 ---------------------------------------------
+File name:  pcalife_TFKG.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: TWD3,608,936,033\n']
+AUM lines after filter: ['月底規模TWD3,608,936,033']
+
+
+------------------------------------- 399 ---------------------------------------------
+File name:  pcalife_TFKY.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 123.85百萬美元 \n']
+AUM lines after filter: ['帳戶規模123.85百萬美元']
+
+
+------------------------------------- 400 ---------------------------------------------
+File name:  pcalife_TFLA.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶資產規模：3148.59百萬元宏利投資管理之投資組合管理事業群(PSG)團隊運用多重基金經理人遴選平台，執行廣泛的可運用投資標的遴選，輔以團隊自行建構的計量模組，同時預測各類型資產的未來報酬率、波動率、和相關性等，並透過對下檔風險的控制，投資團隊將持續分析 M.F.S.T.因素，在經濟循環的各個階段靈活調整，以 期提供較低波動度的經風險調整後報酬。保誠人壽全權委託宏利投信投資帳戶-亞洲亮點收益帳戶 (全權委託帳戶之資產撥回機制來源可能為本金)\n']
+AUM lines after filter: ['帳戶資產規模3148.59百萬元資資(S)金台資模資產資M..S.T.資帳戶帳戶(帳戶資產金)']
+
+
+------------------------------------- 401 ---------------------------------------------
+File name:  pcalife_TFMW.pdf
+Date of data collection: 2022-05-31 [find func called] 
+AUM lines before filter: ['帳戶規模369.83百萬美元最新淨值7.93發行淨值10.00經理費(每年)1.60%保管銀行渣打國際商業銀行月撥回基準日\n']
+AUM lines after filter: ['帳戶規模369.83百萬美元新7.9310.00()1.60月']
+
+
+------------------------------------- 402 ---------------------------------------------
+File name:  pcalife_TFRQ.pdf
+Date of data collection: 2022-05-31 [find func called] 
+AUM lines before filter: ['帳戶規模10.30百萬歐元最新淨值8.53發行淨值10.00經理費(每年)1.60%保管銀行渣打國際商業銀行月撥回基準日\n']
+AUM lines after filter: ['帳戶規模10.30百萬元新8.5310.00()1.60月']
+
+
+------------------------------------- 403 ---------------------------------------------
+File name:  pcalife_TFXD.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 7.60百萬美元\n']
+AUM lines after filter: ['規模7.60百萬美元']
+
+
+------------------------------------- 404 ---------------------------------------------
+File name:  pcalife_TFYU.pdf
+Date of data collection: 2022-05-31 [find func called] 
+AUM lines before filter: ['帳戶規模0.08百萬美元最新淨值8.92發行淨值10.00經理費(每年)1.60%保管銀行渣打國際商業銀行月撥回基準日\n']
+AUM lines after filter: ['帳戶規模0.08百萬美元新8.9210.00()1.60月']
+
+
+------------------------------------- 405 ---------------------------------------------
+File name:  SKL_A016.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD23,064,228\n']
+AUM lines after filter: ['月底規模USD23,064,228']
+
+
+------------------------------------- 406 ---------------------------------------------
+File name:  SKL_A017.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD20,087,100\n']
+AUM lines after filter: ['月底規模USD20,087,100']
+
+
+------------------------------------- 407 ---------------------------------------------
+File name:  SKL_A018.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD22,757,955\n']
+AUM lines after filter: ['月底規模USD22,757,955']
+
+
+------------------------------------- 408 ---------------------------------------------
+File name:  SKL_A028.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD2,069,722\n']
+AUM lines after filter: ['月底規模USD2,069,722']
+
+
+------------------------------------- 409 ---------------------------------------------
+File name:  SKL_D027.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模投資經理人經理(管理)費保管費保管銀行帳戶風險等級全球組合型2019年10月2日美元境外基金與ETF9.71美元62.12百萬美元莊志祥、陳萱每年1.70%每年0.060%~0.065%新光商業銀行RR3\n']
+AUM lines after filter: ['帳戶規模資()帳戶201910月2美元金T9.71美元62.12百萬美元1.700.0600.065新3']
+
+
+------------------------------------- 410 ---------------------------------------------
+File name:  SKL_D028.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模投資經理人經理(管理)費保管費保管銀行帳戶風險等級全球組合型2020年2月7日美金境外基金與ETF美金10.37美元14.32百萬美元莊志祥、陳萱每年0.35%每年0.060% ~ 0.065%新光商業銀行RR3\n']
+AUM lines after filter: ['帳戶規模資()帳戶20202月7美金金T美金10.37美元14.32百萬美元0.350.0600.065新3']
+
+
+------------------------------------- 411 ---------------------------------------------
+File name:  SKL_K014.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 38百萬美金\n']
+AUM lines after filter: ['帳戶規模38百萬美金']
+
+
+------------------------------------- 412 ---------------------------------------------
+File name:  SKL_K015.pdf
+Date of data collection: No full date found [find func called] [date not found] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 413 ---------------------------------------------
+File name:  SKL_K016.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 200萬以下 \xa00.05%\xa0 人民幣規\n', '規模 400\n', '帳戶規模 8.47百萬人民幣\n']
+AUM lines after filter: ['規模200萬0.05幣規', '規模400', '帳戶規模8.47百萬幣']
+
+
+------------------------------------- 414 ---------------------------------------------
+File name:  SKL_K017.pdf
+Date of data collection: No full date found [find func called] [date not found] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 415 ---------------------------------------------
+File name:  SKL_K020.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 36.19百萬美金\n']
+AUM lines after filter: ['帳戶規模36.19百萬美金']
+
+
+------------------------------------- 416 ---------------------------------------------
+File name:  SKL_K021.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 1.92億美金\n']
+AUM lines after filter: ['帳戶規模1.92億美金']
+
+
+------------------------------------- 417 ---------------------------------------------
+File name:  SKL_K025.pdf
+Date of data collection: No full date found [find func called] [date not found] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 418 ---------------------------------------------
+File name:  SKL_K026.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 5億以下 \xa00.05%\xa0 新台幣規模\n', '帳戶規模 1.17億台幣\n']
+AUM lines after filter: ['規模5億0.05新台幣規模', '帳戶規模1.17億台幣']
+
+
+------------------------------------- 419 ---------------------------------------------
+File name:  SKL_M005.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 (20 22/5/31 ) 新臺幣 5.62億元 \n']
+AUM lines after filter: ['規模(2022/5/31)新臺幣5.62億元']
+
+
+------------------------------------- 420 ---------------------------------------------
+File name:  SKL_Q004.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['最新規模  USD 12.49(mil)  \n']
+AUM lines after filter: ['新規模USD12.49(mil)']
+
+
+------------------------------------- 421 ---------------------------------------------
+File name:  SKL_Q005.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['最新規模  CNY 1.80 (mil)  \n']
+AUM lines after filter: ['新規模CNY1.80(mil)']
+
+
+------------------------------------- 422 ---------------------------------------------
+File name:  taishinlife_A0021_1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模：US$ 2,576,316.18 \n']
+AUM lines after filter: ['規模US$2,576,316.18']
+
+
+------------------------------------- 423 ---------------------------------------------
+File name:  taishinlife_FF001.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 424 ---------------------------------------------
+File name:  taishinlife_FF002.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 425 ---------------------------------------------
+File name:  taishinlife_NVA23_1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模：US$ 14,242,765.77 \n']
+AUM lines after filter: ['規模US$14,242,765.77']
+
+
+------------------------------------- 426 ---------------------------------------------
+File name:  taishinlife_PDI01_1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模：US$123,387,135.54 \n']
+AUM lines after filter: ['規模US$123,387,135.54']
+
+
+------------------------------------- 427 ---------------------------------------------
+File name:  taishinlife_V201T_1.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模：US$ 3,108,296.65 \n']
+AUM lines after filter: ['規模US$3,108,296.65']
+
+
+------------------------------------- 428 ---------------------------------------------
+File name:  TCB_DMA003.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['最新規模 40,813,219 美元 帳戶經理費/管理費 1.15% (年)保管機構 合作金庫銀行主要經理人 陳怡君\n']
+AUM lines after filter: ['新規模40,813,219美元帳戶/1.15()金']
+
+
+------------------------------------- 429 ---------------------------------------------
+File name:  TCB_DMA004.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['最新規模 40,813,219 美元 帳戶經理費/管理費 1.15% (年)保管機構 合作金庫銀行主要經理人 陳怡君\n']
+AUM lines after filter: ['新規模40,813,219美元帳戶/1.15()金']
+
+
+------------------------------------- 430 ---------------------------------------------
+File name:  TCB_DMA005.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD37,933,896\n', '規模 (5/31) 帳戶淨值 (5/31) 淨值 +累積撥回 (5/31)\n']
+AUM lines after filter: ['月底規模USD37,933,896', '規模(5/31)帳戶(5/31)(5/31)']
+
+
+------------------------------------- 431 ---------------------------------------------
+File name:  TCB_DMA006.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD37,933,896\n', '規模 (5/31) 帳戶淨值 (5/31) 淨值 +累積撥回 (5/31)\n']
+AUM lines after filter: ['月底規模USD37,933,896', '規模(5/31)帳戶(5/31)(5/31)']
+
+
+------------------------------------- 432 ---------------------------------------------
+File name:  TCB_DMA007.pdf
+Date of data collection: 2021-12-30 [find func not needed] 
+AUM lines before filter: ['規模 ：55.90百萬元 、最新淨值 ：5.89 \n']
+AUM lines after filter: ['規模55.90百萬元新5.89']
+
+
+------------------------------------- 433 ---------------------------------------------
+File name:  TCB_DMA008.pdf
+Date of data collection: 2021-12-30 [find func not needed] 
+AUM lines before filter: ['規模 ：55.90百萬元 、最新淨值 ：5.89 \n']
+AUM lines after filter: ['規模55.90百萬元新5.89']
+
+
+------------------------------------- 434 ---------------------------------------------
+File name:  TCB_DMA009.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 435 ---------------------------------------------
+File name:  TCB_DMA010.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 436 ---------------------------------------------
+File name:  TCB_DMA011.pdf
+Date of data collection: 2021-12-30 [find func not needed] 
+AUM lines before filter: ['規模 ：1,935 .80百萬元 、最新淨值 ：5.89 \n']
+AUM lines after filter: ['規模1,935.80百萬元新5.89']
+
+
+------------------------------------- 437 ---------------------------------------------
+File name:  TCB_DMA012.pdf
+Date of data collection: 2021-12-30 [find func not needed] 
+AUM lines before filter: ['規模 ：1,935 .80百萬元 、最新淨值 ：5.89 \n']
+AUM lines after filter: ['規模1,935.80百萬元新5.89']
+
+
+------------------------------------- 438 ---------------------------------------------
+File name:  TCB_DMA013.pdf
+Date of data collection: 2022-05-31 [find func called] 
+AUM lines before filter: ['月底規模 0.21億人民幣 7.45\n']
+AUM lines after filter: ['月底規模0.21億幣7.45']
+
+
+------------------------------------- 439 ---------------------------------------------
+File name:  TCB_DMA014.pdf
+Date of data collection: 2022-05-31 [find func called] 
+AUM lines before filter: ['月底規模 0.21億人民幣 7.45\n']
+AUM lines after filter: ['月底規模0.21億幣7.45']
+
+
+------------------------------------- 440 ---------------------------------------------
+File name:  TCB_DMA015.pdf
+Date of data collection: 2021-12-30 [find func not needed] 
+AUM lines before filter: ['規模 ：331.48百萬元 、最新淨值 ：6.92 \n']
+AUM lines after filter: ['規模331.48百萬元新6.92']
+
+
+------------------------------------- 441 ---------------------------------------------
+File name:  TCB_DMA016.pdf
+Date of data collection: 2021-12-30 [find func not needed] 
+AUM lines before filter: ['規模 ：331.48百萬元 、最新淨值 ：6.92 \n']
+AUM lines after filter: ['規模331.48百萬元新6.92']
+
+
+------------------------------------- 442 ---------------------------------------------
+File name:  TCB_DMA017.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 924 百萬台幣  \n']
+AUM lines after filter: ['月底規模924百萬台幣']
+
+
+------------------------------------- 443 ---------------------------------------------
+File name:  TCB_DMA018.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 924 百萬台幣  \n']
+AUM lines after filter: ['月底規模924百萬台幣']
+
+
+------------------------------------- 444 ---------------------------------------------
+File name:  TCB_DMA019.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['規模 ：0.5661 百萬元 、最新淨值 ：9.92  \n']
+AUM lines after filter: ['規模0.5661百萬元新9.92']
+
+
+------------------------------------- 445 ---------------------------------------------
+File name:  TCB_DMA020.pdf
+Date of data collection: 2022-05-31 [find func called] [padded w last day of mth] 
+AUM lines before filter: ['規模 ：0.5661 百萬元 、最新淨值 ：9.92  \n']
+AUM lines after filter: ['規模0.5661百萬元新9.92']
+
+
+------------------------------------- 446 ---------------------------------------------
+File name:  TCB_DMA023.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  9.78百萬美元  \n']
+AUM lines after filter: ['帳戶規模9.78百萬美元']
+
+
+------------------------------------- 447 ---------------------------------------------
+File name:  TCB_DMA024.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模  9.78百萬美元  \n']
+AUM lines after filter: ['帳戶規模9.78百萬美元']
+
+
+------------------------------------- 448 ---------------------------------------------
+File name:  TCB_DMA025.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模： 9.8百萬元 、最新淨值 ：8.97 \n']
+AUM lines after filter: ['規模9.8百萬元新8.97']
+
+
+------------------------------------- 449 ---------------------------------------------
+File name:  TCB_DMA026.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 ：12.53百萬元、最新淨值 ：10.37 \n']
+AUM lines after filter: ['規模12.53百萬元新10.37']
+
+
+------------------------------------- 450 ---------------------------------------------
+File name:  TCB_DMA030.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 USD 91.4百萬元\n']
+AUM lines after filter: ['帳戶規模USD91.4百萬元']
+
+
+------------------------------------- 451 ---------------------------------------------
+File name:  Transglobe_CAM01.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模 1,905,502,569元 10.60\n', '規模為475億美\n']
+AUM lines after filter: ['月底規模1,905,502,569元10.60', '規模475億美']
+
+
+------------------------------------- 452 ---------------------------------------------
+File name:  Transglobe_FRT01.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD289,485\n']
+AUM lines after filter: ['月底規模USD289,485']
+
+
+------------------------------------- 453 ---------------------------------------------
+File name:  Transglobe_FRT02.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['月底規模: USD267,371\n']
+AUM lines after filter: ['月底規模USD267,371']
+
+
+------------------------------------- 454 ---------------------------------------------
+File name:  Transglobe_SIC01.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模： 47,163 ,796美元 \n']
+AUM lines after filter: ['帳戶規模47,163,796美元']
+
+
+------------------------------------- 455 ---------------------------------------------
+File name:  Transglobe_SIC02.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模： 5,187 ,496美元  \n']
+AUM lines after filter: ['帳戶規模5,187,496美元']
+
+
+------------------------------------- 456 ---------------------------------------------
+File name:  twfhclife_GPNTD00001.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: []
+AUM lines after filter: []
+
+
+------------------------------------- 457 ---------------------------------------------
+File name:  twfhclife_GPNTD00002.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 16.1億\n']
+AUM lines after filter: ['帳戶規模16.1億']
+
+
+------------------------------------- 458 ---------------------------------------------
+File name:  twfhclife_GPUSD00001.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 69.06百萬美元經理人 邱婉春\n']
+AUM lines after filter: ['規模69.06百萬美元']
+
+
+------------------------------------- 459 ---------------------------------------------
+File name:  twfhclife_GPUSD00002.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['規模 69.06百萬美元經理人 邱婉春\n']
+AUM lines after filter: ['規模69.06百萬美元']
+
+
+------------------------------------- 460 ---------------------------------------------
+File name:  yuantalife_MDTWD0001.pdf
+Date of data collection: 2022-05-31 [find func not needed] 
+AUM lines before filter: ['帳戶規模 (20 22/5/31 ) 新臺幣 315.08億元 \n']
+AUM lines after filter: ['帳戶規模(2022/5/31)新臺幣315.08億元']
+
+ Date statistics:
+total files = 460
+dates extracted = 446
+dates correct = 419
+dates incorrect = 27
+dates cannot be found = 27
+dates extracted: 0.9695652173913043
+dates correct: 0.9108695652173913
+
+ AUM statistics:
