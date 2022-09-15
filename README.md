@@ -77,6 +77,7 @@ Where `[report_month]` is in the format YYYYMM, and `[todaysdate]` is in the for
 ---
 The default values for the keywords are as follows:
 
+```
 date_keywords: ['截至', '截止日期', '報告日期']
 
 date_keywords_1: ['資料日期']
@@ -98,3 +99,4 @@ manager_keywords: ['經理人', '姓名']
 manager_avoid: ['成立', '簡介月', '人壽', '全委', '經理', '管費', '管理', '全權', '投信', '全球', '單位', '位淨', '波動', '大學', '機構', '預期', '顧問', '不', '一個', '投顧', '製造', '勝率', '本月', '人', '金融', '與']
 
 bank_keywords: ['保管銀行', '保管機構']
+```
