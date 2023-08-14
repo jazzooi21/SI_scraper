@@ -1,34 +1,57 @@
-﻿export_csv: True
+﻿export_csv: False
+export_logger: False
+export_error: True
 move_pdfs: False
+export_scanned_text: False
+export_scanned_tabu: False
+
+report_month: 202306
 
 
-report_month: 202208
-
-
-
-scraped_txt_fp: C:\Users\jazz.ooi\Desktop\proj\Sharpinvest\raw_scraped_txts\
-report_pdf_fp: C:\DailyService\pyDataCapture\
-output_csv_fp: C:\DailyService\pyDataCapture\output_csv\
-
+scraped_txt_fp: 'C:\Users\jazzo\Desktop\academics\internships\internad\Sharpinvest\python_test\pyDataCapture\read_txt\'
+report_pdf_fp: 'C:\Users\jazzo\Desktop\academics\internships\internad\Sharpinvest\python_test\pyDataCapture\PDFs\ALL_filtered\'
+output_csv_fp: 'C:\Users\jazzo\Desktop\academics\internships\internad\Sharpinvest\python_test\pyDataCapture\output_csv\'
+logger_fp: 'C:\Users\jazzo\Desktop\academics\internships\internad\Sharpinvest\python_test\pyDataCapture\logger_txt\'
+error_fp: 'C:\Users\jazzo\Desktop\academics\internships\internad\Sharpinvest\python_test\pyDataCapture\error_txt\'
 
 
 date_keywords: ['截至', '截止日期', '報告日期']
 date_keywords_1: ['資料日期']
 date_keywords_2: ['月', '年', '/', '報告']
 
-aum_keywords: ['最新帳戶規模', '帳戶規模', '月底規模', '帳戶資產規模', '帳戶月底規模', '最新規模', '帳戶型態/規模', '規模']
-aum_keywords_1: ['億', '美金', 'USD', '美元', '台幣', 'TWD', 'twd', 'NT$', 'NTD', '新臺幣', '臺幣', '新台幣', '澳幣', 'AUD', 'aud', '人民幣', 'CNY', 'cny', '百萬', '佰萬', '千萬', '仟萬', '萬', '十萬', '拾萬']
-aum_avoid: ['費規模']
+aum_keywords: ['最新帳戶規模', '帳戶規模', '月底規模', '帳戶資產規模', '帳戶月底規模',
+               '最新規模', '帳戶型態/規模', '規模']
+aum_keywords_1: ['億', '美金', 'USD', '美元', '台幣', 'TWD', 'twd', 'NT$', 'NTD',
+                 '新臺幣', '臺幣', '新台幣', '澳幣', 'AUD', 'aud', '人民幣', 'CNY',
+                 'cny', '百萬', '佰萬', '千萬', '仟萬', '萬', '十萬', '拾萬']
+aum_avoid: ['費規模', '以下']
 
 prodname_keywords: ['帳戶', '委託', '全委代操']
-prodname_avoid: ['客服專線', '經理人報告', '六個月', '(全權委託帳戶之資產撥回機制來源可能為本金)', '全權委託帳戶之資產撥回機制來源可能為本金', '投資帳戶於資產撥回前未先扣除行政管理相關費用']
+prodname_avoid: ['客服專線', '經理人報告', '六個月', '(全權委託帳戶之資產撥回機制來源可能為本金)',
+                 '全權委託帳戶之資產撥回機制來源可能為本金',
+                 '投資帳戶於資產撥回前未先扣除行政管理相關費用']
 
 manager_keywords: ['經理人', '姓名']
-manager_avoid: ['成立', '簡介月', '人壽', '全委', '經理', '管費', '管理', '全權', '投信', '全球', '單位', '位淨', '波動', '大學', '機構', '預期', '顧問', '不', '一個', '投顧', '製造', '勝率', '本月', '人', '金融', '與']
+manager_avoid: ['成立', '簡介月', '人壽', '全委', '經理', '管費', '管理', '全權', '投信',
+                '全球', '單位', '位淨', '波動', '大學', '機構', '預期', '顧問', '不',
+                '一個', '投顧', '製造', '勝率', '本月', '人', '金融', '與']
 
 bank_keywords: ['保管銀行', '保管機構']
 
-shares_keywords: ['前五大', '前十大', '基金名稱', '受益憑證名稱', '前 5大', '前5大', 'ETF名稱', '名稱']
-shares_filter_kw: ['iShares', 'ISHARES', 'IShares', 'Ishares', '基金', 'ETF', '債券', 'INVESCO', 'Invesco', '宏利', 'QQQ', 'TRUST SERIES', '百達', 'Shares', 'shares', 'SHARES', '1000', '500', '600', 'IS', 'SPDR', '%']
+shares_keywords_five: ['前五大', '前 5大', '前5大']
+shares_keywords_ten: ['前十大']
+shares_keywords_misc: ['基金名稱', '受益憑證名稱', 'ETF名稱','持有子基金']
+shares_filter_kw: ['iShares', 'ISHARES', 'IShares', 'Ishares', '基金', 'ETF', '債券',
+                   'INVESCO', 'Invesco', '宏利', '新臺幣', 'QQQ', 'TRUST SERIES',
+                   '百達', 'Shares', 'shares', 'SHARES', '1000', '500', '600',
+                   'IS', 'SPDR','FUND','成長股票']
+shares_avoid: ['下降至','回落至','下滑至','上漲','下跌','升至','維持','成⻑', '漲幅','小於',
+               '上調', '大漲','通膨','月增','降至','增加','增率','降溫','降低',
+               '專線','貶值','分別為','報酬率','比重','金額','波動率','淨值',
+               '總回報','已開發市場債券基金','已開發市場股票','規模','已開發國家股票',
+               '固定收益','且當前美國就業市','全球型股票基金', '含資產撥回投資',
+               '全球型債券基金','新興市場股票基金','新興市場債券基金','不含英國',
+               '\uf06c', '*','ratio選取相對具有投資','721.01美元']
+shares_avoid_end: ['等級債券', '貨幣債券','公司債券','國家政府債券']
 
 ...
