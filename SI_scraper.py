@@ -1593,13 +1593,12 @@ for file in sorted(os.listdir(dir_path_unread)): # + '//unread//'
                         shares_lines[i - 1] += (' ' + shares_lines[i])
 
             shares_lines = [s for s in shares_lines if re.search(regex_percentage, s)]
-            shares_lines = [s for s in shares_lines if not any(kw in s for kw in config['shares_avoid'])]
+            #shares_lines = [s for s in shares_lines if not any(kw in s for kw in config['shares_avoid'])]
 
             #print('post filt2:', shares_lines)
 
             shares_lines = [s for s in shares_lines if
-                            len(re.sub(regex_percentage, '', s).replace(' ', '')) >= 7]  # 7 subject to change
-
+                            len(re.sub(regex_percentage, '', s).replace(' ', '')) > 0]
             shares_lines = list(dict.fromkeys(shares_lines))  # del duplicates
 
             #  print('post filt3:', shares_lines)
@@ -1608,6 +1607,7 @@ for file in sorted(os.listdir(dir_path_unread)): # + '//unread//'
                 shares_dict = {}
                 shares_dict['value'] = re.search(regex_percentage, s).group()
                 shares_dict['name'] = re.sub(regex_percentage, '', s)
+
                 #shares_dict['table_no'] = table_no
 
                 shares_dict['value'] = shares_dict['value'].replace('%', '')
@@ -1617,8 +1617,14 @@ for file in sorted(os.listdir(dir_path_unread)): # + '//unread//'
                 if shares_dict['name'][0] == ' ':
                     shares_dict['name'] = shares_dict['name'][1:]
 
+                if len(shares_dict['name']) <= 2:
+                    continue
 
                 shares_pairs.append(shares_dict)
+
+            for d in shares_pairs:
+                d['name'] = re.sub(r'(\d{2}\s){6}', '', d['name'])
+
 
             all_prefix = [d['name'][:2] for d in shares_pairs]
 
@@ -1629,45 +1635,60 @@ for file in sorted(os.listdir(dir_path_unread)): # + '//unread//'
                 else:
                     final_shares_no = 10
 
+            enum_space5 = ['1 ', '2 ', '3 ', '4 ', '5 ']
+            enum_dot5 = ['1.', '2.', '3.', '4.', '5.']
+            enum_all5 = enum_space5 + enum_dot5
+
+            enum_space10 = enum_space5 + ['6 ', '7 ', '8 ', '9 ', '10']
+            enum_dot10 = enum_dot5 + ['6.', '7.', '8.', '9.', '10']
+            enum_all10 = enum_space10 + enum_dot10
+
+
             for i,d in enumerate(shares_pairs[:]):
                 try:
                     d['value'] = Decimal(d['value'])
                 except ValueError:
                     shares_pairs.remove(d)
                     continue
-
                 print(d)
 
-
-                enum_space5 = ['1 ','2 ','3 ','4 ','5 ']
-                enum_dot5 = ['1.','2.','3.','4.','5.']
-                enum_all5 = enum_space5 + enum_dot5
-
-                enum_space10 = enum_space5 + ['6 ','7 ','8 ','9 ','10']
-                enum_dot10 = enum_dot5 + ['6.','7.','8.','9.','10']
-                enum_all10 = enum_space10 + enum_dot10
-
-                if all(prefix_num in all_prefix for prefix_num in enum_space10) or all(
-                        prefix_num in all_prefix for prefix_num in enum_dot10):
-                    if d['name'][:2] not in enum_all10:
+                if all(prefix_num in all_prefix for prefix_num in enum_space10):
+                    if d['name'][:2] not in enum_space10:
                         shares_pairs.remove(d)
                         print('^^ DELETED ^^')
                         continue
-                elif all(prefix_num in all_prefix for prefix_num in enum_space5) or all(
-                        prefix_num in all_prefix for prefix_num in enum_dot5):
-                    if d['name'][:2] not in enum_all5:
+                elif all(prefix_num in all_prefix for prefix_num in enum_dot10):
+                    if d['name'][:2] not in enum_dot10:
+                        shares_pairs.remove(d)
+                        print('^^ DELETED ^^')
+                        continue
+                elif all(prefix_num in all_prefix for prefix_num in enum_space5):
+                    if d['name'][:2] not in enum_space5:
+                        shares_pairs.remove(d)
+                        print('^^ DELETED ^^')
+                        continue
+                elif all(prefix_num in all_prefix for prefix_num in enum_dot5):
+                    if d['name'][:2] not in enum_dot5:
                         shares_pairs.remove(d)
                         print('^^ DELETED ^^')
                         continue
 
+                # final_shares_no determines 五大 or 十大
+                if final_shares_no == -1:
+                    if len(shares_pairs) <= 9:
+                        final_shares_no = 5
+                    else:
+                        final_shares_no = 10
 
                 conditions = [
+                    len(d['name']) < 7,  # 7 subject to change
                     (d['name'][0], d['name'][-1]) in [('(', ')'), ('（', '）')],
                     float(d['value']) == 0,
-                    any(kw in d['name'] for kw in config['shares_avoid']),
-                    any(d['name'].endswith(kw) for kw in config['shares_avoid_end']),
                     d['name'][0] in [',', '.', '，', '、', '。'],
-                    d['name'][-1] in [',', '，', '、', '。', '+']
+                    d['name'][-1] in [',', '，', '、', '。', '+', '%', '-'],
+                    d['name'] in config['shares_avoid_exact'],
+                    any(kw in d['name'] for kw in config['shares_avoid_kw']),
+                    any(d['name'].endswith(kw) for kw in config['shares_avoid_end'])
                 ]
 
                 if final_shares_no == 5:
@@ -1677,7 +1698,7 @@ for file in sorted(os.listdir(dir_path_unread)): # + '//unread//'
                             print('^^ DELETED ^^')
                             continue
                 if final_shares_no == 10:
-                    if d['name'][:2] not in enum_all10 or d['name'][:2] == '100':
+                    if d['name'][:2] not in enum_all10 or d['name'][:3] == '100':
                         if any(conditions):
                             shares_pairs.remove(d)
                             print('^^ DELETED ^^')
@@ -1685,62 +1706,71 @@ for file in sorted(os.listdir(dir_path_unread)): # + '//unread//'
 
                 print('^^ kept ^^')
 
-                # final_shares_no determines 五大 or 十大
-                if final_shares_no == -1:
-                    if len(shares_pairs) <= 8:
-                        final_shares_no = 5
-                    else:
-                        final_shares_no = 10
-
 
             shares_values = [d['value'] for d in shares_pairs]
 
-            if final_shares_no == 5 and len(shares_pairs) in [6,7,8]:
+            if final_shares_no == 5 and len(shares_pairs) > 5:
                 shares_values_first5 = [d['value'] for d in shares_pairs[:5]]
-                shares_values_last5 = [d['value'] for d in shares_pairs[1:]]
+                shares_values_last5 = [d['value'] for d in shares_pairs[-5:]]
                 if shares_values != sorted(shares_values, reverse=True):
                     if shares_values_first5 == sorted(shares_values_first5, reverse=True):
                         shares_pairs = shares_pairs[:5]
                         print('FIRST 5 TAKEN')
                     elif shares_values_last5 == sorted(shares_values_last5, reverse=True):
-                        shares_pairs = shares_pairs[1:]
+                        shares_pairs = shares_pairs[-5:]
                         print('LAST 5 TAKEN')
 
+            if final_shares_no == 10 and len(shares_pairs) > 10:
+                shares_values_first10 = [d['value'] for d in shares_pairs[:10]]
+                shares_values_last10 = [d['value'] for d in shares_pairs[-10:]]
+                if shares_values != sorted(shares_values, reverse=True):
+                    if shares_values_first10 == sorted(shares_values_first10, reverse=True):
+                        shares_pairs = shares_pairs[:10]
+                        print('FIRST 10 TAKEN')
+                    elif shares_values_last10 == sorted(shares_values_last10, reverse=True):
+                        shares_pairs = shares_pairs[-10:]
+                        print('LAST 10 TAKEN')
+
             shares_values = [d['value'] for d in shares_pairs]
+
+            print('\n')
+            for d in shares_pairs:
+                print(d)
+            print('\n')
 
             if len(shares_pairs) > 0:
                 all_true = True
                 if len(shares_pairs) == final_shares_no:
                     pass
-                    print('Length correct:', len(shares_pairs), f'({final_shares_no})')
+                    print('Correct length:', len(shares_pairs), f'({final_shares_no})')
                 elif len(shares_pairs) < final_shares_no:
                     all_true = False
-                    print('Length incorrect (LESS):', len(shares_pairs), f'({final_shares_no})')
+                    print('Incorrect length (LESS):', len(shares_pairs), f'({final_shares_no})')
                 elif len(shares_pairs) > final_shares_no:
                     all_true = False
-                    print('Length incorrect (MORE):', len(shares_pairs), f'({final_shares_no})')
+                    print('Incorrect length (MORE):', len(shares_pairs), f'({final_shares_no})')
 
                 if shares_values == sorted(shares_values, reverse=True):
                     pass
-                    print('Descending order correct')
+                    print('Correct descending order')
                 else:
                     all_true = False
-                    print('Descending order incorrect')
+                    print('Incorrect descending order')
                     if len(shares_pairs) == final_shares_no == 10:
                         all_true = True
 
                 if sum(shares_values) <= 100:
-                    print('% sum valid:', sum(shares_values), '<= 100')
+                    print('Correct % sum:', sum(shares_values), '<= 100')
                 elif sum(shares_values) > 100:
-                    print('% sum invalid:', sum(shares_values), '> 100')
+                    print('Incorrect % sum:', sum(shares_values), '> 100')
                     all_true = False
 
                 if all_true:
                     pass
-                    print('all correct')
+                    print('All correct! \n\n')
                     shares_extracted_files += 1
                 else:
-                    print('something went wrong')
+                    print('Something went wrong... \n\n')
 
             # </editor-fold>
             #'''
