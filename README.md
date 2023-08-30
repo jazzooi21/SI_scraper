@@ -1,6 +1,6 @@
 (last edited 30/08/2023)
 
-This Python script/program was created to extract certain data from a batch of monthly reports (`.pdf` files) -- product name (產品名稱), AUM index (賬戶規模), manager name (經理人名稱), custodian bank (保管銀行), final date of collection (截止日期) and top five/ten Main Shares Held (前五/十大持股).
+This Python script/program was created for the Taiwanese "Sharpinvest” (精財網) service, to extract certain data from a batch of monthly reports (`.pdf` files) -- product name (產品名稱), AUM index (賬戶規模), manager name (經理人名稱), custodian bank (保管銀行), final date of collection (截止日期) and top five/ten Main Shares Held (前五/十大持股).
 
 ---
 ## Dependencies:
