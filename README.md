@@ -39,7 +39,7 @@ pyDataCapture
 │   ├── [PDFname2]_raw.txt
 │   └── [PDFname2]_tabDataframe.csv
 ├── pip_pyth_modules.cmd
-├── README_SI_[date].md
+├── README.md
 ├── SI_scrape_config.yaml
 └── SI_scraper.py
 ```
