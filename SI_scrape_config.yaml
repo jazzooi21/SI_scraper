@@ -1,5 +1,5 @@
-﻿export_csv: False
-export_logger: True
+﻿export_csv: True
+export_logger: False
 export_error: True
 move_pdfs: False
 export_scanned_text: False
@@ -7,10 +7,9 @@ export_scanned_tabu: False
 
 report_month: 202306
 
-
-scraped_txt_fp: 'C:\Users\jazzo\Desktop\academics\internships\internad\Sharpinvest\python_test\pyDataCapture\read_txt\'
 report_pdf_fp: 'C:\Users\jazzo\Desktop\academics\internships\internad\Sharpinvest\python_test\pyDataCapture\PDFs\ALL_filtered\'
 output_csv_fp: 'C:\Users\jazzo\Desktop\academics\internships\internad\Sharpinvest\python_test\pyDataCapture\output_csv\'
+scraped_txt_fp: 'C:\Users\jazzo\Desktop\academics\internships\internad\Sharpinvest\python_test\pyDataCapture\read_txt\'
 logger_fp: 'C:\Users\jazzo\Desktop\academics\internships\internad\Sharpinvest\python_test\pyDataCapture\logger_txt\'
 error_fp: 'C:\Users\jazzo\Desktop\academics\internships\internad\Sharpinvest\python_test\pyDataCapture\error_txt\'
 
@@ -24,7 +23,7 @@ aum_keywords: ['最新帳戶規模', '帳戶規模', '月底規模', '帳戶資�
 aum_keywords_1: ['億', '美金', 'USD', '美元', '台幣', 'TWD', 'twd', 'NT$', 'NTD',
                  '新臺幣', '臺幣', '新台幣', '澳幣', 'AUD', 'aud', '人民幣', 'CNY',
                  'cny', '百萬', '佰萬', '千萬', '仟萬', '萬', '十萬', '拾萬']
-aum_avoid: ['費規模', '以下']
+aum_avoid: ['費規模', '以下','每單位提解']
 
 prodname_keywords: ['帳戶', '委託', '全委代操']
 prodname_avoid: ['客服專線', '經理人報告', '六個月', '(全權委託帳戶之資產撥回機制來源可能為本金)',
@@ -38,9 +37,11 @@ manager_avoid: ['成立', '簡介月', '人壽', '全委', '經理', '管費', '
 
 bank_keywords: ['保管銀行', '保管機構']
 
-shares_keywords_five: ['前五大', '前 5大', '前5大']
+shares_keywords_five: ['前五大', '前 5大', '前5大','前 5 大','前5 大']
 shares_keywords_ten: ['前十大']
-shares_keywords_misc: ['基金名稱', '受益憑證名稱', 'ETF名稱','持有子基金']
+shares_keywords_misc: ['基金名稱','持股明細','受益憑證名稱', 'ETF名稱','持有子基金',
+                       '標的名稱','投資子標','名稱','類別','佔比','百分比']
+                      #,'投資標的',]
 shares_filter_kw: ['iShares', 'ISHARES', 'IShares', 'Ishares', '基金', 'ETF', '債券',
                    'INVESCO', 'Invesco', '宏利', '新臺幣', 'QQQ', 'TRUST SERIES',
                    '百達', 'Shares', 'shares', 'SHARES', '1000', '500', '600',
@@ -50,10 +51,13 @@ shares_avoid_kw: ['下降至','回落至','下滑至','上漲','下跌','升至'
                '專線','貶值','分別為','報酬率','比重','金額','波動率','淨值','經濟數據',
                '總回報','已開發市場股票','規模','固定收益','全球型股票基金', '含資產撥回投資',
                '全球型債券基金','不含英國','加回資產撥回)','亞太不含日本股票','全球新興市場股票',
-               '\uf06c', '*','每單位淨資產價值<','年化標準差']
+               "\uf06c", '*','每單位淨資產價值<','年化標準差','經理費',
+                  '於非投資等級之高風險債券且配息來源可能為本金)','http']
 shares_avoid_end: ['等級債券', '貨幣債券','公司債券','國家政府債券']
 shares_avoid_exact: ['新興市場股票基金','新興市場債券基金','ratio選取相對具有投資','且當前美國就業市',
                      '已開發市場債券基金','成熟市場股票基金','721.01美元','已開發國家股票','現金及貨幣基金',
-                     '成立至今每單位累積配息','新興市場債券基金 現金','全球新興市場債劵','流動現金(現金)']
+                     '成立至今每單位累積配息','新興市場債券基金 現金','全球新興市場債劵','流動現金(現金)',
+                     '4 .7%','資產配置美國股票','資產撥回組成表','前47.1/']
+shares_exceptions_exact: ['現金','債券FUND','股票型','債券型']
 
 ...

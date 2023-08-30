@@ -1,1 +1,1 @@
-pip3 install pypdf tabula-py PyYAML pdfminer.six
+pip3 install pypdf pdfminer.six tabula-py PyYAML
